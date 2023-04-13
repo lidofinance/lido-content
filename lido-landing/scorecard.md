@@ -1,9 +1,9 @@
 ---
 title: Lido on Ethereum Scorecard
-description: |
+description: >
   Keep track of the latest updates on how Lido is performing against its goal of
-    being decentralized, trustless, governance-minimized and ethos-aligned with
-    the Ethereum community.
+  being decentralized, trustless, governance-minimized and ethos-aligned with
+  the Ethereum community.
 ---
 Lido started with a mission to keep Ethereum decentralized and to democratize access to staking on the Beacon Chain.
 
