@@ -29,12 +29,12 @@ rows:
   - scorecard-attribute: "Lido is easy to fork"
     categories: "Security"
     self-assessment: "Good"
-    comments: "All it takes is to switch a few bits in the governance contract to revoke Lido DAO current permissions and transfer them to a community-owned contract."
-  - scorecard-attribute: "Withdrawals"
+    comments: "All it takes is to switch a few bits in the governance contract to revoke\_Lido DAO’s\_current permissions and transfer them to a community-owned contract."
+  - scorecard-attribute: "Automatic fulfilment of withdrawal requests"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "The Lido team has developed an automated protocol that requests validators to exit in order to facilitate the withdrawal process."
-  - scorecard-attribute: "Withdrawals are non-custodial and trustless"
+    comments: "The Lido protocol has a\_[subsystem](https://hackmd.io/@lido/SyaJQsZoj)\_which can execute withdrawals with no human participation (apart from requiring Node Operators to top up pre-signed exit messages). This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic\_[tail-risk scenarios](https://hackmd.io/@lido/SyaJQsZoj#How-slashings-would-affect-withdrawal-request-fulfillment)."
+  - scorecard-attribute: "Withdrawal credentials are non-custodial and trustless"
     categories: "Security"
     self-assessment: "Good"
     comments: "[All](https://twitter.com/LidoFinance/status/1646977448410480643)\_Lido on Ethereum validators are now using 0x01 (smart contract) withdrawal credentials."
@@ -78,10 +78,6 @@ rows:
     categories: "Validator set"
     self-assessment: "Okay"
     comments: "As it stands, Lido governance cannot force Node operators to exit.\n\nEven if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works).\n\nAdditionally, in order to create additional checks and balances on Lido governance, contributors are\_[exploring ways](https://research.lido.fi/t/ldo-steth-dual-governance/2382)\_to empower stETH holders to veto any decision that would change the validator set."
-  - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
-    categories: "Governance"
-    self-assessment: "Okay"
-    comments: "Lido V2’s [Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview) is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the [policy discussion](https://research.lido.fi/t/staking-router-modules-support-policy/4495) stage."
 :::
 
 ## Needs Improvement
@@ -106,4 +102,8 @@ rows:
     categories: "Governance"
     self-assessment: "Needs improvement"
     comments: "Presently, Lido on Ethereum is controlled by LDO token voting via an Aragon DAO. This includes the Lido treasury, staking withdrawal keys, node and oracle operator lists, DAO Access Control List (ACL) permissions, the execution of EVM scripts, and more. As such, the voting app is effectively root access to Lido.\n\nIn order to reduce the power LDO holders have over the protocol, when faced with a critical governance decision that could negatively impact stakers, stakers should be able to block Lido governance from executing the decision, and exit the protocol if an agreement cannot be reached. To this end there are\_[research paths](https://research.lido.fi/t/ldo-steth-dual-governance/2382)\_currently being pursued."
+  - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
+    categories: "Validator set"
+    self-assessment: "Needs improvement"
+    comments: "Lido V2’s\_[Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview)\_is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the\_[policy discussion](https://research.lido.fi/t/staking-router-modules-support-policy/4495)\_stage, the first modules are expected to go live by end of year."
 :::
