@@ -46,10 +46,10 @@ These attributes are more of a grey area with identified areas for improvement n
 
 :::scorecard-table
 rows:
-  - scorecard-attribute: "No operators with over 1% of total stake of Ethereum through Lido"
+  - scorecard-attribute: "No operator has more than 1% of total stake"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "A few operators between 1% and 2%"
+    comments: "A few operators have between 1% and 2% of total ETH staked."
   - scorecard-attribute: "Distributed geographically and jurisdictionally"
     categories: "Validator set"
     self-assessment: "Okay"
