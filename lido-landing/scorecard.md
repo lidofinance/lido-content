@@ -65,7 +65,7 @@ rows:
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Prysm is not the dominant client in Lido (>58% minority client usage), but share of smaller clients could be higher.\n\nAdditionally, more work to be done on Execution Layer client diversification."
+    comments: "There is no dominant Consensus layer client. However the share of smaller clients can and should be higher.\n\nAdditionally, more work needs to be done to diversify clients at the Execution Layer."
   - scorecard-attribute: "Lido’s smart contracts have the best security possible"
     categories: "Security"
     self-assessment: "Okay"
