@@ -17,7 +17,7 @@ While these attributes will remain under review, we assess Lido's performance to
 
 :::scorecard-table
 rows:
-  - scorecard-attribute: "Legally and physically unrelated"
+  - scorecard-attribute: "Distributed geographically and jurisdictionally"
     categories: "Validator set"
     self-assessment: "Good"
   - scorecard-attribute: "Operators run their own nodes (no white-labeling)"
@@ -26,17 +26,21 @@ rows:
   - scorecard-attribute: "Good performance"
     categories: "Validator set"
     self-assessment: "Good"
-  - scorecard-attribute: "Operators should earn well enough to build a profitable, dependable business on staking"
+  - scorecard-attribute: "Operators should earn enough to build a profitable, dependable staking business"
     categories: "Validator set"
     self-assessment: "Good"
-  - scorecard-attribute: "Lido’s hostile takeover via a hard fork is possible"
+  - scorecard-attribute: "Lido is easy to fork"
     categories: "Security"
     self-assessment: "Good"
-    comments: "As discussed in our\_[The Next Chapter for Lido](https://blog.lido.fi/the-next-chapter-for-lido/)\_article, as a very last resort (in the case of governance capture) we have made it trivial for Ethereum core developers to revoke Lido’s current permissions and transfer them to a community-owned contract."
-  - scorecard-attribute: "Lido can’t change validator set at will"
-    categories: "Governance"
+    comments: "All it takes is to switch a few bits in the governance contract to revoke Lido DAO current permissions and transfer them to a community-owned contract."
+  - scorecard-attribute: "Withdrawals"
+    categories: "Validator set"
     self-assessment: "Good"
-    comments: "Lido currently only has soft power over its Node Operators. Withdrawals and triggerable exits will change this balance, but at the same time permissionless elements will be added to the validator set."
+    comments: "The Lido team has developed an automated protocol that requests validators to exit in order to facilitate the withdrawal process."
+  - scorecard-attribute: "Withdrawals are non-custodial and trustless"
+    categories: "Security"
+    self-assessment: "Good"
+    comments: "[All](https://twitter.com/LidoFinance/status/1646977448410480643)\_Lido on Ethereum validators are now using 0x01 (smart contract) withdrawal credentials."
 :::
 
 ## Where we’re doing well, but can improve
@@ -69,11 +73,20 @@ rows:
     categories: "Security"
     self-assessment: "Okay"
     comments: "Thorough and multiple audits are undertaken on all smart contract upgrades, but no formal verification or symbolic execution based tests"
-  - scorecard-attribute: "Withdrawals are non-custodial and trustless"
-    categories: "Security"
+  - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
+    categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Lido validators until July 2021 were created with threshold signature BLS withdrawal credentials; as of\_[July 2021, Lido validators are on smart contract withdrawal credentials](https://blog.lido.fi/withdrawal-credentials-in-lido/). The percentage of all Lido validators with\_[threshold BLS withdrawal credentials is ~15%](https://dune.com/queries/96764/193960)\_and steadily decreasing as new validators are added.\n\nLido intends on rotating these validators to 0x01 (smart contract) withdrawal credentials as soon as possible, i.e. with the\_[Capella Hardfork](https://github.com/ethereum/consensus-specs/blob/dev/specs/capella/beacon-chain.md).\n\nThe current Lido withdrawal smart contract is a stub, and will be upgraded to a fully-functioning withdrawal contract once the withdrawal specs are finalized."
+    comments: "Currently, if Node Operators don’t process exits on time (in other words, try to block users from obtaining their withdrawn ETH), they suffer penalties (automatically enforced by the protocol, as well as reputational).\n\n[Triggerable smart contract exits](https://ethresear.ch/t/withdrawal-credentials-exits-based-on-a-generalized-message-bus/12516/24), expected sometime in 2024, will keep Node Operators even more accountable to the Lido DAO (since exiting validators will be possible via a DAO vote)."
+  - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
+    categories: "Validator set"
+    self-assessment: "Okay"
+    comments: "As it stands, Lido governance cannot force Node operators to exit.\n\nEven if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works).\n\nAdditionally, in order to create additional checks and balances on Lido governance, contributors are\_[exploring ways](https://research.lido.fi/t/ldo-steth-dual-governance/2382)\_to empower stETH holders to veto any decision that would change the validator set."
+  - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
+    categories: "Governance"
+    self-assessment: "Okay"
 :::
+
+
 
 ## Needs Improvement
 
@@ -93,10 +106,6 @@ rows:
     categories: "Governance"
     self-assessment: "Needs improvement"
     comments: "Currently, delegation is only enabled for Snapshot votes. Lido is actively researching possible mechanics for onchain delegation."
-  - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
-    categories: "Governance"
-    self-assessment: "Needs improvement"
-    comments: "Presently, Lido on Ethereum is controlled by LDO token voting via an Aragon DAO. This includes the Lido treasury, staking withdrawal keys, node and oracle operator lists, DAO Access Control List (ACL) permissions, the execution of EVM scripts, and more. As such, the voting app is effectively\_[root access](https://medium.com/block-science/dao-vulnerabilities-a-map-of-lido-governance-risks-opportunities-92bc6384ff68)\_to Lido.\n\nIn order to reduce the power LDO holders have over the protocol, when faced with a\_[critical governance decision](https://hackmd.io/@lido/BJKmFkM-i#Critical-governance-decisions)\_that could negatively impact stakers, stakers should be able to block Lido governance from executing the decision, and exit the protocol if an agreement cannot be reached."
   - scorecard-attribute: "There's a way for new operators to enter the set and prove themselves"
     categories: "Validator market"
     self-assessment: "Needs improvement"
