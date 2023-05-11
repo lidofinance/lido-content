@@ -30,7 +30,7 @@ rows:
     categories: "Security"
     self-assessment: "Good"
     comments: "All it takes is to switch a few bits in the governance contract to revoke\_Lido DAO’s\_current permissions and transfer them to a community-owned contract."
-  - scorecard-attribute: "Automatic fulfilment of withdrawal requests"
+  - scorecard-attribute: "Withdrawal requests are automatically fulfilled"
     categories: "Validator set"
     self-assessment: "Good"
     comments: "The Lido protocol has a\_[subsystem](https://hackmd.io/@lido/SyaJQsZoj)\_which can execute withdrawals with no human participation (apart from requiring Node Operators to top up pre-signed exit messages). This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic\_[tail-risk scenarios](https://hackmd.io/@lido/SyaJQsZoj#How-slashings-would-affect-withdrawal-request-fulfillment)."
