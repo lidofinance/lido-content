@@ -84,9 +84,8 @@ rows:
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Governance"
     self-assessment: "Okay"
+    comments: "Lido V2’s [Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview) is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the [policy discussion](https://research.lido.fi/t/staking-router-modules-support-policy/4495) stage."
 :::
-
-
 
 ## Needs Improvement
 
@@ -106,12 +105,8 @@ rows:
     categories: "Governance"
     self-assessment: "Needs improvement"
     comments: "Currently, delegation is only enabled for Snapshot votes. Lido is actively researching possible mechanics for onchain delegation."
-  - scorecard-attribute: "There's a way for new operators to enter the set and prove themselves"
-    categories: "Validator market"
+  - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
+    categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Lido is actively researching ways to allow permissionless operators to join its validator set, including working with SSV Network and Obol on DVT, as well as exploring ways for solo stakers to participate in the protocol."
-  - scorecard-attribute: "There's a way to reduce stake to operators who do not conform to Lido standards"
-    categories: "Validator market"
-    self-assessment: "Needs improvement"
-    comments: "Lido is working on stake (re-)allocation mechanisms based on performance and off-chain attributes, as well as developing and lobbying for solutions to allow for penalizing malicious actors (e.g.\_[triggerable exits](https://ethresear.ch/t/withdrawal-credentials-exits-based-on-a-generalized-message-bus/12516/1))."
+    comments: "Presently, Lido on Ethereum is controlled by LDO token voting via an Aragon DAO. This includes the Lido treasury, staking withdrawal keys, node and oracle operator lists, DAO Access Control List (ACL) permissions, the execution of EVM scripts, and more. As such, the voting app is effectively root access to Lido.\n\nIn order to reduce the power LDO holders have over the protocol, when faced with a critical governance decision that could negatively impact stakers, stakers should be able to block Lido governance from executing the decision, and exit the protocol if an agreement cannot be reached. To this end there are\_[research paths](https://research.lido.fi/t/ldo-steth-dual-governance/2382)\_currently being pursued."
 :::
