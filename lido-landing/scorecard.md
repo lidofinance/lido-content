@@ -17,7 +17,7 @@ While these attributes will remain under review, we assess Lido's performance to
 
 :::scorecard-table
 rows:
-  - scorecard-attribute: "Distributed geographically and jurisdictionally"
+  - scorecard-attribute: "Legally and physically unrelated"
     categories: "Validator set"
     self-assessment: "Good"
   - scorecard-attribute: "Operators run their own nodes (no white-labeling)"
