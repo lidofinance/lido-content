@@ -384,7 +384,7 @@ categories:
       - question: How can I become a partner with Lido DAO?
         answer: Any blockchain developer, crypto enthusiast, or member of the community
           can be a participant in our Lido Ecosystem Grants Organization. If
-          you&re improving the ecosystem or creating general awareness about
+          you're improving the ecosystem or creating general awareness about
           Ethereum, PoS, and DeFi and have a solid plan on how to meet your
           goals, [here is the info](https://lido.fi/lego) for you.
 ---
