@@ -28,6 +28,10 @@ jobs:
         run: |
           ./scripts/combine.sh lido-landing/ecosystem/projects/
 
+      - name: Build combined validators
+        run: |
+          ./scripts/combine.sh lido-landing/validators/projects/
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
