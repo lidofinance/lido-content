@@ -30,6 +30,8 @@ pages:
     - c38f592d-35fd-4063-a3ec-dd6af802d2fb
     - 57fef2f5-cf26-47d0-9100-86831b50c0f2
     - 654622d2-abb0-4902-859f-d18eaa0a5511
+    - 9032df3e-43e2-4435-8313-e1f71ff6cd65
+    - 89a6bd25-e04a-4fc2-a2b5-a7540b266f7b
   ethereum:
     - a8b2f182-f143-48a1-9dd2-677913bf9f59
     - c227aae4-47a9-442c-b802-035250012b51
@@ -60,6 +62,8 @@ pages:
     - c38f592d-35fd-4063-a3ec-dd6af802d2fb
     - 57fef2f5-cf26-47d0-9100-86831b50c0f2
     - 654622d2-abb0-4902-859f-d18eaa0a5511
+    - 9032df3e-43e2-4435-8313-e1f71ff6cd65
+    - 89a6bd25-e04a-4fc2-a2b5-a7540b266f7b
   polygon:
     - 044e3cde-3b6a-4d5a-a404-23173cda3772
     - bada65be-22c7-4643-97aa-53981db48915
