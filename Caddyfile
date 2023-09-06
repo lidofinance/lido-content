@@ -11,8 +11,4 @@
 	log
 	metrics /api/metrics
 	file_server
-
-	handle /lido-landing {
-		root * lido-landing
-	}
 }
