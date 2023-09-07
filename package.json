@@ -1,0 +1,11 @@
+{
+  "name": "lido-content",
+  "version": "1.0.0",
+  "repository": "git@github.com:lidofinance/lido-content.git",
+  "scripts": {
+    "dev": "caddy run --watch",
+    "format": "caddy fmt --overwrite",
+    "build": "docker build . -t lido-content",
+    "start": "docker run -p 3000:3000 lido-content"
+  }
+}

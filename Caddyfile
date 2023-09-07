@@ -1,0 +1,14 @@
+{
+	admin off
+	auto_https off
+	log default {
+		format json
+	}
+	persist_config off
+}
+
+:3000 {
+	log
+	metrics /api/metrics
+	file_server
+}
