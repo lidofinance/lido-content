@@ -1,6 +1,6 @@
 FROM caddy:2.7-alpine as building
 
-RUN apk update && apk upgrade && apk add bash
+RUN apk update && apk upgrade && apk add --no-cache bash="5.2.15-r5"
 RUN mkdir /app
 
 WORKDIR /app
