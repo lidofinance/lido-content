@@ -271,7 +271,7 @@ pages:
           However, if any scenarios cause Bunker mode to happen, this could be
           extended.
       - question: Is there any minimum or maximum amount of stETH/wstETH I can withdraw?
-        questionId: "-"
+        questionId: isThereAnyMinimumOrMaximumAmountOfStETHWstETHICanWithdraw
         answer: >-
           Request size should be at least 100 wei (in stETH), and at
           most 1,000 stETH.
