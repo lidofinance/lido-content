@@ -157,6 +157,70 @@ pages:
           the hood, wstETH will unwrap to stETH first, so your request will be
           denominated in stETH.
   - identification: withdrawals-claim
+    faq:
+      - question: What are withdrawals?
+        questionId: whatAreWithdrawals
+        answer: Users can unstake their stETH or wstETH through withdrawals. Upon
+          unstaking stETH, they will receive ETH at a 1:1 ratio. When unstaking
+          wstETH, the unwrapping process will take place seamlessly in the
+          background.
+      - question: How does the withdrawal process work?
+        questionId: howDoesTheWithdrawalProcessWork
+        answer: >-
+          
+
+          The withdrawal process is simple and has two steps:
+
+
+          1. **Request withdrawal**: Lock your stETH/wstETH by issuing a withdrawal request. ETH is sourced to fulfill the request, and then locked stETH is burned, which marks the withdrawal request as claimable. Under normal circumstances, this can take anywhere between 1-5 days.
+
+          2. **Claim**: Claim your ETH after the withdrawal request has been processed.
+      - question: How do I withdraw?
+        questionId: howDoIWithdraw
+        answer: Press the [Request tab](https://stake.lido.fi/withdrawals/request),
+          choose an amount of stETH/wstETH to withdraw, then press ‘Request
+          withdrawal’. Confirm the transaction using your wallet and press
+          ‘Claim’ on the [Claim
+          tab](https://stake.lido.fi/withdrawals/claim) once it is ready.
+      - question: Can I transform my stETH to ETH?
+        questionId: canITransformMyStETHToETH
+        answer: Yes. Stakers can transform their stETH to ETH 1:1 using
+          the [Request](https://stake.lido.fi/withdrawals/request) and [Claim](https://stake.lido.fi/withdrawals/claim) tabs.
+      - question: Can I transform my wstETH to ETH?
+        questionId: canITransformMyWstETHToETH
+        answer: Yes. You can transform your wstETH to ETH using
+          the [Request](https://stake.lido.fi/withdrawals/request) and [Claim](https://stake.lido.fi/withdrawals/claim) tabs.
+          Note that, under the hood, wstETH will unwrap to stETH first, so your
+          request will be denominated in stETH.
+      - question: When I try to withdraw wstETH, why do I see the stETH amount in my
+          request?
+        questionId: whenITryToWithdrawWstETHWhyDoISeeTheStETHAmountInMyRequest
+        answer: When you request to withdraw wstETH, it is automatically unwrapped into
+          stETH, which then gets transformed into ETH. The main withdrawal
+          period is when stETH is transformed into ETH. That's why you see the
+          amount pending denominated in stETH.
+      - question: How long does it take to withdraw?
+        questionId: howLongDoesItTakeToWithdraw
+        answer: Under normal circumstances, the stETH/wstETH withdrawal period can take
+          anywhere between 1-5 days. After that, you can claim your ETH using
+          the [Claim tab](https://stake.lido.fi/withdrawals/claim).
+      - question: What are the factors affecting the withdrawal time?
+        questionId: whatAreTheFactorsAffectingTheWithdrawalTime
+        answer: |-
+          * The amount of stETH in the queue.
+          * Perfomance of the validator poolside.
+          * Exit queue on the Beacon chain.
+          * Demand for staking and unstaking.
+      - question: Do I still get rewards after I withdraw?
+        questionId: doIStillGetRewardsAfterIWithdraw
+        answer: No. After you request a withdrawal, the stETH/wstETH submitted for
+          unstaking will not receive staking rewards on top of your submitted
+          balance.
+      - question: Is there a fee for withdrawal?
+        questionId: isThereAFeeForWithdrawal
+        answer: There’s no withdrawal fee, but as with any Ethereum interaction, there
+          will be a network gas fee. Lido does not collect a fee when you
+          request a withdrawal.
   - identification: withdrawals-request
     faq:
       - question: What are withdrawals?
