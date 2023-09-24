@@ -118,6 +118,51 @@ pages:
           Lido
           integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
   - identification: wrap-and-unwrap
+    faq:
+      - question: What is wstETH?
+        questionId: whatIsWstETH
+        answer: wstETH (wrapped stETH) is a non-rebasing version of stETH. Unlike the
+          stETH balance, which updates every day and communicates your share of
+          rewards, the wstETH balance stays the same while the stETH balance
+          updates inside the wrapper daily.
+      - question: How can I get wstETH?
+        questionId: howCanIGetWstETH
+        answer: You can wrap your stETH or ETH tokens using [Wrap & Unwrap staking
+          widget](https://stake.lido.fi/wrap) or [DEX Lido
+          integrations](https://lido.fi/lido-ecosystem?tokens=wstETH&categories=Get)
+      - question: How can I use wstETH?
+        questionId: howCanIUseWstETH
+        answer: wstETH is useful
+          across [L2](https://lido.fi/lido-ecosystem?networks=arbitrum%2Coptimism) and
+          other [DeFi protocols](https://lido.fi/lido-ecosystem?tokens=wstETH),
+          which are based on constant balance tokens.
+      - question: Do I get my staking rewards if I wrap stETH to wstETH?
+        questionId: doIGetMyStakingRewardsIfIWrapStETHToWstETH
+        answer: Yes, wrapped stETH gets staking rewards at the same rate as regular
+          stETH. When you keep your stETH in a wrapper you cannot see your daily
+          staking rewards. However, when you unwrap your wstETH your new stETH
+          balance will have increased relative to pre-wrapped amount to reflect
+          your received rewards.
+      - question: Do I need to claim my staking rewards if I wrap stETH to wstETH?
+        questionId: doINeedToClaimMyStakingRewardsIfIWrapStETHToWstETH
+        answer: No, staking rewards accrue to wstETH automatically.
+      - question: How could I unwrap wstETH back to stETH?
+        questionId: howCouldIUnwrapWstETHBackToStETH
+        answer: You can unwrap your wstETH tokens using [Wrap & Unwrap staking
+          widget](https://stake.lido.fi/wrap/unwrap).
+      - question: Do I need to unwrap my wstETH before requesting withdrawals?
+        questionId: doINeedToUnwrapMyWstETHBeforeRequestingWithdrawals
+        answer: No, you can transform your wstETH to ETH using the [Withdrawals Request
+          and Claim tabs](https://stake.lido.fi/withdrawals). Note that, under
+          the hood, wstETH will unwrap to stETH first, so your request will be
+          denominated in stETH.
   - identification: withdrawals-claim
   - identification: withdrawals-request
+    faq:
+      - question: What are withdrawals?
+        questionId: whatAreWithdrawals
+        answer: Users can unstake their stETH or wstETH through withdrawals. Upon
+          unstaking stETH, they will receive ETH at a 1:1 ratio. When unstaking
+          wstETH, the unwrapping process will take place seamlessly in the
+          background.
 ---
