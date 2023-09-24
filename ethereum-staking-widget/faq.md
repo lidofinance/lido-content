@@ -264,6 +264,45 @@ pages:
 
 
           Slashing penalties are spread across stakers and may lower your total reward amount. For more information, check out [What Are Staking/Validator Penalties](https://help.lido.fi/en/articles/5232780-what-are-staking-validator-penalties).
+      - question: If Bunker mode happens when I’ve already submitted a withdrawal
+          request, do I need to wait longer?
+        questionId: ifBunkerModeHappensWhenIHaveAlreadySubmittedAWithdrawalRequestDoINeedToWaitLonger
+        answer: Most often, the stETH/wstETH withdrawal period will be from 1-5 days.
+          However, if any scenarios cause Bunker mode to happen, this could be
+          extended.
+      - question: Is there any minimum or maximum amount of stETH/wstETH I can withdraw?
+        questionId: "-"
+        answer: >-
+          Request size should be at least 100 wei (in stETH), and at
+          most 1,000 stETH.
+
+
+          If you want to withdraw more than 1,000 stETH, your withdrawal request will be split into several requests, but you will still only pay one transaction fee.
+      - question: What is Lido NFT?
+        questionId: whatIsLidoNft
+        answer: "Each withdrawal request is represented by an NFT: the NFT is
+          automatically minted for you when you send a request. You will need to
+          add it to your wallet to be able to monitor the request status. When
+          the request is ready for the claim, the NFT will change it's
+          appearance."
+      - question: How do I add the Lido NFT to my wallet?
+        questionId: "-"
+        answer: >-
+          Different wallets have specific functionality for adding and working
+          with NFT. Most often, you need to find the specific NFT Address and
+          Token ID. These parameters you can find on Etherscan. Visit Etherscan,
+          add your wallet, and locate the NFT transaction. Once located, open
+          the NFT transaction, and you will see the Address and Token ID.
+
+
+          If you are a MetaMask user, use [this guide](https://help.lido.fi/en/articles/7858367-how-do-i-add-the-lido-nft-to-metamask).
+      - question: What could be the reason why my NFT's view did not update even though
+          my request was ready to be claimed?
+        questionId: "-"
+        answer: Maybe your wallet doesn’t support the automatic changing of the NFT
+          view. To renew the NFT, you can import the Address and Token ID of
+          your NFT, and it could change it's appearance to a new “Ready to
+          claim” one.
   - identification: withdrawals-request
     faq:
       - question: What are withdrawals?
