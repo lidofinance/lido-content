@@ -221,6 +221,49 @@ pages:
         answer: There’s no withdrawal fee, but as with any Ethereum interaction, there
           will be a network gas fee. Lido does not collect a fee when you
           request a withdrawal.
+      - question: Why is the claimable amount may differ from my requested amount?
+        questionId: whyIsTheClaimableAmountMayDifferFromMyRequestedAmount
+        answer: The amount you can claim may differ from your initial request due to a
+          slashing occurrence and penalties. For these reasons, the total
+          claimable reward amount could be reduced.
+      - question: What is Turbo mode?
+        questionId: whatIsTurboMode?
+        answer: Turbo mode is a default mode used unless an emergency event affects the
+          Ethereum network. In Turbo Mode, withdrawal requests are fulfilled
+          quickly, using all available ETH from user deposits and rewards.
+      - question: What is Bunker mode?
+        answer: >-
+          Bunker mode is an emergency mode that activates under three worst-case
+          conditions (when penalties are large enough to significantly impact
+          the protocol’s rewards).
+
+
+          Importantly, Bunker mode allows for orderly withdrawals to be still processed, albeit more slowly, during chaotic tail-risk scenarios (e.g. mass slashings or a significant portion of validators going offline).
+        questionId: whatIsBunkerMode
+      - question: What scenarios can cause Bunker mode?
+        questionId: whatScenariosCanCauseBunkerMode
+        answer: >-
+          Bunker mode is triggered under three conditions when the penalties
+          might be big enough to have a significant impact on the protocol’s
+          rewards:
+
+
+          1. Mass slashing.
+
+          2. Penalties exceeding rewards in the current period between two Oracle reports.
+
+          3. Lower than expected Lido validators' performance in the current period between two Oracle reports and penalties exceeding rewards at the end of it.
+      - question: What is slashing?
+        questionId: whatIsSlashing
+        answer: >-
+          Slashing is a penalty that affects validators for intentional or
+          accidental misbehavior.
+
+
+          Mass slashing event is when slashing penalties are big enough to have the impact on Protocol's rewards in the current frame or in the future, esp. midterm penalties.
+
+
+          Slashing penalties are spread across stakers and may lower your total reward amount. For more information, check out [What Are Staking/Validator Penalties](https://help.lido.fi/en/articles/5232780-what-are-staking-validator-penalties).
   - identification: withdrawals-request
     faq:
       - question: What are withdrawals?
