@@ -286,7 +286,7 @@ pages:
           the request is ready for the claim, the NFT will change it's
           appearance."
       - question: How do I add the Lido NFT to my wallet?
-        questionId: "-"
+        questionId: howDoIAddTheLidoNftToMyWallet
         answer: >-
           Different wallets have specific functionality for adding and working
           with NFT. Most often, you need to find the specific NFT Address and
@@ -298,7 +298,7 @@ pages:
           If you are a MetaMask user, use [this guide](https://help.lido.fi/en/articles/7858367-how-do-i-add-the-lido-nft-to-metamask).
       - question: What could be the reason why my NFT's view did not update even though
           my request was ready to be claimed?
-        questionId: "-"
+        questionId: whatCouldBeTheReasonWhyMyNftViewDidNotUpdateEvenThoughMyRequestWasReadyToBeClaimed
         answer: Maybe your wallet doesn’t support the automatic changing of the NFT
           view. To renew the NFT, you can import the Address and Token ID of
           your NFT, and it could change it's appearance to a new “Ready to
