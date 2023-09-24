@@ -55,6 +55,68 @@ pages:
             Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
 
           The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist.
+      - question: What is Lido staking APR for Ethereum?
+        questionId: whatIsLidoStakingAPRForEthereum
+        answer: >-
+          Lido staking APR for Ethereum = Protocol APR * (1 - Protocol fee)
+
+
+          Protocol APR — the overall Consensus Layer (CL) and Execution Layer (EL) rewards received by Lido validators to total pooled ETH estimated as the moving average of the last seven days.
+
+
+          Protocol fee — Lido applies a 10% fee on staking rewards that are split between node operators and the DAO Treasury.
+
+
+          More about Lido staking APR for Ethereum you could find on the [Ethereum landing page](https://lido.fi/ethereum) and in our [Docs](https://docs.lido.fi/#liquid-staking).
+      - question: What fee is applied by Lido? What is this used for?
+        questionId: whatFeeIsAppliedByLidoWhatIsThisUsedFor
+        answer: The protocol applies a 10% fee on staking rewards. This fee is split
+          between node operators and the Lido DAO. That means the users receive
+          90% of the staking rewards returned by the networks.
+      - question: What is stETH?
+        questionId: whatIsStETH
+        answer: stETH is a transferable rebasing utility token representing a share of
+          the total ETH staked through the protocol, which consists of user
+          deposits and staking rewards. Because stETH rebases daily, it
+          communicates the position of the share daily.
+      - question: How can I get stETH?
+        questionId: howCanIGetStETH
+        answer: You can get stETH many ways, including interacting with the smart
+          contract directly.Yet, it is much easier to use a [Lido Ethereum
+          staking widget](https://stake.lido.fi/) and in other [DEX Lido
+          integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
+      - question: How can I use stETH?
+        questionId: howCanIUseStETH
+        answer: You can use your stETH as collateral, for lending,
+          and [more](https://lido.fi/lido-ecosystem).
+      - question: Where can I cover my stETH?
+        questionId: whereCanICoverMyStETH
+        answer: >-
+          There are multiple coverage and insurer providers with different
+          products for stETH:
+
+
+          * [Bridge Mutual](https://bridgemutual.io/)
+
+          * [Idle Finance](https://idle.finance/)
+
+          * [Nexus Mutual](https://nexusmutual.io/)
+
+          * [Ribbon Finance](https://app.ribbon.finance/)
+
+          * [Chainproof](https://www.chainproof.co/)
+
+
+          Check with providers for coverage and insurer conditions.
+      - question: How can I unstake stETH?
+        questionId: howCanIUnstakeStETH
+        answer: You can use our [Withdrawals Request and Claim
+          tabs](https://stake.lido.fi/withdrawals/claim) to unstake stETH and
+          receive ETH at a 1:1 ratio. Under normal circumstances, withdrawal
+          period can take anywhere between 1-5 days. After that, you can claim
+          your ETH using the Claim tab. Also, you can exchange stETH on [DEX
+          Lido
+          integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
   - identification: wrap-and-unwrap
   - identification: withdrawals-claim
   - identification: withdrawals-request
