@@ -32,6 +32,13 @@ pages:
     - 654622d2-abb0-4902-859f-d18eaa0a5511
     - 9032df3e-43e2-4435-8313-e1f71ff6cd65
     - 89a6bd25-e04a-4fc2-a2b5-a7540b266f7b
+    - 57ab9292-a73d-48e5-89ac-a2998c4333ae
+    - 3666ade5-669c-436d-b593-7907b19eebfa
+    - 3d5396fd-3698-4d26-ac5b-854713b4ede6
+    - 92fecf05-63d3-4984-a424-2caa86ba5827
+    - 9dbef4f4-4fdf-4d1b-8f03-498aa413eced
+    - a9353e43-5e4f-49b1-b065-8b7274345f8b
+    - b1109f53-2886-4ada-af17-32b3f56c3ca1
   ethereum:
     - a8b2f182-f143-48a1-9dd2-677913bf9f59
     - c227aae4-47a9-442c-b802-035250012b51
@@ -64,6 +71,13 @@ pages:
     - 654622d2-abb0-4902-859f-d18eaa0a5511
     - 9032df3e-43e2-4435-8313-e1f71ff6cd65
     - 89a6bd25-e04a-4fc2-a2b5-a7540b266f7b
+    - 57ab9292-a73d-48e5-89ac-a2998c4333ae
+    - 3666ade5-669c-436d-b593-7907b19eebfa
+    - 3d5396fd-3698-4d26-ac5b-854713b4ede6
+    - 92fecf05-63d3-4984-a424-2caa86ba5827
+    - 9dbef4f4-4fdf-4d1b-8f03-498aa413eced
+    - a9353e43-5e4f-49b1-b065-8b7274345f8b
+    - b1109f53-2886-4ada-af17-32b3f56c3ca1
   polygon:
     - 044e3cde-3b6a-4d5a-a404-23173cda3772
     - bada65be-22c7-4643-97aa-53981db48915
