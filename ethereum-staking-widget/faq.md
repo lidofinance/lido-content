@@ -121,10 +121,12 @@ pages:
     faq:
       - question: What is wstETH?
         questionId: whatIsWstETH
-        answer: wstETH (wrapped stETH) is a non-rebasing version of stETH. Unlike the
-          stETH balance, which updates every day and communicates your share of
-          rewards, the wstETH balance stays the same while the stETH balance
-          updates inside the wrapper daily.
+        answer: wstETH (wrapped stETH) is a non-rebasing version of stETH, wstETH's
+          price denominated in stETH changes instead. The wstETH balance can
+          only be changed upon transfers, minting, and burning. At any given
+          time, anyone holding wstETH can convert any amount of it to stETH at a
+          fixed rate, and vice versa. Normally, the rate gets updated once a
+          day, when stETH undergoes a rebase.
       - question: How can I get wstETH?
         questionId: howCanIGetWstETH
         answer: You can wrap your stETH or ETH tokens using [Wrap & Unwrap staking
