@@ -153,8 +153,6 @@ categories:
           products for stETH:
 
 
-          * [Bridge Mutual](https://bridgemutual.io/)
-
           * [Idle Finance](https://idle.finance/)
 
           * [Nexus Mutual](https://nexusmutual.io/)
