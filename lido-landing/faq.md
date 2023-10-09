@@ -76,9 +76,7 @@ categories:
       - question: How can I unstake stETH?
         answer: You can use our [Withdrawals Request and Claim
           tabs](https://stake.lido.fi/withdrawals) to unstake stETH and receive
-          ETH at a 1:1 ratio. Under normal circumstances, the withdrawal period
-          can take anywhere between 1-5 days. After that, you can claim your ETH
-          using the Claim tab. Also, you can exchange stETH on [DEX Lido
+          ETH at a 1:1 ratio. Also, you can exchange stETH on [DEX Lido
           integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
       - question: What is wstETH?
         answer: wstETH (wrapped stETH) is a non-rebasing version of stETH, wstETH's
