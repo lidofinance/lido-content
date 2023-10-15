@@ -10,9 +10,6 @@ mostPopular:
   - a8b85af8-4148-485b-9b94-564f31948c9b
   - f73b52db-399f-4854-8eeb-1b96d6be4b61
   - dcd077d2-61fe-4ebf-8b65-25d2dca9f716
-  - c52052bf-737d-4e8d-a96c-9e146135a80d
-  - caaec290-9309-4b4c-a8a9-c8570af9cf96
-  - 935e635b-09e1-41fe-a34e-c3ed41878449
   - 0d0b86c7-e107-4fc3-84e3-12f427eb9651
   - b0281c6d-8278-4d80-b3b4-92527e1f8afd
 pages:
@@ -37,10 +34,5 @@ pages:
     - 51ed6e61-a170-4076-98bf-6c9f3cec9aee
     - 2335da5d-c317-4084-a230-464ecebabcda
     - a8b85af8-4148-485b-9b94-564f31948c9b
-  solana:
-    - 935e635b-09e1-41fe-a34e-c3ed41878449
-    - caaec290-9309-4b4c-a8a9-c8570af9cf96
-    - a3b9fa62-1391-4f62-820a-84226658b602
-    - 7d41180c-b90f-46d3-82c5-e578f3acf373
-    - a8b85af8-4148-485b-9b94-564f31948c9b
+  solana: []
 ---
