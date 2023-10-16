@@ -163,27 +163,6 @@ categories:
           Check with providers for coverage and insurer conditions.
   - name: Solana
     q&a:
-      - question: What is Lido on Solana protocol?
-        answer: Lido on Solana is a liquid staking protocol for SOL. The protocol lets
-          users receive SOL staking rewards without needing to maintain
-          infrastructure and enables them to participate in on-chain activities
-          and DeFi while their tokens are staked.
-      - question: What is stSOL?
-        answer: stSOL is the utility token representing a share of the total SOL
-          deposited through the Lido-on-Solana protocol. As soon as the user
-          delegates stake, they receive the newly minted stSOL token. Over time
-          the SOL delegation accrues staking rewards. When users delegate SOL
-          tokens, they don’t need to wait for the completion of any delegation
-          or activation steps, as is the norm in conventional staking. The user
-          can exit stSOL and stake anytime by trading or selling stSOL.
-      - question: How can I get stSOL?
-        answer: stSOL is available though in many ways, including directly through
-          the [Lido Solana stake widget](https://solana.lido.fi/) or through
-          other [DEX Lido
-          integrations](https://lido.fi/lido-ecosystem?tokens=stSOL&categories=Get).
-      - question: How can I use stSOL?
-        answer: With stSOL users can grow SOL, get instant liquidity, or [participate in
-          DeFi](https://lido.fi/lido-ecosystem?tokens=stSOL&categories=Earn).
       - question: How can I unstake stSOL?
         answer: Withdrawals of SOL can be made through [the Lido Solana unstake
           widget](https://solana.lido.fi/). However, unstaking directly through
@@ -192,27 +171,6 @@ categories:
           pools on AMM protocols and other DEXs where stSOL can be exchanged for
           SOL to exit staking. Some exchange opportunities can be
           found [here](https://lido.fi/lido-ecosystem?tokens=stSOL&categories=Get).
-      - question: What is the difference between SOL and stSOL?
-        answer: >-
-          SOL - is Solana's native cryptocurrency that provides a means of
-          transferring value on the network as well as blockchain security
-          through staking.
-
-
-          stSOL - is the transferable utility token representing a user's share of the total SOL pool deposited through the protocol.
-      - question: What is Lido staking APR for Solana?
-        answer: >-
-          Lido staking APR for Solana depends on several factors:
-
-
-          * Lido on Solana validators set performance (their uptime and consensus participation mostly).
-
-          * Solana cluster performance (average epoch duration).
-
-          * Share of SOL staked and other parameters of Solana inflation model, which determines the current and future staking rewards.
-
-
-          Based on the historical statistics, the estimated Lido staking APY has varied from ~5.8% to 8.4% depending on the period of stake and is expected to decrease slowly in the long term.
   - name: Polygon
     q&a:
       - question: What is Lido on Polygon?
