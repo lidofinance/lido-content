@@ -169,8 +169,7 @@ categories:
           the widget will incur the network stake deactivation period, roughly
           2-3 days. Immediate withdrawal options are available through liquidity
           pools on AMM protocols and other DEXs where stSOL can be exchanged for
-          SOL to exit staking. Some exchange opportunities can be
-          found [here](https://lido.fi/lido-ecosystem?tokens=stSOL&categories=Get).
+          SOL to exit staking.
   - name: Polygon
     q&a:
       - question: What is Lido on Polygon?
