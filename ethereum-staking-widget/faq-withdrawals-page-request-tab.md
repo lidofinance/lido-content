@@ -109,4 +109,35 @@ faq:
     question: If Bunker mode happens when I’ve already submitted a withdrawal
       request, do I need to wait longer?
     questionId: If_Bunker_Mode_Happens_When_I_Have_Already_Submitted_A_Withdrawal_Request_Do_I_Need_To_Wait_Longer
+  - answer: >-
+      Request size should be at least 100 wei (in stETH), and at
+      most 1,000 stETH.
+
+
+      If you want to withdraw more than 1,000 stETH, your withdrawal request will be split into several requests, but you will still only pay one transaction fee.
+    question: Is there any minimum or maximum amount of stETH/wstETH I can withdraw?
+    questionId: Is_There_Any_Minimum_Or_Maximum_Amount_Of_stETH_wstETH_I_Can_Withdraw
+  - answer: "Each withdrawal request is represented by an NFT: the NFT is
+      automatically minted for you when you send a request. You will need to add
+      it to your wallet to be able to monitor the request status. When the
+      request is ready for the claim, the NFT will change it's appearance."
+    question: What is Lido NFT?
+    questionId: What_Is_Lido_NFT
+  - answer: >-
+      Different wallets have specific functionality for adding and working with
+      NFT. Most often, you need to find the specific NFT Address and Token ID.
+      These parameters you can find on Etherscan. Visit Etherscan, add your
+      wallet, and locate the NFT transaction. Once located, open the NFT
+      transaction, and you will see the Address and Token ID.
+
+
+      If you are a MetaMask user, use [this guide](https://help.lido.fi/en/articles/7858367-how-do-i-add-the-lido-nft-to-metamask).
+    questionId: How_Do_I_Add_The_Lido_NFT_To_My_Wallet
+    question: How do I add the Lido NFT to my wallet?
+  - answer: Maybe your wallet doesn’t support the automatic changing of the NFT
+      view. To renew the NFT, you can import the Address and Token ID of your
+      NFT, and it could change it's appearance to a new “Ready to claim” one.
+    question: What could be the reason why my NFT's view did not update even though
+      my request was ready to be claimed?
+    questionId: What_Could_Be_The_Reason_Why_My_NFTs_View_Did_Not_Update_Even_Though_My_Request_Was_Ready_To_Be_Claimed
 ---
