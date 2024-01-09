@@ -21,7 +21,8 @@ jobs:
 
       - name: Create fetcher script
         run: |
-          echo "const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
+          cat <<EOF > /tmp/fetch-audits.js
+          const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
 
           async function countPdfFiles(path = '') {
             const response = await fetch(API_URL + path);
@@ -40,9 +41,10 @@ jobs:
           }
 
           countPdfFiles().then(count => {
-            console.log(`count: ${count}`);
+            console.log('count', count);
           });
-          " > /tmp/fetch-audits.js
+
+          EOF
           
       - name: Execute fetcher script
         run: node /tmp/fetch-audits.js
