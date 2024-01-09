@@ -21,7 +21,7 @@ jobs:
 
       - name: Create fetcher script
         run: |
-cat <<EOF > /tmp/fetch-audits.js
+          cat <<EOF > /tmp/fetch-audits.js
 const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
 
 async function countPdfFiles(path = '') {
