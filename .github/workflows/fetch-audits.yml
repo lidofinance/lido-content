@@ -1,6 +1,7 @@
 name: Weekly fetch of audits count
 
 on:
+  # TODO: delete before merge to main
   push:
   schedule:
     # At 12:00 on Monday
