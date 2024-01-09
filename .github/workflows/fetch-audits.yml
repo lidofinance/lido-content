@@ -19,28 +19,32 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Create JavaScript file
+      - name: Create fetcher script
         run: |
-          cat <<EOF | node
-          const API_URL = `https://api.github.com/repos/lidofinance/audits/contents/`;
+cat <<EOF > /tmp/fetch-audits.js
+const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
 
-          async function countPdfFiles(path = '') {
-            const response = await fetch(API_URL + path);
-            const data = await response.json();
-            let count = 0;
+async function countPdfFiles(path = '') {
+  const response = await fetch(API_URL + path);
+  const data = await response.json();
+  let count = 0;
 
-            for (const item of data) {
-              if (item.type === 'file' && item.name.endsWith('.pdf')) {
-                count++;
-              } else if (item.type === 'dir') {
-                count += await countPdfFiles(item.path);
-              }
-            }
+  for (const item of data) {
+    if (item.type === 'file' && item.name.endsWith('.pdf')) {
+      count++;
+    } else if (item.type === 'dir') {
+      count += await countPdfFiles(item.path);
+    }
+  }
 
-            return count;
-          }
+  return count;
+}
 
-          countPdfFiles().then(count => {
-            console.log(`count: ${count}`);
-          });          
-          EOF
+countPdfFiles().then(count => {
+  console.log(`count: ${count}`);
+});
+
+EOF
+          
+      - name: Execute fetcher script
+        run: node /tmp/fetch-audits.js
