@@ -7,7 +7,7 @@ on:
     - cron: '0 12 * * MON' 
 
 jobs:
-  run_js_code:
+  fetch-audits:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,8 +21,7 @@ jobs:
 
       - name: Create fetcher script
         run: |
-          cat <<EOF > /tmp/fetch-audits.js
-          const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
+          echo "const API_URL = 'https://api.github.com/repos/lidofinance/audits/contents/';
 
           async function countPdfFiles(path = '') {
             const response = await fetch(API_URL + path);
@@ -43,8 +42,7 @@ jobs:
           countPdfFiles().then(count => {
             console.log(`count: ${count}`);
           });
-
-          EOF
+          " > /tmp/fetch-audits.js
           
       - name: Execute fetcher script
         run: node /tmp/fetch-audits.js
