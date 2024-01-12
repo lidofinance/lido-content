@@ -9,7 +9,7 @@ Lido DAO’s purpose is to keep Ethereum decentralized, accessible to all, and r
 
 Lido DAO’s mission is to make staking simple, secure, and decentralized.
 
-And the endgame is a world in which Ethereum is the co-ordination and value layer of the internet
+And the endgame is a world in which Ethereum is the co-ordination and value layer of the internet.
 
 As the protocol specification and related technologies evolve, Lido continues to drive towards its vision of a trustless, governance-minimized, and ethos aligned liquid staking protocol.
 
@@ -69,7 +69,7 @@ rows:
   - scorecard-attribute: "Lido’s smart contracts have the best security possible"
     categories: "Security"
     self-assessment: "Okay"
-    comments: "Thorough and multiple audits are undertaken on all smart contract upgrades, but no formal verification or symbolic execution based tests"
+    comments: "Thorough and multiple audits are undertaken on all smart contract upgrades, but no formal verification or symbolic execution based tests."
   - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
     categories: "Validator set"
     self-assessment: "Okay"
@@ -101,7 +101,7 @@ rows:
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "There’s a way for operators to permissionlessly enter the set and prove themselves\n\nLido V2’s Staking Router is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the specification stage, the\_[first modules](https://research.lido.fi/t/community-staking-module/5917/30)\_are expected to go live in 2024."
+    comments: "Lido V2’s Staking Router is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the specification stage, the\_[first modules](https://research.lido.fi/t/community-staking-module/5917/30)\_are expected to go live in 2024."
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
