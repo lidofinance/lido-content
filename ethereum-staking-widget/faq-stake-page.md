@@ -4,11 +4,11 @@ faq:
   - question: What is Lido?
     questionId: What_Is_Lido
     answer: Lido is the name of a family of open-source peer-to-system software
-      tools deployed and functioning on the Ethereum, Solana, and Polygon
-      blockchain networks. The software enables users to mint transferable
-      utility tokens, which receive rewards linked to the related validation
-      activities of writing data to the blockchain, while the tokens can be used
-      in other on-chain activities.
+      tools deployed and functioning on the Ethereum and Polygon blockchain
+      networks. The software enables users to mint transferable utility tokens,
+      which receive rewards linked to the related validation activities of
+      writing data to the blockchain, while the tokens can be used in other
+      on-chain activities.
   - question: How does Lido work?
     questionId: How_Does_Lido_Work
     answer: While each network works differently, generally, the Lido protocols
@@ -85,7 +85,7 @@ faq:
       widget](https://stake.lido.fi/) and in other [DEX Lido
       integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
   - answer: You can use your stETH as collateral, for lending,
-      and [more](https://lido.fi/lido-ecosystem).
+      and [more](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
     question: How can I use stETH?
     questionId: How_Can_I_Use_stETH
   - question: Where can I cover my stETH?
