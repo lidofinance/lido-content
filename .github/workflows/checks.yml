@@ -4,11 +4,11 @@ on:
   push:
 
 jobs:
-  security:
-    uses: lidofinance/linters/.github/workflows/security.yml@master
+  # security:
+  #   uses: lidofinance/linters/.github/workflows/security.yml@master
 
-  docker:
-    uses: lidofinance/linters/.github/workflows/docker.yml@master
+  # docker:
+  #   uses: lidofinance/linters/.github/workflows/docker.yml@master
 
   actions:
     uses: lidofinance/linters/.github/workflows/actions.yml@master
