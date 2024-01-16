@@ -29,7 +29,6 @@ pages:
     - 51ed6e61-a170-4076-98bf-6c9f3cec9aee
     - a8b85af8-4148-485b-9b94-564f31948c9b
   polygon:
-    - 5a72a6d0-bdd0-4c2e-961b-b007a8305a0b
     - c16b1239-5a3e-4830-931c-ba811bd03c54
     - 51ed6e61-a170-4076-98bf-6c9f3cec9aee
     - 2335da5d-c317-4084-a230-464ecebabcda
