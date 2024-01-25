@@ -39,5 +39,5 @@ faq:
     answer: >-
       \
 
-      No, you can transform your wstETH to ETH using the [Withdrawals Request and Claim tabs](https://stake.lido.fi/withdrawals/request/). Note that, under the hood, wstETH will unwrap to stETH first, so your request will be denominated in stETH.
+      No, you can transform your wstETH to ETH using the [Withdrawals Request and Claim tabs](/withdrawals/request/). Note that, under the hood, wstETH will unwrap to stETH first, so your request will be denominated in stETH.
 ---
