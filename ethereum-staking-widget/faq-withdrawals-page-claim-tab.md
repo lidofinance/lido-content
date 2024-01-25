@@ -18,19 +18,18 @@ faq:
       2. **Claim**: Claim your ETH after the withdrawal request has been processed.
   - question: How do I withdraw?
     questionId: How_Do_I_Withdraw
-    answer: Press the [Request tab](https://stake.lido.fi/withdrawals/request/),
-      choose an amount of stETH/wstETH to withdraw, then press ‘Request
-      withdrawal’. Confirm the transaction using your wallet and press ‘Claim’
-      on the [Claim tab](https://stake.lido.fi/withdrawals/claim/) once it is
-      ready.
+    answer: Press the [Request tab](/withdrawals/request/), choose an amount of
+      stETH/wstETH to withdraw, then press ‘Request withdrawal’. Confirm the
+      transaction using your wallet and press ‘Claim’ on the [Claim
+      tab](/withdrawals/claim/) once it is ready.
   - question: Can I transform my stETH to ETH?
     questionId: Can_I_Transform_My_stETH_To_ETH
     answer: Yes. Stakers can transform their stETH to ETH 1:1 using
-      the [Request](https://stake.lido.fi/withdrawals/request/) and [Claim](https://stake.lido.fi/withdrawals/claim/) tabs.
+      the [Request](/withdrawals/request/) and [Claim](https://stake.lido.fi/withdrawals/claim/) tabs.
   - question: Can I transform my wstETH to ETH?
     questionId: Can_I_Transform_My_wstETH_To_ETH
     answer: Yes. You can transform your wstETH to ETH using
-      the [Request](https://stake.lido.fi/withdrawals/request/) and [Claim](https://stake.lido.fi/withdrawals/claim/) tabs.
+      the [Request](/withdrawals/request/) and [Claim](/withdrawals/claim/) tabs.
       Note that, under the hood, wstETH will unwrap to stETH first, so your
       request will be denominated in stETH.
   - question: When I try to withdraw wstETH, why do I see the stETH amount in my request?
@@ -42,7 +41,7 @@ faq:
   - question: If I have several requests, can I claim them separately?
     questionId: If_I_Have_Several_Requests,_Can_I_Claim_Them_Separately
     answer: Yes. You can choose the requests you want to claim in the ‘Request List’
-      on the [Claim tab](https://stake.lido.fi/withdrawals/claim/).
+      on the [Claim tab](/withdrawals/claim/).
   - answer: The amount you can claim may differ from your initial request due to a
       slashing occurrence and penalties. For these reasons, the total claimable
       reward amount could be reduced.
