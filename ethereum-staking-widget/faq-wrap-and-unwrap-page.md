@@ -12,7 +12,7 @@ faq:
   - question: How can I get wstETH?
     questionId: How_Can_I_Get_wstETH
     answer: You can wrap your stETH or ETH tokens using [Wrap & Unwrap staking
-      widget](https://stake.lido.fi/wrap/) or [DEX Lido
+      widget](/wrap/) or [DEX Lido
       integrations](https://lido.fi/lido-ecosystem?tokens=wstETH&categories=Get)
   - question: How can I use wstETH?
     questionId: How_Can_I_Use_wstETH
@@ -33,7 +33,7 @@ faq:
   - question: How could I unwrap wstETH back to stETH?
     questionId: How_Could_I_Unwrap_wstETH_Back_To_stETH
     answer: You can unwrap your wstETH tokens using [Wrap & Unwrap staking
-      widget](https://stake.lido.fi/wrap/unwrap/).
+      widget](/wrap/unwrap/).
   - question: Do I need to unwrap my wstETH before requesting withdrawals?
     questionId: Do_I_Need_To_Unwrap_My_wstETH_Before_Requesting_Withdrawals
     answer: >-
