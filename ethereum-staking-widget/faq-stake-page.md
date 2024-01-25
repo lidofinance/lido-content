@@ -73,16 +73,16 @@ faq:
       between node operators and the Lido DAO. That means the users receive 90%
       of the staking rewards returned by the networks.
   - question: What is stETH?
-    answer: >-
-      \
-
-      stETH is a transferable rebasing utility token representing a share of the total ETH staked through the protocol, which consists of user deposits and staking rewards. Because stETH rebases daily, it communicates the position of the share daily.
+    answer: stETH is a transferable rebasing utility token representing a share of
+      the total ETH staked through the protocol, which consists of user deposits
+      and staking rewards. Because stETH rebases daily, it communicates the
+      position of the share daily.
     questionId: What_Is_stETH
   - question: How can I get stETH?
     questionId: How_Can_I_Get_stETH
     answer: You can get stETH many ways, including interacting with the smart
       contract directly.Yet, it is much easier to use a [Lido Ethereum staking
-      widget](https://stake.lido.fi/) and in other [DEX Lido
+      widget](/) and in other [DEX Lido
       integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
   - answer: You can use your stETH as collateral, for lending,
       and [more](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
@@ -108,9 +108,9 @@ faq:
   - question: How can I unstake stETH?
     questionId: How_Can_I_Unstake_stETH
     answer: You can use our [Withdrawals Request and Claim
-      tabs](https://stake.lido.fi/withdrawals/claim) to unstake stETH and
-      receive ETH at a 1:1 ratio. Under normal circumstances, withdrawal period
-      can take anywhere between 1-5 days. After that, you can claim your ETH
-      using the Claim tab. Also, you can exchange stETH on [DEX Lido
+      tabs](/withdrawals/claim) to unstake stETH and receive ETH at a 1:1 ratio.
+      Under normal circumstances, withdrawal period can take anywhere between
+      1-5 days. After that, you can claim your ETH using the Claim tab. Also,
+      you can exchange stETH on [DEX Lido
       integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
 ---
