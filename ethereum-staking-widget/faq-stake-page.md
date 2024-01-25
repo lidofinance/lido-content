@@ -73,10 +73,10 @@ faq:
       between node operators and the Lido DAO. That means the users receive 90%
       of the staking rewards returned by the networks.
   - question: What is stETH?
-    answer: >-
-      \
-
-      stETH is a transferable rebasing utility token representing a share of the total ETH staked through the protocol, which consists of user deposits and staking rewards. Because stETH rebases daily, it communicates the position of the share daily.
+    answer: stETH is a transferable rebasing utility token representing a share of
+      the total ETH staked through the protocol, which consists of user deposits
+      and staking rewards. Because stETH rebases daily, it communicates the
+      position of the share daily.
     questionId: What_Is_stETH
   - question: How can I get stETH?
     questionId: How_Can_I_Get_stETH
