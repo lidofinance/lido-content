@@ -25,7 +25,7 @@ faq:
   - question: Can I transform my stETH to ETH?
     questionId: Can_I_Transform_My_stETH_To_ETH
     answer: Yes. Stakers can transform their stETH to ETH 1:1 using
-      the [Request](/withdrawals/request) and [Claim](https://stake.lido.fi/withdrawals/claim) tabs.
+      the [Request](/withdrawals/request) and [Claim](/withdrawals/claim) tabs.
   - question: Can I transform my wstETH to ETH?
     questionId: Can_I_Transform_My_wstETH_To_ETH
     answer: Yes. You can transform your wstETH to ETH using
