@@ -15,14 +15,24 @@ tokens:
 categories:
   - id: 2055e115-f181-4402-a021-181efaf0fead
     label: Get
+    description: Swap or stake directly from your wallets to get stTokens using more
+      than 30  DeFI integrations of Lido Ecosystem.
   - id: e1e552f6-ff37-4185-a33f-4230cd45d7ff
     label: Earn
+    description: Provide liquidity, leverage, borrow, and get more rewards with
+      stTokens with more than 60 Lido DeFi integrations.
   - id: 0234b96a-17b5-4dd8-83c0-c099585371b6
     label: Hold
+    description: Stake, swap, and hold stTokens using various wallets within the
+      Lido Ecosystem.
   - id: e6ebba46-fb29-4adb-b26e-68afa10c4b7f
     label: Analyze
+    description: Monitor information about Lido and stTokens through various
+      platforms within the Lido Ecosystem.
   - id: 45ed7aa0-d088-48a8-a88a-c43ba0931783
     label: Cover
+    description: Protect and cover stTokens from smart contract vulnerabilities and
+      exchange hacks.
 networks:
   - id: 85d2c16e-7a34-4a16-8996-304b6673c6d0
     label: Ethereum
