@@ -186,9 +186,7 @@ categories:
       - question: How to bridge stMATIC from Ethereum to Polygon?
         answer: Staking through Lido protocol users get stMATIC on the Ethereum network.
           However, users can also bridge stMATIC to the Polygon network via
-          Polygon [PoS
-          bridge](https://wallet.polygon.technology/bridge) or [Stakeall
-          Finance](https://app.stakeall.finance/).
+          Polygon [PoS bridge](https://wallet.polygon.technology/bridge).
       - question: How can I get stMatic?
         answer: stMATIC is available in many ways, including directly staking MATIC
           ERC20 through the [Lido Polygon stake

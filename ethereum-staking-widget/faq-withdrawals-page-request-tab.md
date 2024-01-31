@@ -18,19 +18,18 @@ faq:
       2. **Claim**: Claim your ETH after the withdrawal request has been processed.
   - question: How do I withdraw?
     questionId: How_Do_I_Withdraw
-    answer: Press the [Request tab](https://stake.lido.fi/withdrawals/request/),
-      choose an amount of stETH/wstETH to withdraw, then press ‘Request
-      withdrawal’. Confirm the transaction using your wallet and press ‘Claim’
-      on the [Claim tab](https://stake.lido.fi/withdrawals/claim/) once it is
-      ready.
+    answer: Press the [Request tab](/withdrawals/request), choose an amount of
+      stETH/wstETH to withdraw, then press ‘Request withdrawal’. Confirm the
+      transaction using your wallet and press ‘Claim’ on the [Claim
+      tab](/withdrawals/claim) once it is ready.
   - question: Can I transform my stETH to ETH?
     questionId: Can_I_Transform_My_stETH_To_ETH
     answer: Yes. Stakers can transform their stETH to ETH 1:1 using
-      the [Request](https://stake.lido.fi/withdrawals/request/) and [Claim](https://stake.lido.fi/withdrawals/claim/) tabs.
+      the [Request](/withdrawals/request) and [Claim](/withdrawals/claim) tabs.
   - question: Can I transform my wstETH to ETH?
     questionId: Can_I_Transform_My_wstETH_To_ETH
     answer: Yes. You can transform your wstETH to ETH using
-      the [Request](https://stake.lido.fi/withdrawals/request/) and [Claim](https://stake.lido.fi/withdrawals/claim/) tabs.
+      the [Request](/withdrawals/request) and [Claim](/withdrawals/claim) tabs.
       Note that, under the hood, wstETH will unwrap to stETH first, so your
       request will be denominated in stETH.
   - answer: When you request to withdraw wstETH, it is automatically unwrapped into
@@ -41,7 +40,7 @@ faq:
     questionId: When_I_Try_To_Withdraw_wstETH_Why_Do_I_See_The_stETH_Amount_In_My_Request
   - answer: Under normal circumstances, the stETH/wstETH withdrawal period can take
       anywhere between 1-5 days. After that, you can claim your ETH using
-      the [Claim tab](https://stake.lido.fi/withdrawals/claim/).
+      the [Claim tab](/withdrawals/claim).
     questionId: How_Long_Does_It_Take_To_Withdraw
     question: How long does it take to withdraw?
   - answer: |-
