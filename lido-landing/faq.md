@@ -4,9 +4,9 @@ categories:
     q&a:
       - question: What is Lido?
         answer: Lido is the name of a family of open-source peer-to-system software
-          tools deployed and functioning on the Ethereum, Solana, and Polygon
-          blockchain networks. The software enables users to mint transferable
-          utility tokens, which receive rewards linked to the related validation
+          tools deployed and functioning on the Ethereum and Polygon blockchain
+          networks. The software enables users to mint transferable utility
+          tokens, which receive rewards linked to the related validation
           activities of writing data to the blockchain, while the tokens can be
           used in other on-chain activities.
       - answer: While each network works differently, generally, the Lido protocols
@@ -42,11 +42,11 @@ categories:
           between node operators and the Lido DAO. That means the users receive
           90% of the staking rewards returned by the networks.
       - question: How can I get stTokens?
-        answer: Lido protocols let users stake native tokens (ETH, MATIC, SOL) from
-          Ethereum, Polygon, and Solana networks in a fully permissionless way.
-          The protocols are deployed on public blockchains, so users do not need
-          the website to access the smart contracts. However, for convenience,
-          users can get started with information on [the main
+        answer: Lido protocols let users stake native tokens (ETH, MATIC) from Ethereum
+          and Polygon networks in a fully permissionless way. The protocols are
+          deployed on public blockchains, so users do not need the website to
+          access the smart contracts. However, for convenience, users can get
+          started with information on [the main
           page](https://lido.fi/#networks).
       - question: Where can I use stTokens?
         answer: stTokens can be used across a growing Ecosystem. [Explore apps and
@@ -161,15 +161,6 @@ categories:
 
 
           Check with providers for coverage and insurer conditions.
-  - name: Solana
-    q&a:
-      - question: How can I unstake stSOL?
-        answer: Withdrawals of SOL can be made through [the Lido Solana unstake
-          widget](https://solana.lido.fi/). However, unstaking directly through
-          the widget will incur the network stake deactivation period, roughly
-          2-3 days. Immediate withdrawal options are available through liquidity
-          pools on AMM protocols and other DEXs where stSOL can be exchanged for
-          SOL to exit staking.
   - name: Polygon
     q&a:
       - question: What is Lido on Polygon?
@@ -313,8 +304,6 @@ categories:
         answer: >-
           * [Lido on
           Ethereum](https://docs.lido.fi/guides/steth-integration-guide)
-
-          * [Lido on Solana](https://docs.solana.lido.fi/)
 
           * [Lido on Polygon](https://docs.polygon.lido.fi/)
       - question: Where can I get info about Lido integrations?
