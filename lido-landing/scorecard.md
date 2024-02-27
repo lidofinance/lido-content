@@ -101,7 +101,7 @@ rows:
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Presently, Lido on Ethereum is controlled by LDO token voting via an Aragon DAO. This includes the Lido treasury, staking withdrawal keys, node and oracle operator lists, DAO Access Control List (ACL) permissions, the execution of EVM scripts, and more. As such, the voting app is effectively root access to Lido.\n\nIn order to reduce the power LDO holders have over the protocol, when faced with a critical governance decision that could negatively impact stakers, stakers should be able to block Lido governance from executing the decision, and exit the protocol if an agreement cannot be reached. To this end there are research paths currently being pursued."
+    comments: "Lido on Ethereum is controlled by LDO token voting. This includes the Lido treasury, staking withdrawal keys, node operator and oracle lists, and more. As such, the voting app effectively has root access to Lido.\n\n[Research are underway](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727) to enable stakers to block the execution of harmful governance decisions and exit the protocol if an agreement cannot be reached."
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
