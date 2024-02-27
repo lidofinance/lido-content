@@ -101,7 +101,7 @@ rows:
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Lido V2’s Staking Router is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the specification stage, the\_[first modules](https://research.lido.fi/t/community-staking-module/5917/30)\_are expected to go live in 2024."
+    comments: "Presently, Lido on Ethereum is controlled by LDO token voting via an Aragon DAO. This includes the Lido treasury, staking withdrawal keys, node and oracle operator lists, DAO Access Control List (ACL) permissions, the execution of EVM scripts, and more. As such, the voting app is effectively root access to Lido.\n\nIn order to reduce the power LDO holders have over the protocol, when faced with a critical governance decision that could negatively impact stakers, stakers should be able to block Lido governance from executing the decision, and exit the protocol if an agreement cannot be reached. To this end there are research paths currently being pursued."
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
