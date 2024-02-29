@@ -237,8 +237,8 @@ categories:
           wstETH maintains a fixed balance and employs an underlying share
           system to reflect staking rewards.
       - question: Do I still have rewards on my tokens on L2?
-        answer: You accrue staking rewards by holding the token. Rewards are realized
-          when you unwrap or swap wstETH back to stETH or ETH.
+        answer: You get staking rewards by holding the token. Rewards are realized when
+          you unwrap or swap wstETH back to stETH or ETH.
       - question: Can I stake directly on L2?
         answer: Direct staking on L2 is not possible yet, but you can get wstETH from
           [DEXes on Layer
@@ -271,7 +271,7 @@ categories:
         answer: You can bridge wstETH from L2 to L2 via canonical bridges through the
           interim L1 hop or can use 3rd-party cross-chain transfers like
           [portalbridge.com](http://portalbridge.com).
-      - question: Are there any risks associated with using Lido on Layer 2?
+      - question: Are there any risks associated with using Lido stTokens on Layer 2?
         answer: While interacting with bridges, you bear additional risks of the
           particular rollup and its canonical bridges.
       - question: How can I verify the correctness of the bridged token address?
