@@ -347,7 +347,7 @@ categories:
       - question: What tokens are supported on Lido on L2?
         answer: For now, only
           [wstETH](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
-          is supported on Lido on L2. [Get wstETH.](https://stake.lido.fi/wrap)
+          is supported on Lido on L2. [Get wstETH](https://stake.lido.fi/wrap).
       - question: Is stETH available on L2?
         answer: No, currently, only wstETH is available on L2 solutions.
       - question: What is the difference between stETH and wstETH?
@@ -395,7 +395,7 @@ categories:
           particular rollup and its canonical bridges.
       - question: How can I verify the correctness of the bridged token address?
         answer: You can check the address with [Deployed contracts Lido on
-          L2](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2)
+          L2](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
       - question: Where can I find support or get assistance with Lido on L2?
         answer: You could refer your questions to [Lido
           Discord](https://discord.com/invite/lido) or [Telegram
