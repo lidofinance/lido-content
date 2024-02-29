@@ -210,7 +210,7 @@ categories:
           Lido on Polygon protocol takes from the native Polygon staking APR,
           which can be
           seen [here](https://staking.polygon.technology/rewards-calculator).
-  - name: Lido on the L2
+  - name: Lido on L2
     q&a:
       - question: What is Lido on L2?
         answer: "[Lido on Layer 2 (L2)](https://lido.fi/lido-on-l2) extends the use of
