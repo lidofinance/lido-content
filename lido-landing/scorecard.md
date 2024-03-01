@@ -13,7 +13,7 @@ And the endgame is a world in which Ethereum is the co-ordination and value laye
 
 As the protocol specification and related technologies evolve, Lido continues to drive towards its vision of a trustless, governance-minimized, and ethos aligned liquid staking protocol.
 
-The scorecard below shows how we are doing. We invite anyone who cares to provide feedback on our [research forum](https://research.lido.fi/).
+The scorecard below shows how we are doing. We invite anyone who cares to provide feedback on our [research forum]({{research_forum_url}}/).
 
 ## Where we’re already succeeding
 
@@ -53,7 +53,7 @@ rows:
   - scorecard-attribute: "Distributed geographically and jurisdictionally"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "25% of validators are currently with US-based Node Operators, and there remains an over-reliance on European based entities. The DAO needs to be better at selecting Node Operators that are geopolitically diverse as it continues to expand the curated set. The\_[latest stats can be found here](https://research.lido.fi/t/lido-node-operator-validator-metrics/1431/22)."
+    comments: "25% of validators are currently with US-based Node Operators, and there remains an over-reliance on European based entities. The DAO needs to be better at selecting Node Operators that are geopolitically diverse as it continues to expand the curated set. The\_[latest stats can be found here]({{research_forum_url}}/t/lido-node-operator-validator-metrics/1431/22)."
   - scorecard-attribute: "Distributed variation of on-premise infra and cloud providers"
     categories: "Validator set"
     self-assessment: "Okay"
@@ -77,7 +77,7 @@ rows:
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As it stands, LDO holders cannot force Node operators to exit.\n\nEven if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works).\n\nAdditionally, in order to create additional checks and balances on Lido governance, a\_[dual governance](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727)\_system, which gives stETH holders veto powers over any decision that would change the validator set, is expected to go live by end of Q3 2024."
+    comments: "As it stands, LDO holders cannot force Node operators to exit.\n\nEven if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works).\n\nAdditionally, in order to create additional checks and balances on Lido governance, a\_[dual governance]({{research_forum_url}}/t/ldo-steth-dual-governance-continuation/5727)\_system, which gives stETH holders veto powers over any decision that would change the validator set, is expected to go live by end of Q3 2024."
 :::
 
 ## Needs Improvement
@@ -101,9 +101,9 @@ rows:
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Lido on Ethereum is controlled by LDO token voting. This includes the Lido treasury, staking withdrawal keys, node operator and oracle lists, and more. As such, the voting app effectively has root access to Lido.\n\n[Research are underway](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727) to enable stakers to block the execution of harmful governance decisions and exit the protocol if an agreement cannot be reached."
+    comments: "Lido on Ethereum is controlled by LDO token voting. This includes the Lido treasury, staking withdrawal keys, node operator and oracle lists, and more. As such, the voting app effectively has root access to Lido.\n\n[Research are underway]({{research_forum_url}}/t/ldo-steth-dual-governance-continuation/5727) to enable stakers to block the execution of harmful governance decisions and exit the protocol if an agreement cannot be reached."
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
-    comments: "Lido V2’s\_[Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview)\_is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the\_[policy discussion](https://research.lido.fi/t/staking-router-modules-support-policy/4495)\_stage, the first modules are expected to go live by end of year."
+    comments: "Lido V2’s\_[Staking Router]({{blog_url}}/introducing-lido-v2/#overview)\_is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the\_[policy discussion]({{research_forum_url}}/t/staking-router-modules-support-policy/4495)\_stage, the first modules are expected to go live by end of year."
 :::
