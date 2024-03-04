@@ -3,7 +3,7 @@ timestamp: July 05, 2023
 ---
 # Welcome to {{hostname}}
 
-[https://{{hostname}}](https://{{hostname}}) is a website-hosted user interface (the “**Interface**”).
+[{{landing_url}}]({{landing_url}}) is a website-hosted user interface (the “**Interface**”).
 
 > Please read these terms and conditions carefully before using the Interface for any reason. Your use of the Interface is conditional upon your agreement to the Terms set out below. If you do not agree and you do not give your consent to be bound to the Terms, do not use the Interface and, if presented with the option to “accept ” to the Terms of use, only select “accept” if you certify that you consent to be bound by the Terms.
 >
