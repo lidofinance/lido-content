@@ -1,9 +1,9 @@
 ---
 timestamp: July 05, 2023
 ---
-# Welcome to {{hostname}}
+# Welcome to {{landing_host}}
 
-[{{landing_url}}]({{landing_url}}) is a website-hosted user interface (the “**Interface**”).
+[https://{{landing_host}}](https://{{landing_host}}) is a website-hosted user interface (the “**Interface**”).
 
 > Please read these terms and conditions carefully before using the Interface for any reason. Your use of the Interface is conditional upon your agreement to the Terms set out below. If you do not agree and you do not give your consent to be bound to the Terms, do not use the Interface and, if presented with the option to “accept ” to the Terms of use, only select “accept” if you certify that you consent to be bound by the Terms.
 >
@@ -23,7 +23,7 @@ From time to time and at any time, the Terms may be changed, amended, or revised
 
 ### 1. Dispute Resolution; Arbitration Agreement
 
-If you have any dispute or claim arising out of or relating in any way to the Interface or these Terms, you must send an email to [info@{{hostname}}](mailto:info@{{hostname}}) to resolve the matter via an informal, good faith negotiation process. If that dispute or claim is not resolved within 60 days of sending such an email , then you agree that all unresolved disputes or claims shall be finally and exclusively settled by arbitration administered by the London Court of International Arbitration under the LCIA Arbitration Rules in force at the time of the filing for arbitration of such dispute. The arbitration shall be held before a single arbitrator and shall be conducted in the English language on a confidential basis. Any award made by the arbitrator may be entered in any court of competent jurisdiction as necessary. This section shall survive termination of these Terms, the Interface, or any connection you may have to the information you obtained from the Interface.
+If you have any dispute or claim arising out of or relating in any way to the Interface or these Terms, you must send an email to [info@{{landing_host}}](mailto:info@{{landing_host}}) to resolve the matter via an informal, good faith negotiation process. If that dispute or claim is not resolved within 60 days of sending such an email , then you agree that all unresolved disputes or claims shall be finally and exclusively settled by arbitration administered by the London Court of International Arbitration under the LCIA Arbitration Rules in force at the time of the filing for arbitration of such dispute. The arbitration shall be held before a single arbitrator and shall be conducted in the English language on a confidential basis. Any award made by the arbitrator may be entered in any court of competent jurisdiction as necessary. This section shall survive termination of these Terms, the Interface, or any connection you may have to the information you obtained from the Interface.
 
 ### 2. Class Action and Jury Trial Waiver
 
