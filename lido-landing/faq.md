@@ -213,73 +213,72 @@ categories:
   - name: Lido on L2
     q&a:
       - question: What is Lido on L2?
-        answer: "[Lido on Layer 2 (L2)](https://lido.fi/lido-on-l2) extends the use of
-          your stTokens within L2 networks. By utilizing Lido tokens, users can
-          benefit from reduced gas fees across various DeFi integrations within
-          the Layer 2 ecosystem."
-      - question: What are the advantages of using Layer 2 over Layer 1?
+        answer: "[Lido on L2](https://lido.fi/lido-on-l2) extends the use of your
+          stTokens across L2 networks. By bridging to L2, users can benefit from
+          reduced gas fees across various DeFi integrations."
+      - question: What are the advantages of L2?
         answer: The main aim of [L2’s](https://ethereum.org/layer-2) is to expand
           Ethereum’s scalability and offer users lower gas fees. With higher
-          transactions per second, lower fees, and new technology, users expand
-          into new applications with improved user experience.
+          transactions per second, lower fees, and new technology, users can
+          navigate across new applications with an improved user experience.
       - question: Which L2 solutions are supported within Lido on L2?
-        answer: Currently, only wstETH can be used within Arbitrum, Optimism, Base,
-          zkSync Era, Polygon PoS, Mantle, and Linea.
+        answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
+          Era, Polygon PoS, Mantle, and Linea.
       - question: What tokens are supported on Lido on L2?
-        answer: For now, only
+        answer: Only
           [wstETH](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
           is supported on Lido on L2. [Get wstETH](https://stake.lido.fi/wrap).
       - question: Is stETH available on L2?
-        answer: No, currently, only wstETH is available on L2 solutions.
+        answer: Currently only wstETH is available on L2 solutions.
       - question: What is the difference between stETH and wstETH?
         answer: wstETH is a wrapped version of stETH. Due to the dynamic nature of stETH
           balances within Lido, which change daily due to staking rewards,
           wstETH maintains a fixed balance and employs an underlying share
-          system to reflect staking rewards.
-      - question: Do I still have rewards on my tokens on L2?
-        answer: You get staking rewards by holding the token. Rewards are realized when
-          you unwrap or swap wstETH back to stETH or ETH.
+          system to reflect staking rewards. Learn more about wstETH
+          [here](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth).
+      - question: Do I still receive rewards on my tokens on L2?
+        answer: Yes. When using your wstETH on L2s you continue earning staking rewards
+          as normal. Rewards are realized when you unwrap or swap wstETH back to
+          stETH or ETH.
       - question: Can I stake directly on L2?
         answer: Direct staking on L2 is not possible yet, but you can get wstETH from
-          [DEXes on Layer
-          2](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
-      - question: How can I bridge wstETH between Layer 1 and Layer 2?
-        answer: You can’t bridge wstETH between Layer 1 and Layer 2 using Lido UI, but
-          you can utilize direct L2 bridges using [bridging
-          guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l2)
-          and [swap
-          options](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
-      - question: How can I bridge wstETH on L2 chains?
+          [DEXes on
+          L2](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
+      - question: How can I bridge wstETH to L2s?
         answer: Lido users can bridge wstETH to various L2s using the provided [bridging
           guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l2).
           Also, there are [options for swapping and
           exchanging](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
           tokens on L2, including wstETH.
-      - question: What is the optimal scenario for getting wstETH on L2 if I have L1 ETH
-          in my wallet?
+      - question: What is the simplest way to get wstETH on L2 if I have ETH in my
+          wallet?
         answer: "[Wrap](https://stake.lido.fi/wrap) your ETH directly to wstETH and then
-          bridge your wstETH on a preferable L2 network with [bridging
+          bridge your wstETH to your preferred a L2 using the following
+          [bridging
           guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l\
           2)."
       - question: What DeFi apps support wstETH on L2?
-        answer: Various DeFi apps that support wstETH can be found on the [Lido
+        answer: The various DeFi apps that support wstETH can be found on the [Lido
           Ecosystem
           page](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
-      - question: Can I bridge wstETH from L2 to Ethereum (L1)?
-        answer: Yes, by using canonical bridges with or by swap options.
-      - question: Can I bridge wstETH from L2 to L2?
-        answer: You can bridge wstETH from L2 to L2 via canonical bridges through the
-          interim L1 hop or can use 3rd-party cross-chain transfers like
+      - question: Can I bridge wstETH from L2 back to Ethereum (L1)?
+        answer: Yes, by using canonical bridges or by using the swap options.
+      - question: Can I bridge wstETH between different L2s?
+        answer: You can bridge wstETH from L2 to L2 using canonical bridges or via 3rd
+          party cross-chain transfers like
           [portalbridge.com](http://portalbridge.com).
-      - question: Are there any risks associated with using Lido stTokens on Layer 2?
-        answer: While interacting with bridges, you bear additional risks of the
-          particular rollup and its canonical bridges.
-      - question: How can I verify the correctness of the bridged token address?
-        answer: You can check the address with [Deployed contracts Lido on
-          L2](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
+      - question: Are there any risks associated with using wstETH on L2?
+        answer: There are a number of risks associated with interacting with DeFi
+          protocols. Make sure to read up on the various bridges, networks, and
+          applications you choose.
+      - question: How can I verify the accuracy of the bridged token address?
+        answer: You can check the address with
+          [](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2)[Lido
+          on L2 Deployed
+          Contracts](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
       - question: Where can I find support or get assistance with Lido on L2?
         answer: You could refer your questions to [Lido
-          Discord](https://discord.com/invite/lido) or [Telegram
+          Discord](https://discord.com/invite/lido) or in the [Telegram
           chat](https://t.me/lidofinance).
   - name: Lido DAO
     q&a:
