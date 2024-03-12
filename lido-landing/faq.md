@@ -272,9 +272,7 @@ categories:
           protocols. Make sure to read up on the various bridges, networks, and
           applications you choose.
       - question: How can I verify the accuracy of the bridged token address?
-        answer: You can check the address with
-          [](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2)[Lido
-          on L2 Deployed
+        answer: You can check the address with [Lido on L2 Deployed
           Contracts](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
       - question: Where can I find support or get assistance with Lido on L2?
         answer: You could refer your questions to [Lido
