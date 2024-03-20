@@ -47,10 +47,10 @@ categories:
           deployed on public blockchains, so users do not need the website to
           access the smart contracts. However, for convenience, users can get
           started with information on [the main
-          page](https://lido.fi/#networks).
+          page](https://{{landing}}/#networks).
       - question: Where can I use stTokens?
         answer: stTokens can be used across a growing Ecosystem. [Explore apps and
-          services](https://lido.fi/lido-ecosystem) integrated with stTokens.
+          services](https://{{landing}}/lido-ecosystem) integrated with stTokens.
   - name: Ethereum
     q&a:
       - question: What is Lido on Ethereum?
@@ -68,16 +68,16 @@ categories:
       - question: How can I get stETH?
         answer: You can get stETH many ways, including interacting with the smart
           contract directly. Yet, it is much easier to use a [Lido Ethereum
-          staking widget](https://stake.lido.fi/) or in other [DEX Lido
-          integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
+          staking widget](https://{{ethereum_stake}}/) or in other [DEX Lido
+          integrations](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Get).
       - question: How can I use stETH?
         answer: You can use your stETH as collateral, for lending,
-          and [more](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
+          and [more](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Earn).
       - question: How can I unstake stETH?
         answer: You can use our [Withdrawals Request and Claim
-          tabs](https://stake.lido.fi/withdrawals) to unstake stETH and receive
+          tabs](https://{{ethereum_stake}}/withdrawals) to unstake stETH and receive
           ETH at a 1:1 ratio. Also, you can exchange stETH on [DEX Lido
-          integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
+          integrations](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Get).
       - question: What is wstETH?
         answer: wstETH (wrapped stETH) is a non-rebasing version of stETH, wstETH's
           price denominated in stETH changes instead. The wstETH balance can
@@ -87,13 +87,13 @@ categories:
           day, when stETH undergoes a rebase.
       - question: How can I get wstETH?
         answer: You can wrap your stETH or ETH tokens using [Wrap & Unwrap staking
-          widget](https://stake.lido.fi/wrap) or [DEX Lido
-          integrations](https://lido.fi/lido-ecosystem?tokens=wstETH&categories=Get).
+          widget](https://{{ethereum_stake}}/wrap) or [DEX Lido
+          integrations](https://{{landing}}/lido-ecosystem?tokens=wstETH&categories=Get).
       - question: How can I use wstETH?
         answer: wstETH is useful
-          across [L2](https://lido.fi/lido-ecosystem?networks=arbitrum%2Coptimism) and
+          across [L2](https://{{landing}}/lido-ecosystem?networks=arbitrum%2Coptimism) and
           other [DeFi
-          protocols](https://lido.fi/lido-ecosystem?tokens=wstETH&categories=Earn),
+          protocols](https://{{landing}}/lido-ecosystem?tokens=wstETH&categories=Earn),
           which are based on constant balance tokens.
       - question: Do I get my staking rewards if I wrap stETH to wstETH?
         answer: Yes, wrapped stETH gets staking rewards at the same rate as regular
@@ -105,10 +105,10 @@ categories:
         answer: No, staking rewards accrue to wstETH automatically.
       - question: How can I unwrap wstETH?
         answer: You can unwrap your wstETH tokens using [Wrap & Unwrap staking
-          widget](https://stake.lido.fi/wrap?mode=unwrap).
+          widget](https://{{ethereum_stake}}/wrap?mode=unwrap).
       - question: Do I need to unwrap my wstETH before requesting withdrawals?
         answer: No, you can transform your wstETH to ETH using the [Withdrawals Request
-          and Claim tabs](https://stake.lido.fi/withdrawals). Note that, under
+          and Claim tabs](https://{{ethereum_stake}}/withdrawals). Note that, under
           the hood, wstETH will unwrap to stETH first, so your request will be
           denominated in stETH.
       - question: What is the difference between ETH, stETH, and wstETH?
@@ -131,18 +131,18 @@ categories:
           Protocol fee — a 10% fee on staking rewards that is split between node operators and the DAO Treasury.
 
 
-          More about Lido Lido staking APR for Ethereum you could find on the [Ethereum landing page](https://lido.fi/ethereum) and in our [Docs](https://docs.lido.fi/).
+          More about Lido Lido staking APR for Ethereum you could find on the [Ethereum landing page](https://{{landing}}/ethereum) and in our [Docs](https://{{ethereum_docs}}/).
       - question: What is Lido on L2?
         answer: With Lido protocol, users could bridge wstETH to L2’s like Arbitrum and
           Optimism to benefit from lower gas fees and other [DeFi
-          opportunities](https://help.lido.fi/en/articles/6655781-lido-on-l2-an-overview).
+          opportunities](https://{{help}}/en/articles/6655781-lido-on-l2-an-overview).
       - question: What is the Insurance fund used for?
         answer: The [Insurance
           fund](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35) is
           not insurance but is the name of the smart contract where stETH tokens
           are set aside, which could cover some of the estimated slashing risks.
           Read more about risk
-          scenarios [here](https://research.lido.fi/t/redirecting-incoming-revenue-stream-from-insurance-fund-to-dao-treasury/2528/20?u=kadmil).
+          scenarios [here](https://{{research}}/t/redirecting-incoming-revenue-stream-from-insurance-fund-to-dao-treasury/2528/20?u=kadmil).
           In case of a widespread slashing incident, the decision to recover
           losses from this fund is decided based on the vote of the Lido DAO.
       - question: Where can I cover my stETH?
@@ -181,22 +181,22 @@ categories:
       - question: How can I get stMatic?
         answer: stMATIC is available in many ways, including directly staking MATIC
           ERC20 through the [Lido Polygon stake
-          widget](https://polygon.lido.fi/) or through other [DEX Lido
-          integrations](https://lido.fi/lido-ecosystem?categories=Get&tokens=stMATIC).
+          widget](https://{{polygon_stake}}/) or through other [DEX Lido
+          integrations](https://{{landing}}/lido-ecosystem?categories=Get&tokens=stMATIC).
       - question: How can I use stMATIC?
         answer: With stMATIC users can grow MATIC, get instant liquidity, or participate
           in DeFi across the Ethereum and Polygon networks. Some integrations
           can be
-          found [here](https://lido.fi/lido-ecosystem?tokens=stMATIC&categories=Earn).
+          found [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Earn).
       - question: How can I unstake stMATIC?
         answer: stMATIC can be unstaked in several ways, including through [the Lido on
-          Polygon unstake widget](https://polygon.lido.fi/). The default stMATIC
+          Polygon unstake widget](https://{{polygon_stake}}/). The default stMATIC
           unstaking period takes around 3-4 days to process. After that, users
-          can claim rewards in the [Claim tab](https://polygon.lido.fi/).
+          can claim rewards in the [Claim tab](https://{{polygon_stake}}/).
           Immediate withdrawal options are available through liquidity pools on
           AMM protocols and other DEXs where stMATIC can be exchanged for MATIC
           to exit staking. You could explore opportunities for
-          exchanges [here](https://lido.fi/lido-ecosystem?tokens=stMATIC&categories=Get).
+          exchanges [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Get).
       - question: What is the difference between MATIC and stMATIC?
         answer: >-
           MATIC - is an Ethereum token that powers the Polygon Network. It is
@@ -235,7 +235,7 @@ categories:
           consists of multiple steps.
 
 
-          [Learn more](https://lido.fi/governance)
+          [Learn more](https://{{landing}}/governance)
       - question: What is LDO?
         answer: LDO is an ERC20 token that gives the ability to participate in the
           governance process of the Lido DAO. The Lido DAO decides on some key
@@ -253,11 +253,11 @@ categories:
           acceptance and reduce protocol risks.
 
 
-          [Learn more](https://operatorportal.lido.fi/)
+          [Learn more](https://{{operatorportal}}/)
       - question: How to apply to be a Node Operator for Lido?
         answer: You could explore the requirements to be considered and apply to be a
           Node Operator to use Lido protocols on our [Node Operator
-          Portal](https://operatorportal.lido.fi/apply-to-be-a-lido-node-operator).
+          Portal](https://{{operatorportal}}/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
       - question: Is it safe to work with Lido DAO?
@@ -297,19 +297,19 @@ categories:
         answer: Lido DAO uses the [Immunefi platform](https://immunefi.com/) — the
           leading bug bounty platform for DeFi with the world's largest
           bounties. All info about Lido Bug Bounty programs
-          is [here](https://lido.fi/bug-bounty).
+          is [here](https://{{landing}}/bug-bounty).
   - name: Additional
     q&a:
       - question: Where can I find more info for developers?
         answer: >-
           * [Lido on
-          Ethereum](https://docs.lido.fi/guides/steth-integration-guide)
+          Ethereum](https://{{ethereum_docs}}/guides/steth-integration-guide)
 
-          * [Lido on Polygon](https://docs.polygon.lido.fi/)
+          * [Lido on Polygon](https://{{polygon_docs}}/)
       - question: Where can I get info about Lido integrations?
         answer: All info about Lido integrations you can find in our [Help
-          Center](https://help.lido.fi/en/) or on the [Lido Ecosystem
-          page](https://lido.fi/lido-ecosystem).
+          Center](https://{{help}}/en/) or on the [Lido Ecosystem
+          page](https://{{landing}}/lido-ecosystem).
       - question: Where can I go to join Lido DAO’s community?
         answer: >-
           * Follow us on [Twitter](https://twitter.com/lidofinance).
@@ -318,15 +318,15 @@ categories:
 
           * Ask questions in [Discord](https://discord.com/invite/lido).
 
-          * Learn about Lido on [Blog](https://blog.lido.fi/).
+          * Learn about Lido on [Blog](https://{{blog}}/).
 
           * Contribute to the codebase in [GitHub](https://github.com/lidofinance).
 
-          * Stay updated through the [Research forum](https://research.lido.fi/).
+          * Stay updated through the [Research forum](https://{{research}}/).
       - question: How can I become a partner with Lido DAO?
         answer: Any blockchain developer, crypto enthusiast, or member of the community
           can be a participant in our Lido Ecosystem Grants Organization. If
           you're improving the ecosystem or creating general awareness about
           Ethereum, PoS, and DeFi and have a solid plan on how to meet your
-          goals, [here is the info](https://lido.fi/lego) for you.
+          goals, [here is the info](https://{{landing}}/lego) for you.
 ---
