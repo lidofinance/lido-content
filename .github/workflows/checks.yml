@@ -14,3 +14,30 @@ jobs:
 
   actions:
     uses: lidofinance/linters/.github/workflows/actions.yml@master
+
+  domain-agnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'yarn'
+      
+      - name: Install dependencies
+        run: yarn --immutable
+
+      - name: Run checks
+        run: |
+          set -e 
+
+          echo Check format...
+          yarn format
+
+          echo Checking explicit domain usage
+          ./scripts/check-domain-agnostic.mjs
+
+          set +e 

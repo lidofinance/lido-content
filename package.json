@@ -7,8 +7,16 @@
   },
   "scripts": {
     "dev": "caddy run --watch",
-    "format": "caddy fmt --overwrite",
+    "format": "yarn format:js",
+    "format:fix": "yarn format:js:fix && yarn format:caddy:fix",
+    "format:js": "prettier -c ./scripts/check-domain-agnostic.mjs",
+    "format:js:fix": "yarn format:js -w",
+    "format:caddy:fix": "caddy fmt --overwrite",
     "build": "docker build . -t lido-content",
     "start": "docker run -p 3000:3000 lido-content"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "zx": "^7.2.3"
   }
 }
