@@ -1,4 +1,4 @@
-#!/usr/bin/env yarn zx
+#!/usr/bin/env -S yarn zx
 
 class CheckError {
   constructor(message, line) {
