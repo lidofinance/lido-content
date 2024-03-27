@@ -223,7 +223,7 @@ categories:
           navigate across new applications with an improved user experience.
       - question: Which L2 solutions are supported within Lido on L2?
         answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
-          Era, Polygon PoS, Mantle, and Linea.
+          Era, Polygon PoS, Mantle, Linea and Scroll.
       - question: What tokens are supported on Lido on L2?
         answer: Only
           [wstETH](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
