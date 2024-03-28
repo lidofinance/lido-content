@@ -4,6 +4,8 @@ logo: data:image/svg+xml,%3Csvg%20width%3D%2248%22%20height%3D%2249%22%20viewBox
 name: Seamless
 description: Use wstETH as a collateral on Seamless.
 link: https://www.seamlessprotocol.com/
+l2Description: Lend wstETH on Base
+l2Link: https://legacy.seamlessprotocol.com/reserve-overview/?underlyingAsset=0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452&marketName=proto_base_v3
 tokens:
   - 3a647da0-c0d8-4ebd-abce-bac0390880f4
 categories:
