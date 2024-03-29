@@ -67,8 +67,8 @@ categories:
           communicates the position of the share daily.
       - question: How can I get stETH?
         answer: You can get stETH many ways, including interacting with the smart
-          contract directly. Yet, it is much easier to use a Lido Ethereum
-          staking widget, stake directly with [Ledger cold
+          contract directly. Yet, it is much easier to use a [Lido Ethereum
+          staking widget](stake.lido.fi), stake directly with [Ledger cold
           wallet](https://www.ledger.com/staking-ethereum)or in other DEX Lido
           integrations.
       - question: How can I use stETH?
