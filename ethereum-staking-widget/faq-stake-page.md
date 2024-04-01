@@ -81,9 +81,10 @@ faq:
   - question: How can I get stETH?
     questionId: How_Can_I_Get_stETH
     answer: You can get stETH many ways, including interacting with the smart
-      contract directly.Yet, it is much easier to use a [Lido Ethereum staking
-      widget](/) and in other [DEX Lido
-      integrations](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Get).
+      contract directly. Yet, it is much easier to use a [Lido Ethereum staking
+      widget](/), stake directly with [Ledger cold
+      wallet](https://www.ledger.com/staking-ethereum) or in other [DEX Lido
+      integrations](https://lido.fi/lido-ecosystem?tokens=steth&criteria=and&categories=get).
   - answer: You can use your stETH as collateral, for lending,
       and [more](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
     question: How can I use stETH?
