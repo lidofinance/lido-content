@@ -73,8 +73,8 @@ categories:
           Lido
           integrations](https://lido.fi/lido-ecosystem?tokens=steth&criteria=and&categories=get).
       - question: How can I use stETH?
-        answer: You can use your stETH as collateral, for lending,
-          and [more](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
+        answer: You can use your stETH [across
+          DeFi](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
       - question: How can I unstake stETH?
         answer: You can use our [Withdrawals Request and Claim
           tabs](https://stake.lido.fi/withdrawals) to unstake stETH and receive
@@ -326,7 +326,7 @@ categories:
           [Learn more](https://operatorportal.lido.fi/)
       - question: How to apply to be a Node Operator for Lido?
         answer: You could explore the requirements to be considered and apply to be a
-          Node Operator to use Lido protocols on our [Node Operator
+          Node Operator to use Lido protocols on [Node Operator
           Portal](https://operatorportal.lido.fi/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
@@ -355,12 +355,12 @@ categories:
           * **Slashing risk**\
             Validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimize this risk, Lido stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of self-coverage.
           * **stToken price risk**\
-            Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
+            Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
 
-          The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist.
+          The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist.
       - question: Have the protocols been audited?
         answer: Lido DAO codebase has been audited by industry leaders in blockchain
-          security. You can find the list of our
+          security. You can find the list of
           audits [here](https://github.com/lidofinance/audits) with code review
           reports.
       - question: Does Lido DAO have a Bug Bounty program?
@@ -377,14 +377,14 @@ categories:
 
           * [Lido on Polygon](https://docs.polygon.lido.fi/)
       - question: Where can I get info about Lido integrations?
-        answer: All info about Lido integrations you can find in our [Help
+        answer: All info about Lido integrations you can find in [Help
           Center](https://help.lido.fi/en/) or on the [Lido Ecosystem
           page](https://lido.fi/lido-ecosystem).
       - question: Where can I go to join Lido DAO’s community?
         answer: >-
-          * Follow us on [Twitter](https://twitter.com/lidofinance).
+          * Follow on [Twitter](https://twitter.com/lidofinance).
 
-          * Join our [Telegram](https://t.me/lidofinance).
+          * Join [Telegram](https://t.me/lidofinance).
 
           * Ask questions in [Discord](https://discord.com/invite/lido).
 
@@ -395,8 +395,8 @@ categories:
           * Stay updated through the [Research forum](https://research.lido.fi/).
       - question: How can I become a partner with Lido DAO?
         answer: Any blockchain developer, crypto enthusiast, or member of the community
-          can be a participant in our Lido Ecosystem Grants Organization. If
-          you're improving the ecosystem or creating general awareness about
-          Ethereum, PoS, and DeFi and have a solid plan on how to meet your
-          goals, [here is the info](https://lido.fi/lego) for you.
+          can be a participant in Lido Ecosystem Grants Organization. If you're
+          improving the ecosystem or creating general awareness about Ethereum,
+          PoS, and DeFi and have a solid plan on how to meet your goals, [here
+          is the info](https://lido.fi/lego) for you.
 ---
