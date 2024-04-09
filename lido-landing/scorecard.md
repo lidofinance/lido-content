@@ -85,7 +85,7 @@ rows:
     comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance proposed](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727). It gives stakers ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. Onchain vote to deploy expected in Q3/Q4 2024."
 :::
 
-## **Needs Improvement**
+## Needs Improvement
 
 These attributes need work, and below is information about what contributors are already doing as solutions and improvements.\
 Improvement proposals and comments are welcome from anyone.
