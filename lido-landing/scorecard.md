@@ -7,15 +7,15 @@ description: >
 ---
 Lido DAO’s purpose is to keep Ethereum decentralized, accessible to all, and resistant to censorship.
 
-Lido DAO’s mission is to make staking simple, secure, and decentralized.
+Lido DAO’s mission is to make staking simple, secure, and decentralized.
 
 And the endgame is a world in which Ethereum is the co-ordination and value layer of the internet.
 
-As the protocol specification and related technologies evolve, Lido continues to drive towards its vision of a trustless, governance-minimized, and ethos aligned liquid staking protocol.
+As the Protocol specification and related technologies evolve, the commitment to achieving a vision of trustless, governance-minimized, and ethos-aligned liquid staking remains steadfast.
 
-The scorecard below shows how we are doing. We invite anyone who cares to provide feedback on our [research forum](https://research.lido.fi/).
+The scorecard below shows how the Lido ecosystem is doing. Feedback from everyone is welcome on the [research forum](https://research.lido.fi/).
 
-## Where we’re already succeeding
+## **Already succeeded**
 
 :::scorecard-table
 rows:
@@ -25,85 +25,91 @@ rows:
   - scorecard-attribute: "Good performance"
     categories: "Validator set"
     self-assessment: "Good"
-  - scorecard-attribute: "Operators should earn enough to build a profitable, dependable staking business"
+    comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?network=mainnet&timeWindow=30d&viewBy=operator&page=1&idType=pool) is higher than [the average Network performance](https://explorer.rated.network/?network=mainnet&view=pool&timeWindow=30d&page=1&poolType=all) based on the [RAVER methodology](https://docs.rated.network/methodologies/ethereum-beacon-chain/rated-effectiveness-rating) available at the moment of assessment (March 2024)."
+  - scorecard-attribute: "Operators should receive enough network rewards to build a sustainable, dependable staking business"
     categories: "Validator set"
     self-assessment: "Good"
-  - scorecard-attribute: "Lido is easy to fork"
-    categories: "Security"
-    self-assessment: "Good"
-    comments: "All it takes is to switch a few bits in the governance contract to revoke\_Lido DAO’s\_current permissions and transfer them to a community-owned contract."
   - scorecard-attribute: "Withdrawal requests are automatically fulfilled"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "The Lido protocol has a\_[subsystem](https://hackmd.io/@lido/SyaJQsZoj)\_which can execute withdrawals with no human participation (apart from requiring Node Operators to top up pre-signed exit messages). This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic\_[tail-risk scenarios](https://hackmd.io/@lido/SyaJQsZoj#How-slashings-would-affect-withdrawal-request-fulfillment)."
-  - scorecard-attribute: "Withdrawal credentials are non-custodial and trustless"
+    comments: "The Lido protocol has a [subsystem](https://docs.lido.fi/contracts/withdrawal-queue-erc721#what-is-withdrawalqueueerc721) which can self-execute withdrawals with no human participation, apart from requiring Node Operators to maintain tooling (their own or [open-source alternatives](https://github.com/lidofinance/validator-ejector/)) to process requests (semi-)automatically. This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic tail-risk scenarios. The total volume of withdrawals processed since May (withdrawals implementation) can be found on the [dedicated Dune dashboard](https://dune.com/embeds/2475364/4072036)."
+  - scorecard-attribute: "No operator has more than 1% of the total stake"
+    categories: "Validator set"
+    self-assessment: "Good"
+    comments: "As at Q4/2023, most operators have less than 1% of the total ETH staked. No operator has more than 1.1% of the total ETH staked. Quarterly updates on the details and ratio of amount of stake that is over the soft-ceiling can be found in the [Lido Validator and Node Operator Metrics (VaNOM) web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)."
+  - scorecard-attribute: "Lido Protocol governance lives on Ethereum"
     categories: "Security"
     self-assessment: "Good"
-    comments: "[All](https://twitter.com/LidoFinance/status/1646977448410480643)\_Lido on Ethereum validators are now using 0x01 (smart contract) withdrawal credentials."
+    comments: "Ethereum community  potentially could change  the protocol with an emergent hard-fork (if there is a consensus to do it) that changes a few bits in the governance contract to revoke the DAO’s oversight permissions."
+  - scorecard-attribute: "Lido Protocol is easy to fork"
+    categories: "Security"
+    self-assessment: "Good"
+    comments: "Open-source development enables Lido protocol clone deployment and running without any DAO votes or third-party permissions."
+  - scorecard-attribute: "Withdrawal credentials are non-custodial being managed by a smart-contact maintained by LDO tokenholders"
+    categories: "Security"
+    self-assessment: "Good"
+    comments: "[All](https://twitter.com/LidoFinance/status/1646977448410480643) Lido on Ethereum participating validators use 0x01 (smart contract) withdrawal credentials."
+  - scorecard-attribute: "Smart contracts are shielded using best-in-class security standards"
+    categories: "Security"
+    self-assessment: "Good"
+    comments: "The currently deployed protocol version (Lido V2) is audited by four independent top-tier audit providers: \\\n- 1) Statemind: <https://github.com/lidofinance/audits/#04-2023-statemind-lido-v2-audit> \\\n- 2) Certora: <https://github.com/lidofinance/audits/#04-2023-certora-lido-v2-audit> \\\n- 3) Hexens: [https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit ](https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit)\\\n- 4) Oxorio: <https://github.com/lidofinance/audits/?tab=readme-ov-file#05-2023-oxorio-lido-v2-on-chain-audit> \n\nThere is a formal verification executed by Certora (see the report above) All protocol levers are documented and reviewed by Statemind, see: <https://github.com/lidofinance/audits/?tab=readme-ov-file#10-2023-statemind-lido-roles-analysis> \n\nLast but not least, every protocol upgrade and voting is a subject of running full-blown regression test suite: <https://github.com/lidofinance/scripts/tree/master/tests>"
 :::
 
-## Where we’re doing well, but can improve
+## Doing well, but can improve
 
 :::scorecard-table
 rows:
-  - scorecard-attribute: "No operator has more than 1% of total stake"
+  - scorecard-attribute: "Distributed geographically"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Most operators have slightly more than 1% of total ETH staked. No operator has more than 1.2% of total ETH staked."
-  - scorecard-attribute: "Distributed geographically and jurisdictionally"
-    categories: "Validator set"
-    self-assessment: "Okay"
-    comments: "25% of validators are currently with US-based Node Operators, and there remains an over-reliance on European based entities. The DAO needs to be better at selecting Node Operators that are geopolitically diverse as it continues to expand the curated set. The\_[latest stats can be found here](https://research.lido.fi/t/lido-node-operator-validator-metrics/1431/22)."
+    comments: "As at Q4/2023, less than 22% of validators are currently with North-America (US+Canada) based Node Operators, but there remains an over-reliance on European based entities. Improvements have been noted in not only the addition of Asian and South American-based operators, but also the distribution  of validators across under-represented geographies. However, the DAO can continue to promote geographical diversity [latest stats can be found here](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=be392244-4d90-4212-9492-d07ded405735)."
   - scorecard-attribute: "Distributed variation of on-premise infra and cloud providers"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Lido has made important strides here, but there are still too many operators relying on public cloud servers (40-45% of stake)."
+    comments: "The largest sub-set of Node Operators utilize public cloud servers (45-50% of stake) for their validators, but On-Premises usage has significantly grown in the last few quarters. Details can be found in the [Lido VaNOM web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=fd91537b-e4b5-42b6-813d-6ec0ff957cd3)."
   - scorecard-attribute: "Best practices in security and key management"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Keys are managed by professional node operators but distributed validator technology has not yet been introduced to Lido. Threshold based validation would be more robust, but remains work in progress and an active research focus."
+    comments: "In the Curated Operator module, keys are managed by professional node operators. [As of the Q4/23, 23.8% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest) utilize Attestant’s Vouch CL client. While Vouch utilization does not directly correlate to usage of Attestants Dirk key manager that includes threshold signing, it is roughly indicative. In the Simple DVT Module, participants utilize Obol and SSV Network based DVT. All validator keys are created through a Distributed Key Generation process, with no single Node Operator controlling a full private key at any point of their existence."
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "There is no dominant Consensus layer client. However the share of smaller clients can and should be higher.\n\nAdditionally, more work needs to be done to diversify clients at the Execution Layer."
-  - scorecard-attribute: "Lido’s smart contracts have the best security possible"
-    categories: "Security"
-    self-assessment: "Okay"
-    comments: "Thorough and multiple audits are undertaken on all smart contract upgrades, but no formal verification or symbolic execution based tests."
+    comments: "As at Q4/2023, Node Operators using the Lido protocol utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Although Execution Layer diversity steadily improved as a result of Node Operator and Onboarding waves, and [remarkably improved in 2023](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=b8ea4c12-60eb-4a2d-a481-76006073f8c1), there is still progress to be made to make the network resilient to potential supermajority EL client bugs. [Node Operators have committed](https://research.lido.fi/t/ethereum-node-operator-el-diversity-improvement-commitments/6459) to further reducing majority EL client usage within 2024."
   - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Currently, if Node Operators don’t process exits on time (in other words, try to block users from obtaining their withdrawn ETH), they suffer penalties (automatically enforced by the protocol, as well as reputational).\n\n[Triggerable execution layer exits](https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195), expected in Q2 2024, will keep Node Operators even more accountable to the Lido DAO (since exiting validators will be possible via a DAO vote)."
+    comments: "Currently, if Node Operators don’t process exits on time (in other words, try to block users from obtaining their withdrawn ETH), they suffer penalties (automatically enforced by the protocol, as well as reputational). [Triggerable execution layer exits](https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195), expected in Q4 2024, will make it possible to exit validators based on a DAO vote."
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As it stands, LDO holders cannot force Node operators to exit.\n\nEven if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works).\n\nAdditionally, in order to create additional checks and balances on Lido governance, a\_[dual governance](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727)\_system, which gives stETH holders veto powers over any decision that would change the validator set, is expected to go live by end of Q3 2024."
+    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance proposed](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727). It gives stakers ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. Onchain vote to deploy expected in Q3/Q4 2024."
 :::
 
-## Needs Improvement
+## **Needs Improvement**
 
-These attributes clearly need work and Lido is actively working on solutions and improvements. We welcome input from the DAO, our partners and the wider community as we seek solutions
+These attributes need work, and below is information about what contributors are already doing as solutions and improvements.\
+Improvement proposals and comments are welcome from anyone.
 
 :::scorecard-table
 rows:
-  - scorecard-attribute: "Lido governance has significant safeguards"
+  - scorecard-attribute: "Governance has significant safeguards"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Currently, the Aragon votes are two-phased. The first phase is regular vote, and the second one is time-lock with objections, during which LDO holders can only vote ‘against’ or change their vote from ‘for’ to ‘against’.\n\nCurrently, operators do act as a check on LDO power since they cannot be force exited. Dual governance will add an additional check on power."
-  - scorecard-attribute: "There’s a robust set of Lido governance delegates"
-    comments: "Lido DAO currently has vote delegation for Snapshot votes; however, the delegate set is limited and significant amount of voting power is undelegated and dormant.\n\nLido contributors are currently conducting research on what a good delegate framework looks like. This will likely launch sometime in 2024."
+    comments: "A two-step Aragon voting is used with objection periods, where only 'against' votes are possible in the second phase. The governance process includes 3 steps: discussion, off-chain vote, and on-chain execution which make all changes publicly socialized before implementation. \\\nCurrently, operators act as a check on LDO power since they cannot be forced to exit.\\\n[Dual governance](https://hackmd.io/@skozin/SJdSE51Ep) allows stakers to withdraw their Eth in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. Onchain vote to deploy expected in Q3/Q4 2024."
+  - scorecard-attribute: "There’s a robust set of governance delegates"
+    comments: "Currently, delegation is supported only via Snapshot, with an on-chain feature slated for launch in April-May 2024. After addressing technical challenges, an open delegation framework to diversify governance participation is planned to propose."
     categories: "Governance"
     self-assessment: "Needs improvement"
-  - scorecard-attribute: "Delegation is enabled in onchain Lido governance"
+  - scorecard-attribute: "Delegation is enabled in on-chain governance"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Currently, delegation is only enabled for Snapshot votes. Lido is actively researching possible mechanics for onchain delegation."
+    comments: "Delegation is currently only enabled on Snapshot. However, the proposal for the development and launch of on-chain delegation has reached quorum, and an Aragon vote to activate on-chain delegation is expected in April-May 2024."
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Lido on Ethereum is controlled by LDO token voting. This includes the Lido treasury, staking withdrawal keys, node operator and oracle lists, and more. As such, the voting app effectively has root access to Lido.\n\n[Research are underway](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727) to enable stakers to block the execution of harmful governance decisions and exit the protocol if an agreement cannot be reached."
+    comments: "Lido on Ethereum, governed by LDO token voting, manages various aspects including the treasury, withdrawal keys, and lists of nodes or oracles, effectively granting root access to the voting app. [Dual governance](https://hackmd.io/@skozin/SkjuZAuip) allows stakers to withdraw their Eth in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. When a specified amount of stETH accumulates in the DG veto vault, execution of LDO governance motions is paused unless the stETH in the vault is withdrawn. The design includes multiple safeguards and potential de-escalation mechanisms. A Snapshot vote on this proposal is expected in Q2, with on-chain deployment slated for Q3-Q4 2024."
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
-    comments: "Lido V2’s\_[Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview)\_is a controller contract which paves the way for permissionless operators to join Lido’s validator set.\n\nCurrently at the\_[policy discussion](https://research.lido.fi/t/staking-router-modules-support-policy/4495)\_stage, the first modules are expected to go live by end of year."
+    comments: "Lido V2’s [Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview) is a controller contract which paves the way for permissionless operators to join Lido’s validator set. The first permissionless module called [CSM](https://research.lido.fi/t/community-staking-module/5917) is planned to be proposed to on-chain vote by the end of 2024."
 :::
