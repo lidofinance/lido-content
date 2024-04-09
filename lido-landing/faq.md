@@ -68,13 +68,13 @@ categories:
       - question: How can I get stETH?
         answer: You can get stETH many ways, including interacting with the smart
           contract directly. Yet, it is much easier to use a [Lido Ethereum
-          staking widget](https://stake.lido.fi/), stake directly with [Ledger
+          staking widget](https://{{ethereum_stake}}/), stake directly with [Ledger
           cold wallet](https://www.ledger.com/staking-ethereum) or in other [DEX
           Lido
-          integrations](https://lido.fi/lido-ecosystem?tokens=steth&criteria=and&categories=get).
+          integrations](https://{{landing}}/lido-ecosystem?tokens=steth&criteria=and&categories=get).
       - question: How can I use stETH?
         answer: You can use your stETH [across
-          DeFi](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
+          DeFi](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Earn).
       - question: How can I unstake stETH?
         answer: You can use our [Withdrawals Request and Claim
           tabs](https://{{ethereum_stake}}/withdrawals) to unstake stETH and receive
@@ -215,7 +215,7 @@ categories:
   - name: Lido on L2
     q&a:
       - question: What is Lido on L2?
-        answer: "[Lido on L2](https://lido.fi/lido-on-l2) extends the use of your
+        answer: "[Lido on L2](https://{{landing}}/lido-on-l2) extends the use of your
           stTokens across L2 networks. By bridging to L2, users can benefit from
           reduced gas fees across various DeFi integrations."
       - question: What are the advantages of L2?
@@ -228,8 +228,8 @@ categories:
           Era, Polygon PoS, Mantle, Linea and Scroll.
       - question: What tokens are supported on Lido on L2?
         answer: Only
-          [wstETH](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
-          is supported on Lido on L2. [Get wstETH](https://stake.lido.fi/wrap).
+          [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
+          is supported on Lido on L2. [Get wstETH](https://{{ethereum_stake}}/wrap).
       - question: Is stETH available on L2?
         answer: Currently only wstETH is available on L2 solutions.
       - question: What is the difference between stETH and wstETH?
@@ -237,7 +237,7 @@ categories:
           balances within Lido, which change daily due to staking rewards,
           wstETH maintains a fixed balance and employs an underlying share
           system to reflect staking rewards. Learn more about wstETH
-          [here](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth).
+          [here](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth).
       - question: Do I still receive rewards on my tokens on L2?
         answer: Yes. When using your wstETH on L2s you continue earning staking rewards
           as normal. Rewards are realized when you unwrap or swap wstETH back to
@@ -245,24 +245,24 @@ categories:
       - question: Can I stake directly on L2?
         answer: Direct staking on L2 is not possible yet, but you can get wstETH from
           [DEXes on
-          L2](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
+          L2](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
       - question: How can I bridge wstETH to L2s?
         answer: Lido users can bridge wstETH to various L2s using the provided [bridging
-          guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l2).
+          guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2).
           Also, there are [options for swapping and
-          exchanging](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
+          exchanging](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
           tokens on L2, including wstETH.
       - question: What is the simplest way to get wstETH on L2 if I have ETH in my
           wallet?
-        answer: "[Wrap](https://stake.lido.fi/wrap) your ETH directly to wstETH and then
+        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and then
           bridge your wstETH to your preferred a L2 using the following
           [bridging
-          guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l\
+          guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l\
           2)."
       - question: What DeFi apps support wstETH on L2?
         answer: The various DeFi apps that support wstETH can be found on the [Lido
           Ecosystem
-          page](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
+          page](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
       - question: Can I bridge wstETH from L2 back to Ethereum (L1)?
         answer: Yes, by using canonical bridges or by using the swap options.
       - question: Can I bridge wstETH between different L2s?
@@ -275,7 +275,7 @@ categories:
           applications you choose.
       - question: How can I verify the accuracy of the bridged token address?
         answer: You can check the address with [Lido on L2 Deployed
-          Contracts](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
+          Contracts](https://{{ethereum_docs}}/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
       - question: Where can I find support or get assistance with Lido on L2?
         answer: You could refer your questions to [Lido
           Discord](https://discord.com/invite/lido) or in the [Telegram
@@ -327,7 +327,7 @@ categories:
       - question: How to apply to be a Node Operator for Lido?
         answer: You could explore the requirements to be considered and apply to be a
           Node Operator to use Lido protocols on [Node Operator
-          Portal](https://operatorportal.lido.fi/apply-to-be-a-lido-node-operator).
+          Portal](https://{{operatorportal}}/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
       - question: Is it safe to work with Lido DAO?
@@ -378,8 +378,8 @@ categories:
           * [Lido on Polygon](https://{{polygon_docs}}/)
       - question: Where can I get info about Lido integrations?
         answer: All info about Lido integrations you can find in [Help
-          Center](https://help.lido.fi/en/) or on the [Lido Ecosystem
-          page](https://lido.fi/lido-ecosystem).
+          Center](https://{{help}}/en/) or on the [Lido Ecosystem
+          page](https://{{landing}}/lido-ecosystem).
       - question: Where can I go to join Lido DAO’s community?
         answer: >-
           * Follow on [Twitter](https://twitter.com/lidofinance).
@@ -398,5 +398,5 @@ categories:
           can be a participant in Lido Ecosystem Grants Organization. If you're
           improving the ecosystem or creating general awareness about Ethereum,
           PoS, and DeFi and have a solid plan on how to meet your goals, [here
-          is the info](https://lido.fi/lego) for you.
+          is the info](https://{{landing}}/lego) for you.
 ---
