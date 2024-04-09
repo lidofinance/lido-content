@@ -67,12 +67,14 @@ categories:
           communicates the position of the share daily.
       - question: How can I get stETH?
         answer: You can get stETH many ways, including interacting with the smart
-          contract directly. Yet, it is much easier to use a [Lido Ethereum
-          staking widget](https://{{ethereum_stake}}/) or in other [DEX Lido
-          integrations](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Get).
+          contract directly. Yet, it is much easier to use a [Lido Ethereum
+          staking widget](https://stake.lido.fi/), stake directly with [Ledger
+          cold wallet](https://www.ledger.com/staking-ethereum) or in other [DEX
+          Lido
+          integrations](https://lido.fi/lido-ecosystem?tokens=steth&criteria=and&categories=get).
       - question: How can I use stETH?
-        answer: You can use your stETH as collateral, for lending,
-          and [more](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Earn).
+        answer: You can use your stETH [across
+          DeFi](https://lido.fi/lido-ecosystem?tokens=stETH&categories=Earn).
       - question: How can I unstake stETH?
         answer: You can use our [Withdrawals Request and Claim
           tabs](https://{{ethereum_stake}}/withdrawals) to unstake stETH and receive
@@ -210,6 +212,74 @@ categories:
           Lido on Polygon protocol takes from the native Polygon staking APR,
           which can be
           seen [here](https://staking.polygon.technology/rewards-calculator).
+  - name: Lido on L2
+    q&a:
+      - question: What is Lido on L2?
+        answer: "[Lido on L2](https://lido.fi/lido-on-l2) extends the use of your
+          stTokens across L2 networks. By bridging to L2, users can benefit from
+          reduced gas fees across various DeFi integrations."
+      - question: What are the advantages of L2?
+        answer: The main aim of [L2’s](https://ethereum.org/layer-2) is to expand
+          Ethereum’s scalability and offer users lower gas fees. With higher
+          transactions per second, lower fees, and new technology, users can
+          navigate across new applications with an improved user experience.
+      - question: Which L2 solutions are supported within Lido on L2?
+        answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
+          Era, Polygon PoS, Mantle, Linea and Scroll.
+      - question: What tokens are supported on Lido on L2?
+        answer: Only
+          [wstETH](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
+          is supported on Lido on L2. [Get wstETH](https://stake.lido.fi/wrap).
+      - question: Is stETH available on L2?
+        answer: Currently only wstETH is available on L2 solutions.
+      - question: What is the difference between stETH and wstETH?
+        answer: wstETH is a wrapped version of stETH. Due to the dynamic nature of stETH
+          balances within Lido, which change daily due to staking rewards,
+          wstETH maintains a fixed balance and employs an underlying share
+          system to reflect staking rewards. Learn more about wstETH
+          [here](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth).
+      - question: Do I still receive rewards on my tokens on L2?
+        answer: Yes. When using your wstETH on L2s you continue earning staking rewards
+          as normal. Rewards are realized when you unwrap or swap wstETH back to
+          stETH or ETH.
+      - question: Can I stake directly on L2?
+        answer: Direct staking on L2 is not possible yet, but you can get wstETH from
+          [DEXes on
+          L2](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
+      - question: How can I bridge wstETH to L2s?
+        answer: Lido users can bridge wstETH to various L2s using the provided [bridging
+          guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l2).
+          Also, there are [options for swapping and
+          exchanging](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
+          tokens on L2, including wstETH.
+      - question: What is the simplest way to get wstETH on L2 if I have ETH in my
+          wallet?
+        answer: "[Wrap](https://stake.lido.fi/wrap) your ETH directly to wstETH and then
+          bridge your wstETH to your preferred a L2 using the following
+          [bridging
+          guides](https://help.lido.fi/en/collections/3641672-lido-on-layer-2-l\
+          2)."
+      - question: What DeFi apps support wstETH on L2?
+        answer: The various DeFi apps that support wstETH can be found on the [Lido
+          Ecosystem
+          page](https://lido.fi/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
+      - question: Can I bridge wstETH from L2 back to Ethereum (L1)?
+        answer: Yes, by using canonical bridges or by using the swap options.
+      - question: Can I bridge wstETH between different L2s?
+        answer: You can bridge wstETH from L2 to L2 using canonical bridges or via 3rd
+          party cross-chain transfers like
+          [portalbridge.com](http://portalbridge.com).
+      - question: Are there any risks associated with using wstETH on L2?
+        answer: There are a number of risks associated with interacting with DeFi
+          protocols. Make sure to read up on the various bridges, networks, and
+          applications you choose.
+      - question: How can I verify the accuracy of the bridged token address?
+        answer: You can check the address with [Lido on L2 Deployed
+          Contracts](https://docs.lido.fi/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
+      - question: Where can I find support or get assistance with Lido on L2?
+        answer: You could refer your questions to [Lido
+          Discord](https://discord.com/invite/lido) or in the [Telegram
+          chat](https://t.me/lidofinance).
   - name: Lido DAO
     q&a:
       - question: What is DAO?
@@ -256,8 +326,8 @@ categories:
           [Learn more](https://{{operatorportal}}/)
       - question: How to apply to be a Node Operator for Lido?
         answer: You could explore the requirements to be considered and apply to be a
-          Node Operator to use Lido protocols on our [Node Operator
-          Portal](https://{{operatorportal}}/apply-to-be-a-lido-node-operator).
+          Node Operator to use Lido protocols on [Node Operator
+          Portal](https://operatorportal.lido.fi/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
       - question: Is it safe to work with Lido DAO?
@@ -285,12 +355,12 @@ categories:
           * **Slashing risk**\
             Validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimize this risk, Lido stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of self-coverage.
           * **stToken price risk**\
-            Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
+            Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
 
-          The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist.
+          The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist.
       - question: Have the protocols been audited?
         answer: Lido DAO codebase has been audited by industry leaders in blockchain
-          security. You can find the list of our
+          security. You can find the list of
           audits [here](https://github.com/lidofinance/audits) with code review
           reports.
       - question: Does Lido DAO have a Bug Bounty program?
@@ -307,14 +377,14 @@ categories:
 
           * [Lido on Polygon](https://{{polygon_docs}}/)
       - question: Where can I get info about Lido integrations?
-        answer: All info about Lido integrations you can find in our [Help
-          Center](https://{{help}}/en/) or on the [Lido Ecosystem
-          page](https://{{landing}}/lido-ecosystem).
+        answer: All info about Lido integrations you can find in [Help
+          Center](https://help.lido.fi/en/) or on the [Lido Ecosystem
+          page](https://lido.fi/lido-ecosystem).
       - question: Where can I go to join Lido DAO’s community?
         answer: >-
-          * Follow us on [Twitter](https://twitter.com/lidofinance).
+          * Follow on [Twitter](https://twitter.com/lidofinance).
 
-          * Join our [Telegram](https://t.me/lidofinance).
+          * Join [Telegram](https://t.me/lidofinance).
 
           * Ask questions in [Discord](https://discord.com/invite/lido).
 
@@ -325,8 +395,8 @@ categories:
           * Stay updated through the [Research forum](https://{{research}}/).
       - question: How can I become a partner with Lido DAO?
         answer: Any blockchain developer, crypto enthusiast, or member of the community
-          can be a participant in our Lido Ecosystem Grants Organization. If
-          you're improving the ecosystem or creating general awareness about
-          Ethereum, PoS, and DeFi and have a solid plan on how to meet your
-          goals, [here is the info](https://{{landing}}/lego) for you.
+          can be a participant in Lido Ecosystem Grants Organization. If you're
+          improving the ecosystem or creating general awareness about Ethereum,
+          PoS, and DeFi and have a solid plan on how to meet your goals, [here
+          is the info](https://lido.fi/lego) for you.
 ---
