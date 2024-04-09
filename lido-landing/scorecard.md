@@ -15,7 +15,7 @@ As the Protocol specification and related technologies evolve, the commitment to
 
 The scorecard below shows how the Lido ecosystem is doing. Feedback from everyone is welcome on the [research forum](https://research.lido.fi/).
 
-## **Already succeeded**
+## Already succeeded
 
 :::scorecard-table
 rows:
