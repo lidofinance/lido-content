@@ -26,13 +26,13 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'
-      
+
       - name: Install dependencies
         run: yarn --immutable
 
       - name: Run checks
         run: |
-          set -e 
+          set -e
 
           echo Check format...
           yarn format
@@ -40,4 +40,4 @@ jobs:
           echo Checking explicit domain usage
           ./scripts/check-domain-agnostic.mjs
 
-          set +e 
+          set +e
