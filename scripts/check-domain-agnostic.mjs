@@ -80,7 +80,13 @@ const checkVariablesUsage = (content) => {
 };
 
 const main = async () => {
-  const pages = await glob(["lido-landing/faq.md"]);
+  const pages = await glob([
+    "lido-landing/audits.md",
+    "lido-landing/faq.md",
+    "lido-landing/scorecard.md",
+    "lido-landing/termsOfUse.md",
+    "lido-landing/l2-audits.md",
+  ]);
 
   let errors = false;
   await Promise.all(

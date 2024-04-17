@@ -13,7 +13,7 @@ And the endgame is a world in which Ethereum is the co-ordination and value laye
 
 As the Protocol specification and related technologies evolve, the commitment to achieving a vision of trustless, governance-minimized, and ethos-aligned liquid staking remains steadfast.
 
-The scorecard below shows how the Lido ecosystem is doing. Feedback from everyone is welcome on the [research forum](https://research.lido.fi/).
+The scorecard below shows how the Lido ecosystem is doing. Feedback from everyone is welcome on the [research forum](https://{{research}}/).
 
 ## Already succeeded
 
@@ -32,7 +32,7 @@ rows:
   - scorecard-attribute: "Withdrawal requests are automatically fulfilled"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "The Lido protocol has a [subsystem](https://docs.lido.fi/contracts/withdrawal-queue-erc721#what-is-withdrawalqueueerc721) which can self-execute withdrawals with no human participation, apart from requiring Node Operators to maintain tooling (their own or [open-source alternatives](https://github.com/lidofinance/validator-ejector/)) to process requests (semi-)automatically. This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic tail-risk scenarios. The total volume of withdrawals processed since May (withdrawals implementation) can be found on the [dedicated Dune dashboard](https://dune.com/embeds/2475364/4072036)."
+    comments: "The Lido protocol has a [subsystem](https://{{ethereum_docs}}/contracts/withdrawal-queue-erc721#what-is-withdrawalqueueerc721) which can self-execute withdrawals with no human participation, apart from requiring Node Operators to maintain tooling (their own or [open-source alternatives](https://github.com/lidofinance/validator-ejector/)) to process requests (semi-)automatically. This subsystem ensures withdrawal requests can’t be cancelled (within a bounded period of time) and is designed to work even during chaotic tail-risk scenarios. The total volume of withdrawals processed since May (withdrawals implementation) can be found on the [dedicated Dune dashboard](https://dune.com/embeds/2475364/4072036)."
   - scorecard-attribute: "No operator has more than 1% of the total stake"
     categories: "Validator set"
     self-assessment: "Good"
@@ -74,7 +74,7 @@ rows:
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As at Q4/2023, Node Operators using the Lido protocol utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Although Execution Layer diversity steadily improved as a result of Node Operator and Onboarding waves, and [remarkably improved in 2023](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=b8ea4c12-60eb-4a2d-a481-76006073f8c1), there is still progress to be made to make the network resilient to potential supermajority EL client bugs. [Node Operators have committed](https://research.lido.fi/t/ethereum-node-operator-el-diversity-improvement-commitments/6459) to further reducing majority EL client usage within 2024."
+    comments: "As at Q4/2023, Node Operators using the Lido protocol utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Although Execution Layer diversity steadily improved as a result of Node Operator and Onboarding waves, and [remarkably improved in 2023](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=b8ea4c12-60eb-4a2d-a481-76006073f8c1), there is still progress to be made to make the network resilient to potential supermajority EL client bugs. [Node Operators have committed](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459) to further reducing majority EL client usage within 2024."
   - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
     categories: "Validator set"
     self-assessment: "Okay"
@@ -82,7 +82,7 @@ rows:
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance proposed](https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727). It gives stakers ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. Onchain vote to deploy expected in Q3/Q4 2024."
+    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance proposed](https://{{research}}/t/ldo-steth-dual-governance-continuation/5727). It gives stakers ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. Onchain vote to deploy expected in Q3/Q4 2024."
 :::
 
 ## Needs Improvement
@@ -111,5 +111,5 @@ rows:
   - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
     categories: "Validator set"
     self-assessment: "Needs improvement"
-    comments: "Lido V2’s [Staking Router](https://blog.lido.fi/introducing-lido-v2/#overview) is a controller contract which paves the way for permissionless operators to join Lido’s validator set. The first permissionless module called [CSM](https://research.lido.fi/t/community-staking-module/5917) is planned to be proposed to on-chain vote by the end of 2024."
+    comments: "Lido V2’s [Staking Router](https://{{blog}}/introducing-lido-v2/#overview) is a controller contract which paves the way for permissionless operators to join Lido’s validator set. The first permissionless module called [CSM](https://{{research}}/t/community-staking-module/5917) is planned to be proposed to on-chain vote by the end of 2024."
 :::
