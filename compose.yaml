@@ -1,0 +1,10 @@
+services:
+  lido-content:
+    build: .
+    ports:
+      - "${PORT:-3000}:3000"
+    develop:
+      watch:
+        - action: rebuild
+          path: .
+          target: ./
