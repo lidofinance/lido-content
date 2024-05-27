@@ -50,119 +50,152 @@ categories:
           page](https://{{landing}}/#networks).
       - question: Where can I use stTokens?
         answer: stTokens can be used across a growing Ecosystem. [Explore apps and
-          services](https://{{landing}}/lido-ecosystem) integrated with stTokens.
+          services](https://{{landing}}/lido-ecosystem) integrated with
+          stTokens.
   - name: Ethereum
     q&a:
       - question: What is Lido on Ethereum?
-        answer: "The Lido on Ethereum protocol is a liquid-staking protocol for ETH. The
-          protocol overcomes problems associated with native ETH staking namely:
-          illiquidity, accessibility, and dealing with hardware. This is
-          achieved by tokenizing stake, removing the entry barrier of 32 ETH,
-          and routing user stake with validator keys supplied by operators while
-          enhancing Ethereum decentralization."
+        answer: The Lido on Ethereum is a leading liquid staking middleware solution
+          specifically designed for the Ethereum network. It allows users to
+          stake their ETH and mint stETH tokens in return, reflecting their
+          staked ETH. This solution enables users to maintain liquidity and
+          freely trade or utilize their tokens while still participating in
+          staking and receiving staking rewards.
       - question: What is stETH?
-        answer: stETH is a transferable rebasing utility token representing a share of
-          the total ETH staked through the protocol, which consists of user
-          deposits and staking rewards. Because stETH rebases daily, it
-          communicates the position of the share daily.
+        answer: stETH is a rebasing liquid staking token (LST) that serves as a
+          depiction of a user's portion of the total ETH staked through the
+          middleware, including both staked tokens and network rewards.
+      - question: Why is stETH a rebasing token?
+        answer: stETH is a rebasing token because its supply is adjusted on a daily
+          basis to accurately reflect the amount of ETH staked through the Lido
+          middleware and any accrued rewards and/or slashing events that might
+          have occurred. To maintain transparency and ensure each user's stETH
+          accurately represents their proportionate participation, a daily
+          rebasing mechanism is employed.
       - question: How can I get stETH?
-        answer: You can get stETH many ways, including interacting with the smart
-          contract directly. Yet, it is much easier to use a [Lido Ethereum
-          staking widget](https://{{ethereum_stake}}/), stake directly with [Ledger
-          cold wallet](https://www.ledger.com/staking-ethereum) or in other [DEX
-          Lido
-          integrations](https://{{landing}}/lido-ecosystem?tokens=steth&criteria=and&categories=get).
+        answer: >-
+          There are two primary methods to get stETH:
+
+
+          * Stake through the Lido middleware: You can participate in staking by depositing your ETH through the [Lido middleware]({{ethereum_stake_url}}) and mint stETH in return.
+
+          * Through exchanges: stETH can be bought, sold or exchanged for other tokens on various centralised and decentralised exchanges. For example: you can exchange other cryptocurrencies like USDC for stETH on Uniswap.
       - question: How can I use stETH?
-        answer: You can use your stETH [across
-          DeFi](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Earn).
+        answer: stETH can be utilized within an expanding ecosystem of blockchains,
+          enabling integrations with a wide range of [DApps and
+          Services]({{landing_url}}/lido-ecosystem). By exploring these
+          integrations, users can unlock the functionality and benefits of stETH
+          across different protocols and applications.
       - question: How can I unstake stETH?
-        answer: You can use our [Withdrawals Request and Claim
-          tabs](https://{{ethereum_stake}}/withdrawals) to unstake stETH and receive
-          ETH at a 1:1 ratio. Also, you can exchange stETH on [DEX Lido
-          integrations](https://{{landing}}/lido-ecosystem?tokens=stETH&categories=Get).
+        answer: To unstake stETH and convert it back to ETH, you can initiate the
+          process through the [Withdrawals
+          tab]({{ethereum_stake_url}}/withdrawals/request). After submitting the
+          withdrawal request using the [Request
+          widget]({{ethereum_stake_url}}/withdrawals/request), which typically
+          takes 1 to 5 days to process, you can claim your ETH at a 1:1 ratio
+          using the [Claim widget]({{ethereum_stake_url}}/withdrawals/claim).
+          Alternatively, you have the option to immediately exchange stETH for
+          ETH on exchanges supporting the token.
+      - question: How long after requesting a withdrawal can I claim my ETH?
+        answer: After initiating the withdrawal process for stETH and submitting the
+          request through the [Withdrawals
+          tab]({{ethereum_stake_url}}/withdrawals/request), the completion time
+          usually ranges from 1 to 5 days, depending on factors such as the
+          withdrawal size and the existing withdrawal queue. For a more accurate
+          estimate of the waiting time, enter your withdrawal request amount on
+          the [Requests widget]({{ethereum_stake_url}}/withdrawals/request).
+          Alternatively, you have the option to immediately exchange stETH for
+          ETH on supported exchanges.
       - question: What is wstETH?
-        answer: wstETH (wrapped stETH) is a non-rebasing version of stETH, wstETH's
-          price denominated in stETH changes instead. The wstETH balance can
-          only be changed upon transfers, minting, and burning. At any given
-          time, anyone holding wstETH can convert any amount of it to stETH at a
-          fixed rate, and vice versa. Normally, the rate gets updated once a
-          day, when stETH undergoes a rebase.
+        answer: wstETH is a wrapped version of stETH that does not undergo daily
+          rebases. While stETH's token balance changes daily to reflect each
+          user’s portion of the staked ETH and network rewards, wstETH does not
+          change and maintains the same token balance.
+      - question: Why would I hold wstETH over stETH?
+        answer: >-
+          There are two primary reasons to hold wstETH over stETH:
+
+
+          * Compatibility: Certain blockchains, DApps and Services cannot technically support rebasing tokens. In such cases, wstETH offers a suitable alternative that can be utilized within these ecosystems without encountering compatibility issues.
+
+          * Consistent Balance: For users who prefer a consistent token balance without daily rebases, wstETH provides a viable alternative. By holding wstETH, users can participate in staking while maintaining the same token balance.
       - question: How can I get wstETH?
-        answer: You can wrap your stETH or ETH tokens using [Wrap & Unwrap staking
-          widget](https://{{ethereum_stake}}/wrap) or [DEX Lido
-          integrations](https://{{landing}}/lido-ecosystem?tokens=wstETH&categories=Get).
-      - question: How can I use wstETH?
-        answer: wstETH is useful
-          across [L2](https://{{landing}}/lido-ecosystem?networks=arbitrum%2Coptimism) and
-          other [DeFi
-          protocols](https://{{landing}}/lido-ecosystem?tokens=wstETH&categories=Earn),
-          which are based on constant balance tokens.
-      - question: Do I get my staking rewards if I wrap stETH to wstETH?
-        answer: Yes, wrapped stETH gets staking rewards at the same rate as regular
-          stETH. When you keep your stETH in a wrapper, you cannot see your
-          daily staking rewards. However, when you unwrap your wstETH your new
-          stETH balance will have increased relative to the pre-wrapped amount
-          to reflect your received rewards.
+        answer: >-
+          To acquire wstETH, you have two options:
+
+
+          * Wrap stETH or ETH: You can use the [Wrap & Unwrap staking widget]({{ethereum_stake_url}}/wrap?mode=unwrap). This allows you to convert your stETH or ETH into wstETH, effectively wrapping them to obtain the non-rebasing token.
+
+          * Get on exchanges: wstETH can be bought, sold or exchanged for other tokens on various centralised and decentralised exchanges. For example: you can exchange other cryptocurrencies like USDC for wstETH on Uniswap or other exchanges that support it.
+      - question: Do I get my network rewards if I wrap stETH to wstETH?
+        answer: Yes. When you wrap stETH to wstETH, you continue to be able to receive
+          network rewards at the same rate as regular stETH. While holding
+          wstETH, you may not see the daily staking rewards reflected in your
+          token balance. However, once you decide to unwrap wstETH back into
+          stETH, your stETH balance will reflect any network rewards accumulated
+          during the time it was wrapped.
       - question: Do I need to claim my staking rewards if I wrap stETH to wstETH?
-        answer: No, staking rewards accrue to wstETH automatically.
+        answer: No, staking rewards are accumulated automatically.
       - question: How can I unwrap wstETH?
-        answer: You can unwrap your wstETH tokens using [Wrap & Unwrap staking
-          widget](https://{{ethereum_stake}}/wrap?mode=unwrap).
+        answer: You can unwrap your wstETH tokens using [Wrap & Unwrap staking
+          widget]({{ethereum_stake_url}}/wrap?mode=unwrap).
       - question: Do I need to unwrap my wstETH before requesting withdrawals?
-        answer: No, you can transform your wstETH to ETH using the [Withdrawals Request
-          and Claim tabs](https://{{ethereum_stake}}/withdrawals). Note that, under
-          the hood, wstETH will unwrap to stETH first, so your request will be
-          denominated in stETH.
+        answer: No. It is not necessary to unwrap your wstETH before requesting
+          withdrawals. You can directly initiate the withdrawal process using
+          the [Withdrawals Request and Claim
+          tabs]({{ethereum_stake_url}}/withdrawals/request). It is important to
+          note that during the withdrawal process, wstETH will be unwrapped to
+          stETH as part of the underlying mechanism, allowing for a smooth
+          unwrapping and unstaking directly into ETH.
       - question: What is the difference between ETH, stETH, and wstETH?
         answer: >-
-          ETH is Ethereum's native cryptocurrency.
+          ETH is the native token of the Ethereum network.
 
 
-          stETH is a transferable rebasing utility token representing a share of the total ETH staked through the protocol, which consists of user deposits and staking rewards.
+          stETH is a rebasing liquid staking token (LST) that serves as a depiction of a user's portion of the total ETH staked through the middleware and any accrued rewards and/or slashing events that might have occurred.
 
 
-          wstETH (wrapped stETH) is a non-rebasing version of stETH. wstETH for use with specific DeFi applications.
-      - question: What is Lido staking APR for Ethereum?
+          wstETH is a wrapped version of stETH that does not undergo daily rebases. While stETH's token balance changes daily to reflect each user’s portion of the staked ETH and any network rewards or slashing events that might have occurred, wstETH maintains a constant token balance.
+      - question: How are the projected annual network rewards on Ethereum calculated?
         answer: >-
-          Lido staking APR for Ethereum = Protocol APR * (1 - Protocol fee)
+          Network rewards accumulated through usage of the middleware for
+          Ethereum = total amount of those network rewards* (1 - Protocol Fee)
 
 
-          Protocol APR — the overall Consensus Layer (CL) and Execution Layer (EL) rewards received by validators using Lido to total pooled ETH estimated as the moving average of the last seven frames (approximately 7 days) after protocol fee.
+          * Total amount of network rewards accumulated through usage of the middleware  The overall Consensus Layer (CL) and Execution Layer (EL) rewards received by validators utilizing the Lido middleware to total pooled ETH estimated as the moving average of the last seven frames (approximately 7 days) after protocol fee.
+
+          * Protocol Fee: A 10% fee on staking rewards that is split equally between Node Operators and Lido DAO.
 
 
-          Protocol fee — a 10% fee on staking rewards that is split between node operators and the DAO Treasury.
-
-
-          More about Lido Lido staking APR for Ethereum you could find on the [Ethereum landing page](https://{{landing}}/ethereum) and in our [Docs](https://{{ethereum_docs}}/).
+          For more detailed information you can refer to the [Lido Docs]({{ethereum_docs_url}}).
       - question: What is Lido on L2?
-        answer: With Lido protocol, users could bridge wstETH to L2’s like Arbitrum and
-          Optimism to benefit from lower gas fees and other [DeFi
-          opportunities](https://{{help}}/en/articles/6655781-lido-on-l2-an-overview).
-      - question: What is the Insurance fund used for?
-        answer: The [Insurance
-          fund](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35) is
-          not insurance but is the name of the smart contract where stETH tokens
-          are set aside, which could cover some of the estimated slashing risks.
-          Read more about risk
-          scenarios [here](https://{{research}}/t/redirecting-incoming-revenue-stream-from-insurance-fund-to-dao-treasury/2528/20?u=kadmil).
-          In case of a widespread slashing incident, the decision to recover
-          losses from this fund is decided based on the vote of the Lido DAO.
+        answer: Lido on L2 enables users to bridge wstETH to Layer 2 blockchains like
+          Arbitrum and Optimism. By doing so, users can leverage the advantages
+          of lower gas fees and explore DeFi opportunities within these L2
+          ecosystems while still benefiting from the staking rewards of wstETH.
+      - question: What is the Slashing CoverageFund used for?
+        answer: The fund is a smart contract that holds stETH and is designed to address
+          slashing risks related to the Lido middleware participants. It serves
+          as a reserve that could potentially mitigate losses incurred by
+          validators who violate network rules. If a widespread slashing
+          incident occurs, the Lido DAO members vote to determine whether to use
+          the fund to recover some of the losses.
       - question: Where can I cover my stETH?
         answer: >-
-          There are multiple coverage and insurer providers with different
-          products for stETH:
+          There are multiple coverage providers with different products for
+          stETH:
 
+
+          * [Bridge Mutual](https://bridgemutual.io/)
 
           * [Idle Finance](https://idle.finance/)
-
-          * [Nexus Mutual](https://nexusmutual.io/)
 
           * [Ribbon Finance](https://app.ribbon.finance/)
 
           * [Chainproof](https://www.chainproof.co/)
 
 
-          Check with providers for coverage and insurer conditions.
+          Check with providers for coverage and conditions.
   - name: Polygon
     q&a:
       - question: What is Lido on Polygon?
@@ -192,12 +225,13 @@ categories:
           found [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Earn).
       - question: How can I unstake stMATIC?
         answer: stMATIC can be unstaked in several ways, including through [the Lido on
-          Polygon unstake widget](https://{{polygon_stake}}/). The default stMATIC
-          unstaking period takes around 3-4 days to process. After that, users
-          can claim rewards in the [Claim tab](https://{{polygon_stake}}/).
-          Immediate withdrawal options are available through liquidity pools on
-          AMM protocols and other DEXs where stMATIC can be exchanged for MATIC
-          to exit staking. You could explore opportunities for
+          Polygon unstake widget](https://{{polygon_stake}}/). The default
+          stMATIC unstaking period takes around 3-4 days to process. After that,
+          users can claim rewards in the [Claim
+          tab](https://{{polygon_stake}}/). Immediate withdrawal options are
+          available through liquidity pools on AMM protocols and other DEXs
+          where stMATIC can be exchanged for MATIC to exit staking. You could
+          explore opportunities for
           exchanges [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Get).
       - question: What is the difference between MATIC and stMATIC?
         answer: >-
@@ -229,7 +263,8 @@ categories:
       - question: What tokens are supported on Lido on L2?
         answer: Only
           [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
-          is supported on Lido on L2. [Get wstETH](https://{{ethereum_stake}}/wrap).
+          is supported on Lido on L2. [Get
+          wstETH](https://{{ethereum_stake}}/wrap).
       - question: Is stETH available on L2?
         answer: Currently only wstETH is available on L2 solutions.
       - question: What is the difference between stETH and wstETH?
@@ -254,11 +289,10 @@ categories:
           tokens on L2, including wstETH.
       - question: What is the simplest way to get wstETH on L2 if I have ETH in my
           wallet?
-        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and then
-          bridge your wstETH to your preferred a L2 using the following
+        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and
+          then bridge your wstETH to your preferred a L2 using the following
           [bridging
-          guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l\
-          2)."
+          guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2)."
       - question: What DeFi apps support wstETH on L2?
         answer: The various DeFi apps that support wstETH can be found on the [Lido
           Ecosystem
