@@ -14,7 +14,7 @@ vaultsList:
     hide: false
     urgent: false
   - id: 852cbad4-ffeb-4021-895c-664babf3b022
-    name: Re7 Capital
+    name: Re7 Labs
     hide: false
     urgent: false
 ---
