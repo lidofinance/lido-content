@@ -60,7 +60,7 @@ rows:
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "As at Q4/2023, Node Operators using the Lido protocol continue to utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Execution Layer diversity significantly improved as a result of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{research}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459). Geth usage is currently at 46% over the curated set."
+    comments: "As at Q4/2023, Node Operators using the Lido protocol continue to utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Execution Layer diversity significantly improved as a result of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459). Geth usage is currently at 46% over the curated set."
 :::
 
 ## Doing well, but can improve
