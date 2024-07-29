@@ -74,7 +74,7 @@ rows:
   - scorecard-attribute: "Best practices in security and key management"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "In the Curated Operator module, keys are managed by professional node operators. **[As of the Q1/24, 25.2% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)** utilize Attestant’s Vouch CL client. While Vouch utilization does not directly correlate to usage of Attestants Dirk key manager that includes threshold signing, it is roughly indicative. In the Simple DVT Module, participants utilize Obol and SSV Network based DVT. All validator keys are created through a Distributed Key Generation process, with no single Node Operator controlling a full private key at any point of their existence."
+    comments: "In the Curated Operator module, keys are managed by professional node operators. [As of the Q1/24, 25.2% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest) utilize Attestant’s Vouch CL client. While Vouch utilization does not directly correlate to usage of Attestants Dirk key manager that includes threshold signing, it is roughly indicative. In the Simple DVT Module, participants utilize Obol and SSV Network based DVT. All validator keys are created through a Distributed Key Generation process, with no single Node Operator controlling a full private key at any point of their existence."
   - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
     categories: "Validator set"
     self-assessment: "Okay"
