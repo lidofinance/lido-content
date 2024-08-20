@@ -416,7 +416,7 @@ categories:
           page](https://{{landing}}/lido-ecosystem).
       - question: Where can I go to join Lido DAO’s community?
         answer: >-
-          * Follow on [Twitter](https://twitter.com/lidofinance).
+          * Follow on [X](https://x.com/lidofinance).
 
           * Join [Telegram](https://t.me/lidofinance).
 
