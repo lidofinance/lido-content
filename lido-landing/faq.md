@@ -168,11 +168,12 @@ categories:
 
 
           For more detailed information you can refer to the [Lido Docs]({{ethereum_docs_url}}).
-      - question: What is Lido on L2?
-        answer: Lido on L2 enables users to bridge wstETH to Layer 2 blockchains like
-          Arbitrum and Optimism. By doing so, users can leverage the advantages
-          of lower gas fees and explore DeFi opportunities within these L2
-          ecosystems while still benefiting from the staking rewards of wstETH.
+      - question: What is Lido Multichain?
+        answer: Lido Multichain lets users bridge their wstETH to a number of unique
+          networks including Arbitrum, Optimism, zkSync, BNB Chain and many
+          more. By doing so, users can benefit from lower gas fees and unique
+          DeFi opportunities across these ecosystems while continuing to benefit
+          from the staking rewards of wstETH.
       - question: What is the Slashing CoverageFund used for?
         answer: The fund is a smart contract that holds stETH and is designed to address
           slashing risks related to the Lido middleware participants. It serves
@@ -246,74 +247,71 @@ categories:
           Lido on Polygon protocol takes from the native Polygon staking APR,
           which can be
           seen [here](https://staking.polygon.technology/rewards-calculator).
-  - name: Lido on L2
+  - name: Lido Multichain
     q&a:
-      - question: What is Lido on L2?
-        answer: "[Lido on L2](https://{{landing}}/lido-on-l2) extends the use of your
-          stTokens across L2 networks. By bridging to L2, users can benefit from
-          reduced gas fees across various DeFi integrations."
-      - question: What are the advantages of L2?
-        answer: The main aim of [L2’s](https://ethereum.org/layer-2) is to expand
-          Ethereum’s scalability and offer users lower gas fees. With higher
-          transactions per second, lower fees, and new technology, users can
-          navigate across new applications with an improved user experience.
-      - question: Which L2 solutions are supported within Lido on L2?
+      - question: What is Lido Multichain?
+        answer: "[Lido Multichain](https://{{landing}}/lido-multichain) extends the use
+          of your staked tokens across chains other than Ethereum. By bridging
+          to other chains, stakers can benefit from lower fees, faster speeds
+          and unique DeFi opportunities."
+      - question: Which chains are supported with Lido Multichain?
         answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
-          Era, Polygon PoS, Mantle, Linea and Scroll.
-      - question: What tokens are supported on Lido on L2?
+          Era, Polygon PoS, Mantle, Linea, Scroll and BNB Chain.
+      - question: What tokens are supported on Lido Multichain?
         answer: Only
           [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
-          is supported on Lido on L2. [Get
-          wstETH](https://{{ethereum_stake}}/wrap).
-      - question: Is stETH available on L2?
-        answer: Currently only wstETH is available on L2 solutions.
+          is supported on Lido Multichain. [Get wstETH
+          here](https://{{ethereum_stake_url}}/wrap).
+      - question: Is stETH available on other chains?
+        answer: Currently only wstETH is available on other chains.
       - question: What is the difference between stETH and wstETH?
         answer: wstETH is a wrapped version of stETH. Due to the dynamic nature of stETH
           balances within Lido, which change daily due to staking rewards,
           wstETH maintains a fixed balance and employs an underlying share
           system to reflect staking rewards. Learn more about wstETH
           [here](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth).
-      - question: Do I still receive rewards on my tokens on L2?
-        answer: Yes. When using your wstETH on L2s you continue earning staking rewards
-          as normal. Rewards are realized when you unwrap or swap wstETH back to
-          stETH or ETH.
-      - question: Can I stake directly on L2?
-        answer: Direct staking on L2 is not possible yet, but you can get wstETH from
-          [DEXes on
-          L2](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get).
-      - question: How can I bridge wstETH to L2s?
-        answer: Lido users can bridge wstETH to various L2s using the provided [bridging
+      - question: Do I still receive rewards on my tokens on other chains?
+        answer: Yes. When using your wstETH on other chains separate from Ethereum you
+          continue earning staking rewards as normal. Rewards are realized when
+          you unwrap or swap wstETH back to stETH or ETH.
+      - question: Can I stake directly on other chains?
+        answer: Direct staking on other chains is not possible yet, but you can get
+          wstETH from
+          [DEXes](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
+          on new chains.
+      - question: How can I bridge wstETH to other chains?
+        answer: Lido users can bridge wstETH to supported chains using the provided
+          [bridging
           guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2).
           Also, there are [options for swapping and
-          exchanging](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
-          tokens on L2, including wstETH.
-      - question: What is the simplest way to get wstETH on L2 if I have ETH in my
-          wallet?
-        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and
-          then bridge your wstETH to your preferred a L2 using the following
-          [bridging
+          exchanging](https://{{landing}}//lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
+          tokens on other chains, including wstETH.
+      - question: What is the simplest way to get wstETH on other chains if I have ETH
+          in my wallet?
+        answer: "[Wrap](https://{{ethereum_stake_url}}/wrap) your ETH directly to wstETH
+          and then bridge your wstETH to your preferred chain using the
+          following [bridging
           guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2)."
-      - question: What DeFi apps support wstETH on L2?
-        answer: The various DeFi apps that support wstETH can be found on the [Lido
-          Ecosystem
+      - question: What DeFi apps support wstETH on other chains?
+        answer: The various chains and DeFi apps that support Lido’s wstETH can be found
+          on the [Lido Ecosystem
           page](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
-      - question: Can I bridge wstETH from L2 back to Ethereum (L1)?
+      - question: Can I bridge wstETH from other chains back to Ethereum?
         answer: Yes, by using canonical bridges or by using the swap options.
-      - question: Can I bridge wstETH between different L2s?
-        answer: You can bridge wstETH from L2 to L2 using canonical bridges or via 3rd
-          party cross-chain transfers like
-          [portalbridge.com](http://portalbridge.com).
-      - question: Are there any risks associated with using wstETH on L2?
-        answer: There are a number of risks associated with interacting with DeFi
-          protocols. Make sure to read up on the various bridges, networks, and
-          applications you choose.
+      - question: Can I bridge wstETH between different chains?
+        answer: You can bridge wstETH from different chains using canonical bridges or
+          using 3rd party cross-chain bridges like
+          [portalbridge.com](http://portalbridge.com/).
+      - question: Are there any risks associated with using wstETH on other chains?
+        answer: There are a number of risks associated with interacting with new chains
+          and DeFi protocols. Make sure to read up on the various bridges,
+          networks and applications prior to bridging.
       - question: How can I verify the accuracy of the bridged token address?
-        answer: You can check the address with [Lido on L2 Deployed
-          Contracts](https://{{ethereum_docs}}/deployed-contracts/?pk_vid=d574ab4ffd7a04221706101159885f52#lido-on-l2).
-      - question: Where can I find support or get assistance with Lido on L2?
-        answer: You could refer your questions to [Lido
-          Discord](https://discord.com/invite/lido) or in the [Telegram
-          chat](https://t.me/lidofinance).
+        answer: You can check the address with [Lido Multichain Deployed
+          Contracts](https://{{ethereum_docs_url}}/deployed-contracts/#lido-multichain).
+      - question: Where can I find support or get assistance with Lido Multichain?
+        answer: Stop by the [Lido Discord](https://discord.com/invite/lido) or [Telegram
+          chat](https://t.me/lidofinance) in case of any questions.
   - name: Lido DAO
     q&a:
       - question: What is DAO?
