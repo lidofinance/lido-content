@@ -272,7 +272,7 @@ categories:
           [here](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth).
       - question: Do I still receive rewards on my tokens on other chains?
         answer: Yes. When using your wstETH on other chains separate from Ethereum you
-          continue earning staking rewards as normal. Rewards are realized when
+          continue getting staking rewards as normal. Rewards are realized when
           you unwrap or swap wstETH back to stETH or ETH.
       - question: Can I stake directly on other chains?
         answer: Direct staking on other chains is not possible yet, but you can get
