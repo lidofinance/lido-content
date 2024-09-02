@@ -261,7 +261,7 @@ categories:
         answer: Only
           [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
           is supported on Lido Multichain. [Get wstETH
-          here](https://{{ethereum_stake_url}}/wrap).
+          here](https://{{ethereum_stake}}/wrap).
       - question: Is stETH available on other chains?
         answer: Currently only wstETH is available on other chains.
       - question: What is the difference between stETH and wstETH?
