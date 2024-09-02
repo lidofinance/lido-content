@@ -284,13 +284,13 @@ categories:
           [bridging
           guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2).
           Also, there are [options for swapping and
-          exchanging](https://{{landing}}//lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
+          exchanging](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
           tokens on other chains, including wstETH.
       - question: What is the simplest way to get wstETH on other chains if I have ETH
           in my wallet?
-        answer: "[Wrap](https://{{ethereum_stake_url}}/wrap) your ETH directly to wstETH
-          and then bridge your wstETH to your preferred chain using the
-          following [bridging
+        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and
+          then bridge your wstETH to your preferred chain using the following
+          [bridging
           guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2)."
       - question: What DeFi apps support wstETH on other chains?
         answer: The various chains and DeFi apps that support Lido’s wstETH can be found
@@ -301,14 +301,14 @@ categories:
       - question: Can I bridge wstETH between different chains?
         answer: You can bridge wstETH from different chains using canonical bridges or
           using 3rd party cross-chain bridges like
-          [portalbridge.com](http://portalbridge.com/).
+          [portalbridge.com](https://portalbridge.com/).
       - question: Are there any risks associated with using wstETH on other chains?
         answer: There are a number of risks associated with interacting with new chains
           and DeFi protocols. Make sure to read up on the various bridges,
           networks and applications prior to bridging.
       - question: How can I verify the accuracy of the bridged token address?
         answer: You can check the address with [Lido Multichain Deployed
-          Contracts](https://{{ethereum_docs_url}}/deployed-contracts/#lido-multichain).
+          Contracts](https://{{ethereum_docs}}/deployed-contracts/#lido-multichain).
       - question: Where can I find support or get assistance with Lido Multichain?
         answer: Stop by the [Lido Discord](https://discord.com/invite/lido) or [Telegram
           chat](https://t.me/lidofinance) in case of any questions.
