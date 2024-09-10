@@ -256,7 +256,7 @@ categories:
           and unique DeFi opportunities."
       - question: Which chains are supported with Lido Multichain?
         answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
-          Era, Polygon PoS, Mantle, Linea, Scroll and BNB Chain.
+          Era, Polygon PoS, Mantle, Linea, Scroll, BNB Chain and Mode.
       - question: What tokens are supported on Lido Multichain?
         answer: Only
           [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
