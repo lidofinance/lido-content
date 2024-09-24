@@ -61,6 +61,10 @@ rows:
     categories: "Validator set"
     self-assessment: "Good"
     comments: "As at Q4/2023, Node Operators using the Lido protocol continue to utilize a [well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity) in aggregate. Execution Layer diversity significantly improved as a result of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459). Geth usage is currently at 46% over the curated set."
+  - scorecard-attribute: "Delegation is enabled in on-chain governance"
+    categories: "Governance"
+    self-assessment: "Good"
+    comments: "The delegation is enabled on both voting platforms the Lido DAO uses: Snapshot and Aragon"
 :::
 
 ## Doing well, but can improve
@@ -83,6 +87,10 @@ rows:
     categories: "Validator set"
     self-assessment: "Okay"
     comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance proposed](https://{{research}}/t/ldo-steth-dual-governance-continuation/5727). It gives stakers ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. Onchain vote to deploy expected in Q4 2024."
+  - scorecard-attribute: "There’s a robust set of governance delegates"
+    categories: "Governance"
+    self-assessment: "Okay"
+    comments: "The Delegate platform is set up with 36 applications listed for the first round of Delegate Incentivization Program. The delegates applied show different viewpoints and expertize. The potential improvements account for the more voting power getting delegated to the public delegates."
 :::
 
 ## Needs Improvement
@@ -96,14 +104,6 @@ rows:
     categories: "Governance"
     self-assessment: "Needs improvement"
     comments: "The governance process includes 3 steps: discussion, off-chain vote, and on-chain execution which make all changes publicly socialized before implementation.\\\nA two-step Aragon voting is used with objection periods, where only 'against' votes are possible in the second phase.\\\nCurrently, operators act as a check on LDO power since they cannot be forced to exit.\\\n[Dual governance](https://hackmd.io/@skozin/SJdSE51Ep) allows stakers to withdraw their Eth in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. Onchain vote to deploy expected in Q4 2024."
-  - scorecard-attribute: "There’s a robust set of governance delegates"
-    comments: "Currently, delegation is supported only via Snapshot, with an on-chain feature slated for launch in August 2024. After addressing technical challenges, an open delegation framework to diversify governance participation is planned to propose."
-    categories: "Governance"
-    self-assessment: "Needs improvement"
-  - scorecard-attribute: "Delegation is enabled in on-chain governance"
-    categories: "Governance"
-    self-assessment: "Needs improvement"
-    comments: "Delegation is currently only enabled on Snapshot. However, [the proposal for the development and launch of on-chain delegation has reached quorum](https://snapshot.org/#/lido-snapshot.eth/proposal/0x8ad1089720d2fd68cc49b74e138915af7fec35a06b04c2af2fcf4828d5bbd220), and an Aragon vote to activate on-chain delegation is expected in August 2024."
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
