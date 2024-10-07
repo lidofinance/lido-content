@@ -149,13 +149,11 @@ categories:
           unwrapping and unstaking directly into ETH.
       - question: What is the difference between ETH, stETH, and wstETH?
         answer: >-
-          ETH is the native token of the Ethereum network.
+          * ETH is the native token of the Ethereum network.
 
+          * stETH is a rebasing liquid staking token (LST) that serves as a depiction of a user's portion of the total ETH staked through the middleware and any accrued rewards and/or slashing events that might have occurred.
 
-          stETH is a rebasing liquid staking token (LST) that serves as a depiction of a user's portion of the total ETH staked through the middleware and any accrued rewards and/or slashing events that might have occurred.
-
-
-          wstETH is a wrapped version of stETH that does not undergo daily rebases. While stETH's token balance changes daily to reflect each user’s portion of the staked ETH and any network rewards or slashing events that might have occurred, wstETH maintains a constant token balance.
+          * wstETH is a wrapped version of stETH that does not undergo daily rebases. While stETH's token balance changes daily to reflect each user’s portion of the staked ETH and any network rewards or slashing events that might have occurred, wstETH maintains a constant token balance.
       - question: How are the projected annual network rewards on Ethereum calculated?
         answer: >-
           Network rewards accumulated through usage of the middleware for
