@@ -10,5 +10,7 @@ categories:
   - e1e552f6-ff37-4185-a33f-4230cd45d7ff
 networks:
   - 85d2c16e-7a34-4a16-8996-304b6673c6d0
+  - 6d3159e0-0362-4a60-ab98-e5f16985d2f3
+  - a356a8a1-7186-4080-b7fb-8fe383a5df95
 ready: true
 ---
