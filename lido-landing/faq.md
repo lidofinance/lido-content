@@ -251,56 +251,54 @@ categories:
         answer: "[Lido Multichain](https://{{landing}}/lido-multichain) extends the use
           of your staked tokens across chains other than Ethereum. By bridging
           to other chains, stakers can benefit from lower fees, faster speeds
-          and unique DeFi opportunities."
-      - question: Which chains are supported with Lido Multichain?
-        answer: Currently, wstETH can be used across Arbitrum, Optimism, Base, zkSync
-          Era, Polygon PoS, Mantle, Linea, Scroll, BNB Chain and Mode.
+          and unique DeFi options."
+      - question: Which chains are supported within Lido Multichain?
+        answer: Currently, stETH is available to use on Optimism, and wstETH can be used
+          across Arbitrum, Optimism, Base, zkSync Era, Polygon PoS, Mantle,
+          Linea, Scroll, BNB Chain and Mode.
       - question: What tokens are supported on Lido Multichain?
-        answer: Only
-          [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth)
-          is supported on Lido Multichain. [Get wstETH
-          here](https://{{ethereum_stake}}/wrap).
-      - question: Is stETH available on other chains?
-        answer: Currently only wstETH is available on other chains.
+        answer: "[stETH](https://{{help}}/en/articles/5230610-what-is-steth) and its
+          wrapped
+          version, [wstETH](https://{{help}}/en/articles/5231836-what-is-lido-s\
+          -wsteth), are supported on Lido Multichain."
       - question: What is the difference between stETH and wstETH?
-        answer: wstETH is a wrapped version of stETH. Due to the dynamic nature of stETH
-          balances within Lido, which change daily due to staking rewards,
-          wstETH maintains a fixed balance and employs an underlying share
-          system to reflect staking rewards. Learn more about wstETH
-          [here](https://{{help}}/en/articles/5231836-what-is-lido-s-wsteth).
+        answer: >-
+          * stETH is a rebasing liquid staking token (LST) that serves as a
+          depiction of a user's portion of the total ETH staked through the
+          middleware and any accrued rewards and/or slashing events that might
+          have occurred.
+
+          * wstETH is a wrapped version of stETH that does not undergo daily rebases. While stETH's token balance changes daily to reflect each user’s portion of the staked ETH and any network rewards or slashing events that might have occurred, wstETH maintains a constant token balance.
       - question: Do I still receive rewards on my tokens on other chains?
-        answer: Yes. When using your wstETH on other chains separate from Ethereum you
-          continue getting staking rewards as normal. Rewards are realized when
-          you unwrap or swap wstETH back to stETH or ETH.
+        answer: Yes. When using stETH or wstETH on other chains separate from Ethereum
+          you continue getting staking rewards as normal. Rewards are realized
+          when you unwrap or swap wstETH back to stETH or ETH.
       - question: Can I stake directly on other chains?
         answer: Direct staking on other chains is not possible yet, but you can get
-          wstETH from
-          [DEXes](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
-          on new chains.
-      - question: How can I bridge wstETH to other chains?
-        answer: Lido users can bridge wstETH to supported chains using the provided
-          [bridging
+          stETH or wstETH
+          from [DEXes](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get) directly
+          on other chains.
+      - question: How can I bridge stETH or wstETH to other chains?
+        answer: Lido users can bridge stETH and wstETH to supported chains using the
+          provided [bridging
           guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2).
-          Also, there are [options for swapping and
-          exchanging](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get)
-          tokens on other chains, including wstETH.
-      - question: What is the simplest way to get wstETH on other chains if I have ETH
-          in my wallet?
-        answer: "[Wrap](https://{{ethereum_stake}}/wrap) your ETH directly to wstETH and
-          then bridge your wstETH to your preferred chain using the following
-          [bridging
-          guides](https://{{help}}/en/collections/3641672-lido-on-layer-2-l2)."
-      - question: What DeFi apps support wstETH on other chains?
-        answer: The various chains and DeFi apps that support Lido’s wstETH can be found
-          on the [Lido Ecosystem
-          page](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=or&networks=optimism%2Cbase%2Cmantle%2Czksync+era%2Clinea%2Carbitrum).
-      - question: Can I bridge wstETH from other chains back to Ethereum?
+          Also, there are [options for swapping and
+          exchanging](https://{{landing}}/lido-ecosystem?tokens=wsteth&criteria=and&categories=get) tokens
+          on other chains.
+      - question: What DeFi apps are supported on other chains?
+        answer: The various chains and DeFi apps that support Lido’s tokens can be found
+          on the [Lido Multichain page](https://{{landing}}/lido-multichain).
+      - question: Can I bridge stETH and wstETH from other chains back to Ethereum?
         answer: Yes, by using canonical bridges or by using the swap options.
-      - question: Can I bridge wstETH between different chains?
-        answer: You can bridge wstETH from different chains using canonical bridges or
-          using 3rd party cross-chain bridges like
+      - question: Can I bridge stETH or wstETH between different chains?
+        answer: You can bridge from different chains using canonical bridges or using
+          3rd party cross-chain bridges like
           [portalbridge.com](https://portalbridge.com/).
-      - question: Are there any risks associated with using wstETH on other chains?
+      - question: Can I wrap/unwrap my stETH to wstETH on directly Optimism?
+        answer: Yes, you can use the [Wrap & Unwrap staking
+          widget]({{ethereum_stake_url}}/wrap/unwrap) on Optimism.
+      - question: Are there any risks associated with using Lido’s tokens on other
+          chains?
         answer: There are a number of risks associated with interacting with new chains
           and DeFi protocols. Make sure to read up on the various bridges,
           networks and applications prior to bridging.
