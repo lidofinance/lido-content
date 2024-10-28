@@ -60,7 +60,7 @@ rows:
   - scorecard-attribute: "Delegation is enabled in on-chain governance"
     categories: "Governance"
     self-assessment: "Good"
-    comments: "[The on-chain delegation was enabled](https://{{vote}}/vote/178) in August 2024. Now LDO holders [can delegate](https://{{vote}}/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates' activity can be viewed [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
+    comments: "[The on-chain delegation was enabled](https://{{vote}}/vote/178) in August 2024. Now LDO holders [can delegate](https://{{vote}}/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates' activity can be viewed on the [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
 :::
 
 ## Doing well, but can improve
@@ -82,7 +82,7 @@ rows:
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance has been proposed](https://{{research}}/t/ldo-steth-dual-governance-continuation/5727). It gives the stakers  ability to withdraw their Eth in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. The onchain vote to deploy Dual Governance is estimated to occur in early 2025."
+    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance has been proposed](https://{{research}}/t/ldo-steth-dual-governance-continuation/5727). It gives stakers the ability to withdraw their ETH in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. The onchain vote to deploy Dual Governance is estimated to occur in early 2025."
   - scorecard-attribute: "There’s a robust set of governance delegates"
     categories: "Governance"
     self-assessment: "Okay"
@@ -111,9 +111,9 @@ rows:
   - scorecard-attribute: "Governance has significant safeguards"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "The governance process includes 3 steps: discussion, off-chain vote, and on-chain execution which make all changes publicly socialized before implementation.\\\nA two-step Aragon voting is used with objection periods, where only 'against' votes are possible in the second phase.\\\nCurrently, operators act as a check on LDO power since they cannot be forced to exit.\\\n[Dual governance](https://hackmd.io/@skozin/SJdSE51Ep) allows stakers to withdraw their Eth in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. Onchain vote to deploy expected in Q1 2025."
+    comments: "The governance process includes 3 steps: discussion, off-chain vote, and on-chain execution which make all changes publicly socialized before implementation.\\\nA two-step Aragon voting is used with objection periods, where only 'against' votes are possible in the second phase.\\\nCurrently, operators act as a check on LDO power since they cannot be forced to exit.\\\n[Dual governance](https://hackmd.io/@skozin/SJdSE51Ep) allows stakers to withdraw their ETH in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. Onchain vote to deploy expected in Q1 2025."
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Needs improvement"
-    comments: "Lido on Ethereum, governed by LDO token voting, manages various aspects including the treasury, withdrawal keys, and lists of nodes or oracles, effectively granting root access to the voting app. [Dual governance](https://hackmd.io/@skozin/SkjuZAuip) allows stakers to withdraw their Eth in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. When a specified amount of stETH accumulates in the DG veto vault, execution of LDO governance motions is paused unless the stETH in the vault is withdrawn. The design includes multiple safeguards and potential de-escalation mechanisms. A [Snapshot vote on this proposal passed](https://snapshot.org/#/lido-snapshot.eth/proposal/0x3bdf528b31956e029e867ebf79b02ee07e9a973987b34c5cffc14392e8b4480c), with on-chain deployment slated for Q1 2025."
+    comments: "Lido on Ethereum, governed by LDO token voting, manages various aspects including the treasury, withdrawal keys, and lists of nodes or oracles, effectively granting root access to the voting app. [Dual governance](https://hackmd.io/@skozin/SkjuZAuip) allows stakers to withdraw their ETH in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. When a specified amount of stETH accumulates in the DG veto vault, execution of LDO governance motions is paused unless the stETH in the vault is withdrawn. The design includes multiple safeguards and potential de-escalation mechanisms. A [Snapshot vote on this proposal passed](https://snapshot.org/#/lido-snapshot.eth/proposal/0x3bdf528b31956e029e867ebf79b02ee07e9a973987b34c5cffc14392e8b4480c), with on-chain deployment slated for Q1 2025."
 :::
