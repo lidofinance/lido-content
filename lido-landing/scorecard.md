@@ -78,7 +78,7 @@ rows:
   - scorecard-attribute: "Node operators are disincentivized from acting maliciously"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "Currently, if Node Operators don’t process exits on time (in other words, try to block users from obtaining their withdrawn ETH), they suffer penalties (automatically enforced by the protocol, as well as reputational). There have been [0 incidents of non-exit, and one case of delay](https://dune.com/lido/lido-node-operator-withdrawals). [Triggerable Execution Layer exits](https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195), expected in early 2025 via the Pectra hardfork, will make it possible to exit validators based on a DAO vote[](https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195)."
+    comments: "Currently, if Node Operators don’t process exits on time (in other words, try to block users from obtaining their withdrawn ETH), they suffer penalties (automatically enforced by the protocol, as well as reputational). There have been [0 incidents of non-exit, and one case of delay](https://dune.com/lido/lido-node-operator-withdrawals). [Triggerable Execution Layer exits](https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195), expected in early 2025 via the Pectra hardfork, will make it possible to exit validators based on a DAO vote."
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
