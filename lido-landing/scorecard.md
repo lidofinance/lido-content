@@ -91,7 +91,7 @@ rows:
     categories: "Governance"
     self-assessment: "Okay"
     comments: "[The GOOSE framework](https://snapshot.org/#/lido-snapshot.eth/proposal/0x58bbc5d540e46081043ef29d4d1ee56b7df4dc1b0369aa78e0c15a2403549353) is utilized to set one-year and three-year goals. The [goals for 2025](https://snapshot.org/#/lido-snapshot.eth/proposal/0xeedef9fea3d782f192410768cabaf6974da40ef36e1d22c7f8fff5fd4cfc7a59) were adopted in November 2024, marking a new focus for the upcoming year.\\\nMeanwhile, [](https://snapshot.org/#/lido-snapshot.eth/proposal/0x0fa423280ce2bcc2596901d81322716ad440c7581658030a7d21784c2661d81c)[the current goals](https://snapshot.org/#/lido-snapshot.eth/proposal/0x0fa423280ce2bcc2596901d81322716ad440c7581658030a7d21784c2661d81c), adopted in November 2023, were adjusted in May 2024 ([reGOOSE](https://snapshot.org/#/lido-snapshot.eth/proposal/0x300523518b08f20c585751c0a720ef3ec53698d4e5062154d285b15cb062f96c)), remain active and relevant."
-  - scorecard-attribute: "Distributed variation of on-premise infra and cloud providers"
+  - scorecard-attribute: "Distributed variation of on-premises infra and cloud providers"
     categories: "Validator set"
     self-assessment: "Okay"
     comments: "Reliance on public cloud has stabilized from around 50% in Q3/2024. The usage is balanced against forms of Bare Metal (Colocated, On-Premises or Dedicated Hardware). Details can be found in the\_[Lido VaNOM web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=fd91537b-e4b5-42b6-813d-6ec0ff957cd3)."
