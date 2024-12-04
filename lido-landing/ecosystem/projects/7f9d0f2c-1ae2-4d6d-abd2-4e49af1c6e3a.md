@@ -4,6 +4,8 @@ logo: data:image/svg+xml,%3Csvg%20width%3D%2280%22%20height%3D%2280%22%20viewBox
 name: Ambient
 description: Get wstETH and LP with wstETH for rewards on Ambient.
 link: https://ambient.finance/
+l2Description: LP wstETH to get third-party rewards
+l2Link: https://ambient.finance/trade/pool/chain=0x82750&tokenA=0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32&tokenB=0x0000000000000000000000000000000000000000
 tokens:
   - 62d6e448-346b-4d71-9688-6a043d5c25ee
   - 3a647da0-c0d8-4ebd-abce-bac0390880f4
