@@ -41,6 +41,10 @@ jobs:
         run: |
           ./scripts/combine.sh lido-landing/steth-in-defi/projects/
 
+      - name: Build combined files (Multichain)
+        run: |
+          ./scripts/combine.sh lido-landing/multichain/projects/
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
