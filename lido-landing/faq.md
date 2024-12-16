@@ -197,31 +197,6 @@ categories:
           Check with providers for coverage and conditions.
   - name: Polygon
     q&a:
-      - question: What is Lido on Polygon?
-        answer: Lido on Polygon is a liquid staking protocol for MATIC. The protocol
-          lets users get MATIC staking rewards without needing to maintain
-          infrastructure and enables them to participate in on-chain activities
-          and DeFI with their staked tokens.
-      - question: What is stMatic?
-        answer: stMATIC is the utility token representing a share of the total MATIC
-          staked through the protocol. It is a non-rebasing token, similar to
-          wstETH, meaning that the amount of stMATIC in the user’s wallet
-          address will not change while the MATIC balance updates inside the
-          wrapper daily.
-      - question: How to bridge stMATIC from Ethereum to Polygon?
-        answer: Staking through Lido protocol users get stMATIC on the Ethereum network.
-          However, users can also bridge stMATIC to the Polygon network via
-          Polygon [PoS bridge](https://wallet.polygon.technology/bridge).
-      - question: How can I get stMatic?
-        answer: stMATIC is available in many ways, including directly staking MATIC
-          ERC20 through the [Lido Polygon stake
-          widget](https://{{polygon_stake}}/) or through other [DEX Lido
-          integrations](https://{{landing}}/lido-ecosystem?categories=Get&tokens=stMATIC).
-      - question: How can I use stMATIC?
-        answer: With stMATIC users can grow MATIC, get instant liquidity, or participate
-          in DeFi across the Ethereum and Polygon networks. Some integrations
-          can be
-          found [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Earn).
       - question: How can I unstake stMATIC?
         answer: stMATIC can be unstaked in several ways, including through [the Lido on
           Polygon unstake widget](https://{{polygon_stake}}/). The default
@@ -232,19 +207,6 @@ categories:
           where stMATIC can be exchanged for MATIC to exit staking. You could
           explore opportunities for
           exchanges [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Get).
-      - question: What is the difference between MATIC and stMATIC?
-        answer: >-
-          MATIC - is an Ethereum token that powers the Polygon Network. It is
-          used to secure the network using the PoS consensus algorithm and to
-          pay for transactions on Polygon.
-
-
-          stMATIC - is an ERC20 token representing the share of the total MATIC tokens staked through the protocol.
-      - question: What is Lido staking APR for Polygon?
-        answer: Lido staking APR for Polygon is calculated by deducting the 10% fee that
-          Lido on Polygon protocol takes from the native Polygon staking APR,
-          which can be
-          seen [here](https://staking.polygon.technology/rewards-calculator).
   - name: Lido Multichain
     q&a:
       - question: What is Lido Multichain?
