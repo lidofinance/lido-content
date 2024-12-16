@@ -7,7 +7,7 @@
 Before setting up the project, ensure you have the following installed:
 
 - **Homebrew** (Mac/Linux): Used to install other necessary tools. [Installation instructions](https://brew.sh/).
-- **Node.js**: The required Node.js version is specified in the `.nvmrc` file for `nvm` users (`nvm use` to install and choose Node version frome .nvmrc) and `package.json`.
+- **Node.js**: The required Node.js version is specified in the `.nvmrc` file for `nvm` users (`nvm use` to install and choose Node version from .nvmrc) and `package.json`.
 - **Yarn**: Required for handling project dependencies.
 - **Colima** or **Docker Desktop**:
   - **Colima** (Mac/Linux): A tool to run Docker containers on macOS with minimal resource overhead. It is an alternative to Docker Desktop designed to be simple and fast. [Colima's GitHub](https://github.com/abiosoft/colima):
