@@ -215,9 +215,9 @@ categories:
           to other chains, stakers can benefit from lower fees, faster speeds
           and unique DeFi options."
       - question: Which chains are supported within Lido Multichain?
-        answer: Currently, stETH is available to use on Optimism, and wstETH can be used
-          across Arbitrum, Optimism, Base, ZKsync, Polygon PoS, Mantle, Linea,
-          Scroll, BNB Chain, Mode and Zircuit.
+        answer: Currently, stETH is available to use on OP Mainnet, and wstETH can be
+          used across Arbitrum, Optimism, Base, ZKsync, Polygon PoS, Mantle,
+          Linea, Scroll, BNB Chain, Mode and Zircuit.
       - question: What tokens are supported on Lido Multichain?
         answer: "[stETH](https://{{help}}/en/articles/5230610-what-is-steth) and its
           wrapped
