@@ -217,7 +217,7 @@ categories:
       - question: Which chains are supported within Lido Multichain?
         answer: Currently, stETH is available to use on OP Mainnet, and wstETH can be
           used across Arbitrum, OP Mainnet, Base, ZKsync, Polygon PoS, Mantle,
-          Linea, Scroll, BNB Chain, Mode and Zircuit.
+          Linea, Scroll, BNB Chain, Mode, Zircuit and Soneium.
       - question: What tokens are supported on Lido Multichain?
         answer: "[stETH](https://{{help}}/en/articles/5230610-what-is-steth) and its
           wrapped
