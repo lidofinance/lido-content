@@ -61,6 +61,10 @@ rows:
     categories: "Governance"
     self-assessment: "Good"
     comments: "[The on-chain delegation was enabled](https://{{vote}}/vote/178) in August 2024. Now LDO holders [can delegate](https://{{vote}}/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates' activity can be viewed on the [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
+  - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
+    categories: "Validator set"
+    self-assessment: "Good"
+    comments: "The first permissionless module called [CSM](https://{{operatorportal}}/modules/community-staking-module) is now live on Ethereum mainnet. During the Early Adoption (permissioned) phase, over 300 identified likely independent operators joined CSM on mainnet. As of late January 2025, CSM has transitioned to its fully permissionless mode, allowing anyone to use Lido on Ethereum to run validators."
 :::
 
 ## Doing well, but can improve
@@ -95,10 +99,6 @@ rows:
     categories: "Validator set"
     self-assessment: "Okay"
     comments: "Reliance on public cloud has stabilized from around 50% in Q3/2024. The usage is balanced against forms of Bare Metal (Colocated, On-Premises or Dedicated Hardware). Details can be found in the\_[Lido VaNOM web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=fd91537b-e4b5-42b6-813d-6ec0ff957cd3)."
-  - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
-    categories: "Validator set"
-    self-assessment: "Okay"
-    comments: "The first permissionless module called\_[CSM](https://{{operatorportal}}/modules/community-staking-module)\_is now live on Ethereum mainnet in the Early Adoption (perrmissioned) mode to onboard a sub-set of identified likely solo stakers to CSM on mainnet prior to the module opening up to everyone. This mechanism safeguards against the potential crowding out of CSM’s capacity by large operators during the initial phase. Once Early Adoption mode is deactivated (expected to happen early 2025), the module will become fully permissionless."
 :::
 
 ## Needs Improvement
