@@ -52,7 +52,7 @@ rows:
   - scorecard-attribute: "Smart contracts are shielded using best-in-class security standards"
     categories: "Security"
     self-assessment: "Good"
-    comments: "The currently deployed protocol version (Lido V2) is audited by four independent top-tier audit providers:\_[Statemind](https://github.com/lidofinance/audits/#04-2023-statemind-lido-v2-audit), [Certora](https://github.com/lidofinance/audits/#04-2023-certora-lido-v2-audit), [Hexens](https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit), [Oxorio](https://github.com/lidofinance/audits/?tab=readme-ov-file#05-2023-oxorio-lido-v2-on-chain-audit).\n\nThere is a formal verification executed by Certora (see the report above). All protocol levers are documented and reviewed by Statemind,\_[see](https://github.com/lidofinance/audits/?tab=readme-ov-file#10-2023-statemind-lido-roles-analysis).\n\nLast but not least, every protocol upgrade and voting is a subject of running full-blown regression\_[test suite](https://github.com/lidofinance/scripts/tree/master/tests)."
+    comments: "The major protocol version (Lido V2) is audited by four independent top-tier audit providers:\_[Statemind](https://github.com/lidofinance/audits/#04-2023-statemind-lido-v2-audit), [Certora](https://github.com/lidofinance/audits/#04-2023-certora-lido-v2-audit)(including formal verification), [Hexens](https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit), [Oxorio](https://github.com/lidofinance/audits/?tab=readme-ov-file#05-2023-oxorio-lido-v2-on-chain-audit). The latest deployed [V2.1](https://github.com/lidofinance/core/releases/tag/v2.1.0) release has been audited by [MixBytes](https://github.com/lidofinance/audits/blob/main/MixBytes%20Lido%20CSM%20Security%20Audit%20Report%2010-24.pdf) and [Ackee Blockchain](https://github.com/lidofinance/audits/blob/main/Ackee%20Blockchain%20Lido%20Staking%20Router%20v2%20Report%2010-24.pdf) (including extensive fuzzing test coverage).\_\n\nThe full list of the Lido on Ethereum protocol audits is available [publicly](https://{{ethereum_docs}}/security/audits#lido-on-ethereum).\n\nEach protocol upgrade and voting is a subject of running full-blown regression [test suite](https://github.com/lidofinance/scripts/tree/master/tests)."
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Good"
@@ -65,6 +65,10 @@ rows:
     categories: "Validator set"
     self-assessment: "Good"
     comments: "The first permissionless module called [CSM](https://{{operatorportal}}/modules/community-staking-module) is now live on Ethereum mainnet. During the Early Adoption (permissioned) phase, over 300 identified likely independent operators joined CSM on mainnet. As of late January 2025, CSM has transitioned to its fully permissionless mode, allowing anyone to use Lido on Ethereum to run validators."
+  - scorecard-attribute: "Staking with Lido protocol is accessible via decentralized front-ends"
+    categories: "Security"
+    self-assessment: "Good"
+    comments: "Lido on Ethereum Liquid Staking Widget is deployed to the [IPFS](https://{{ethereum_docs}}/ipfs/apps-list)."
 :::
 
 ## Doing well, but can improve
