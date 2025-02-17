@@ -1,6 +1,5 @@
 ---
 multichainPage:
-  - f9aefd8d-e707-4769-bf31-9f8d64bbccb1
   - c0108a35-e7c2-424e-8221-b122aa21b8a7
   - 4b12d444-6e9c-4fd1-a65e-86cde4820eba
   - d496a05a-d2f5-4730-8b5f-238feb6ec4aa
@@ -9,6 +8,7 @@ multichainPage:
   - 9e47447a-80b4-4eaa-b5c8-83181f8ccf0b
   - f2bb9501-d997-468e-b411-b6bbee25a8aa
   - 11540d2a-5441-483b-80e7-7fa8ee623c8b
+  - f9aefd8d-e707-4769-bf31-9f8d64bbccb1
   - 39028670-098a-4747-a55a-64b7c1c965b6
   - a5c3eab7-21cc-4bdc-b038-7cfe082c8211
   - c0e786f8-d086-48db-9c40-4a7673ad7c67
