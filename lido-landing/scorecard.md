@@ -25,7 +25,7 @@ rows:
   - scorecard-attribute: "Good performance"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?timeWindow=30d) is higher than [the average Network performance](https://explorer.rated.network/?timeWindow=30d) based on the [RAVER methodology](https://docs.rated.network/methodologies/ethereum-beacon-chain/rated-effectiveness-rating) available at the moment of assessment (October 2024)."
+    comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?timeWindow=30d) is higher than [the average Network performance](https://explorer.rated.network/?timeWindow=30d) based on the [RAVER methodology](https://docs.rated.network/documentation/methodologies/ethereum/rated-effectiveness-rating/rated-effectiveness-rating) available at the moment of assessment (October 2024)."
   - scorecard-attribute: "Operators should receive enough network rewards to build a sustainable, dependable staking business"
     categories: "Validator set"
     self-assessment: "Good"
@@ -52,7 +52,7 @@ rows:
   - scorecard-attribute: "Smart contracts are shielded using best-in-class security standards"
     categories: "Security"
     self-assessment: "Good"
-    comments: "The major protocol version (Lido V2) is audited by four independent top-tier audit providers:\_[Statemind](https://github.com/lidofinance/audits/#04-2023-statemind-lido-v2-audit), [Certora](https://github.com/lidofinance/audits/#04-2023-certora-lido-v2-audit)(including formal verification), [Hexens](https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit), [Oxorio](https://github.com/lidofinance/audits/?tab=readme-ov-file#05-2023-oxorio-lido-v2-on-chain-audit). The latest deployed [V2.1](https://github.com/lidofinance/core/releases/tag/v2.1.0) release has been audited by [MixBytes](https://github.com/lidofinance/audits/blob/main/MixBytes%20Lido%20CSM%20Security%20Audit%20Report%2010-24.pdf) and [Ackee Blockchain](https://github.com/lidofinance/audits/blob/main/Ackee%20Blockchain%20Lido%20Staking%20Router%20v2%20Report%2010-24.pdf) (including extensive fuzzing test coverage).\_\n\nThe full list of the Lido on Ethereum protocol audits is available [publicly](https://{{ethereum_docs}}/security/audits#lido-on-ethereum).\n\nEach protocol upgrade and voting is a subject of running full-blown regression [test suite](https://github.com/lidofinance/scripts/tree/master/tests)."
+    comments: "The major protocol version (Lido V2) is audited by four independent top-tier audit providers:\_[Statemind](https://github.com/lidofinance/audits/#04-2023-statemind-lido-v2-audit), [Certora](https://github.com/lidofinance/audits/#04-2023-certora-lido-v2-audit)(including formal verification), [Hexens](https://github.com/lidofinance/audits/#04-2023-hexens-lido-v2-smart-contract-audit), [Oxorio](https://github.com/lidofinance/audits/?tab=readme-ov-file#05-2023-oxorio-lido-v2-on-chain-audit). The latest deployed [V2.1](https://github.com/lidofinance/core/releases/tag/v2.1.0) release has been audited by [MixBytes](https://github.com/lidofinance/audits/blob/main/MixBytes%20Lido%20CSM%20Security%20Audit%20Report%2010-24.pdf) and [Ackee Blockchain](https://github.com/lidofinance/audits/blob/main/Ackee%20Blockchain%20Lido%20Staking%20Router%20v2%20Report%2010-24.pdf) (including extensive fuzzing test coverage).\_\n\nThe full list of the Lido on Ethereum protocol audits is available [publicly](https://{{ethereum_docs}}/security/audits/#lido-on-ethereum).\n\nEach protocol upgrade and voting is a subject of running full-blown regression [test suite](https://github.com/lidofinance/scripts/tree/master/tests)."
   - scorecard-attribute: "Client Diversity"
     categories: "Validator set"
     self-assessment: "Good"
@@ -68,7 +68,7 @@ rows:
   - scorecard-attribute: "Staking with Lido protocol is accessible via decentralized front-ends"
     categories: "Security"
     self-assessment: "Good"
-    comments: "Lido on Ethereum Liquid Staking Widget is deployed to the [IPFS](https://{{ethereum_docs}}/ipfs/apps-list)."
+    comments: "Lido on Ethereum Liquid Staking Widget is deployed to the [IPFS](https://{{ethereum_docs}}/ipfs/apps-list/)."
 :::
 
 ## Doing well, but can improve
@@ -98,7 +98,7 @@ rows:
   - scorecard-attribute: "DAO goals are easily accessible"
     categories: "Governance"
     self-assessment: "Okay"
-    comments: "[The GOOSE framework](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x58bbc5d540e46081043ef29d4d1ee56b7df4dc1b0369aa78e0c15a2403549353) is utilized to set one-year and three-year goals. The [goals for 2025](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xeedef9fea3d782f192410768cabaf6974da40ef36e1d22c7f8fff5fd4cfc7a59) were adopted in November 2024, marking a new focus for the upcoming year.\\\nMeanwhile, [](https://snapshot.org/#/lido-snapshot.eth/proposal/0x0fa423280ce2bcc2596901d81322716ad440c7581658030a7d21784c2661d81c)[the current goals](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x0fa423280ce2bcc2596901d81322716ad440c7581658030a7d21784c2661d81c), adopted in November 2023, were adjusted in May 2024 ([reGOOSE](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x300523518b08f20c585751c0a720ef3ec53698d4e5062154d285b15cb062f96c)), remain active and relevant."
+    comments: "[The GOOSE framework](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x58bbc5d540e46081043ef29d4d1ee56b7df4dc1b0369aa78e0c15a2403549353) is utilized to set one-year and three-year goals. The [goals for 2025](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xeedef9fea3d782f192410768cabaf6974da40ef36e1d22c7f8fff5fd4cfc7a59) were adopted in November 2024, marking a new focus for the upcoming year.\\\nMeanwhile, [the current goals](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x0fa423280ce2bcc2596901d81322716ad440c7581658030a7d21784c2661d81c), adopted in November 2023, were adjusted in May 2024 ([reGOOSE](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x300523518b08f20c585751c0a720ef3ec53698d4e5062154d285b15cb062f96c)), remain active and relevant."
   - scorecard-attribute: "Distributed variation of on-premises infra and cloud providers"
     categories: "Validator set"
     self-assessment: "Okay"
