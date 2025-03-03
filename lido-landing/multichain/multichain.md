@@ -1,5 +1,6 @@
 ---
 multichainPage:
+  - 69f63e9d-6363-429a-8533-2a53a24adaee
   - c0108a35-e7c2-424e-8221-b122aa21b8a7
   - 4b12d444-6e9c-4fd1-a65e-86cde4820eba
   - d496a05a-d2f5-4730-8b5f-238feb6ec4aa
