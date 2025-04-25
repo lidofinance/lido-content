@@ -25,7 +25,7 @@ rows:
   - scorecard-attribute: "Good performance"
     categories: "Validator set"
     self-assessment: "Good"
-    comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?network=mainnet&timeWindow=30d&viewBy=operator&page=1&pageSize=15&idType=pool) is higher than [the average Network performance](https://explorer.rated.network/?network=mainnet&view=pool&timeWindow=30d&page=1&pageSize=15&poolType=all) based on the [RAVER methodology](https://docs.rated.network/documentation/methodologies/ethereum/rated-effectiveness-rating/rated-effectiveness-rating) available at the moment of assessment (February 2025)."
+    comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?timeWindow=30d) is higher than [the average Network performance](https://explorer.rated.network/?timeWindow=30d) based on the [RAVER methodology](https://docs.rated.network/documentation/methodologies/ethereum/rated-effectiveness-rating/rated-effectiveness-rating) available at the moment of assessment (February 2025)."
   - scorecard-attribute: "Operators should receive enough network rewards to build a sustainable, dependable staking business"
     categories: "Validator set"
     self-assessment: "Good"
