@@ -45,7 +45,7 @@ faq:
     question: How long does it take to withdraw?
   - answer: |-
       * The amount of stETH in the queue.
-      * Perfomance of the validator poolside.
+      * Performance of the validator poolside.
       * Exit queue on the Beacon chain.
       * Demand for staking and unstaking.
     question: What are the factors affecting the withdrawal time?
