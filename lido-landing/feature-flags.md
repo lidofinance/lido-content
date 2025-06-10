@@ -2,10 +2,6 @@
 flags:
   - testnetEnabled: true
     productionEnabled: false
-    name: new-super-feature
-    description: Test feature
-  - testnetEnabled: false
-    productionEnabled: true
-    name: feature-2
-    description: New freature flag
+    name: show-debug-info
+    description: Show debug info in console and footer. Should be enabled only in testing
 ---
