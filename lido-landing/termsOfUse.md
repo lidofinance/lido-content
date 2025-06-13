@@ -1,5 +1,5 @@
 ---
-timestamp: July 05, 2023
+timestamp: June 13, 2025
 ---
 # Welcome to {{landing}}
 
@@ -68,10 +68,9 @@ If you use the interface you represent and declare that you:
 1. are of legal age in the jurisdiction in which you reside to use the Interface and the Middlewares, and you have legal capacity to consent and agree to be bound by these Terms;
 2. have all technical knowledge necessary or advisable to understand and evaluate the risks of using the Interface and the Middlewares;
 3. comply with all applicable laws, rules and regulations in your relevant jurisdiction and your use of the Interface is not prohibited by and does not otherwise violate or facilitate the violation of any applicable laws or regulations, or contribute to or facilitate any illegal activity;
-4. are not a US person, or currently or ordinarily located or resident in (or incorporated or organized in) the United States of America;
-5. are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Belarus, Burundi, Crimea and Sevastopol, Cuba, Democratic Republic of Congo, Iran, Iraq, Libya, North Korea, Somalia, Sudan, Syria, Venezuela, Zimbabwe or any other country to which the United States, the United Kingdom, the European Union or any of its member states or the United Nations or any of its member states (collectively, the **Major Jurisdictions**) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the **Restricted Territories**);
-6. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**); and
-7. do not intend to transact in or with any Restricted Territories or Sanctions List Persons;
+4. are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Belarus, Burundi, Crimea and Sevastopol, Cuba, Democratic Republic of Congo, Iran, Iraq, Libya, North Korea, Somalia, Sudan, Syria, Venezuela, Zimbabwe or any other country to which the United States, the United Kingdom, the European Union or any of its member states or the United Nations or any of its member states (collectively, the **Major Jurisdictions**) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the **Restricted Territories**);
+5. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**); and
+6. do not intend to transact in or with any Restricted Territories or Sanctions List Persons;
 
 ### 8. Permitted Use
 
