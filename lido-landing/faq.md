@@ -4,11 +4,11 @@ categories:
     q&a:
       - question: What is Lido?
         answer: Lido is the name of a family of open-source peer-to-system software
-          tools deployed and functioning on the Ethereum and Polygon blockchain
-          networks. The software enables users to mint transferable utility
-          tokens, which receive rewards linked to the related validation
-          activities of writing data to the blockchain, while the tokens can be
-          used in other on-chain activities.
+          tools deployed and functioning on the Ethereum blockchain network. The
+          software enables users to mint transferable utility tokens, which
+          receive rewards linked to the related validation activities of writing
+          data to the blockchain, while the tokens can be used in other on-chain
+          activities.
       - answer: While each network works differently, generally, the Lido protocols
           batch user tokens to stake with validators and route the staking
           packages to network staking contracts. Users mint amounts of stTokens
@@ -42,12 +42,11 @@ categories:
           between node operators and the Lido DAO. That means the users receive
           90% of the staking rewards returned by the networks.
       - question: How can I get stTokens?
-        answer: Lido protocols let users stake native tokens (ETH, MATIC) from Ethereum
-          and Polygon networks in a fully permissionless way. The protocols are
-          deployed on public blockchains, so users do not need the website to
-          access the smart contracts. However, for convenience, users can get
-          started with information on [the main
-          page](https://{{landing}}/#networks).
+        answer: Lido protocol let users stake native tokens (ETH) from Ethereum network
+          in a fully permissionless way. The protocols are deployed on public
+          blockchains, so users do not need the website to access the smart
+          contracts. However, for convenience, users can get started with
+          information on [the main page](https://{{landing}}/).
       - question: Where can I use stTokens?
         answer: stTokens can be used across a growing Ecosystem. [Explore apps and
           services](https://{{landing}}/lido-ecosystem) integrated with
@@ -195,18 +194,6 @@ categories:
 
 
           Check with providers for coverage and conditions.
-  - name: Polygon
-    q&a:
-      - question: How can I unstake stMATIC?
-        answer: stMATIC can be unstaked in several ways, including through [the Lido on
-          Polygon unstake widget](https://{{polygon_stake}}/). The default
-          stMATIC unstaking period takes around 3-4 days to process. After that,
-          users can claim rewards in the [Claim
-          tab](https://{{polygon_stake}}/). Immediate withdrawal options are
-          available through liquidity pools on AMM protocols and other DEXs
-          where stMATIC can be exchanged for MATIC to exit staking. You could
-          explore opportunities for
-          exchanges [here](https://{{landing}}/lido-ecosystem?tokens=stMATIC&categories=Get).
   - name: Lido Multichain
     q&a:
       - question: What is Lido Multichain?
@@ -360,11 +347,8 @@ categories:
   - name: Additional
     q&a:
       - question: Where can I find more info for developers?
-        answer: >-
-          * [Lido on
-          Ethereum](https://{{ethereum_docs}}/guides/steth-integration-guide)
-
-          * [Lido on Polygon](https://{{polygon_docs}}/)
+        answer: "* [Lido on
+          Ethereum](https://{{ethereum_docs}}/guides/steth-integration-guide)"
       - question: Where can I get info about Lido integrations?
         answer: All info about Lido integrations you can find in [Help
           Center](https://{{help}}/en/) or on the [Lido Ecosystem
