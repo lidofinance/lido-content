@@ -69,6 +69,14 @@ rows:
     categories: "Security"
     self-assessment: "Good"
     comments: "Lido on Ethereum Liquid Staking Widget is deployed to the [IPFS](https://{{ethereum_docs}}/ipfs/apps-list/)."
+  - scorecard-attribute: "Governance has significant safeguards"
+    categories: "Governance"
+    self-assessment: "Good"
+    comments: "Governance includes open discussion, LDO voting (off-chain and on-chain), and a [Dual Governance](https://dg.{{landing}}/) challenge window for stETH holders. On-chain voting runs in two phases: the main vote, then an objection period for 'against' votes only. Tokenholders can override their delegates' votes at any time by voting directly. Dual Governance lets stETH holders delay execution and exit before contentious proposals are enacted. This process balances different interests and provides strong safeguards that protect the protocol from rushed or harmful decisions."
+  - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
+    categories: "Governance"
+    self-assessment: "Good"
+    comments: "Lido on Ethereum is governed by LDO token voting, but proposals affecting core protocol functions must pass through [Dual Governance](https://dg.{{landing}}/). This prevents LDO holders from bypassing safeguards and makes hostile takeovers harder. \\\nDual Governance gives stETH holders power to safely exit through a dynamic timelock mechanism facilitated by an escrow contract that accepts stETH, wstETH, and withdrawal NFTs. \\\nWith >1% of the total stETH supply in the escrow, Veto Signalling is activated. This blocks governance motions for 5 to 45 days, depending on the amount of opposing tokens. \\\nWith >10% of the total stETH supply in the escrow, Rage Quit is triggered. Governance stays paused until opposing stakers exit the protocol."
 :::
 
 ## Doing well, but can improve
@@ -90,7 +98,7 @@ rows:
   - scorecard-attribute: "Lido DAO can’t suddenly change the validator set"
     categories: "Validator set"
     self-assessment: "Okay"
-    comments: "As it stands, LDO holders cannot force Node operators to exit. Even if triggerable exits were live today, it would still take the DAO half a year, at a minimum, to rotate all validators (due to the mechanics of how the staking queue works). In order to create additional checks and balances on Lido governance, [dual governance has been proposed](https://{{research}}/t/ldo-steth-dual-governance-continuation/5727). It gives stakers the ability to withdraw their ETH in the event of a proposal that would change the validator set, while also enabling them to express concerns about it. The onchain vote to deploy Dual Governance is estimated to occur in 2025."
+    comments: "Currently, validator exits are performed at-will by Node Operators, upon request for a validator to be exited by the protocol's automated Validator Exit Bus. This will continue to be the case for most validator exits (e.g., in order to make ETH available for withdrawals) even once the Lido protocol supports Execution Layer Triggerable Withdrawals. \\\nExecution Layer Triggerable Withdrawal functionality is slated to be enabled in the Lido protocol sometime in Q3/2025. Once Triggerable Withdrawals are added to the protocol — except in the case of exits necessary for staker or protocol safety, e.g., systemic underperformance of validators in CSM — their usage by the DAO will be subject to the [Dual Governance](https://dg.{{landing}}/) mechanism. This would mean that LDO holders would not be able to engage in mass exit of validators or trigger re-allocation of stake from one node operator to another on a whim without giving stETH stakers the ability to express concern, delay, and potentially even exit their positions, before such an action would take place."
   - scorecard-attribute: "There’s a robust set of governance delegates"
     categories: "Governance"
     self-assessment: "Okay"
@@ -103,21 +111,4 @@ rows:
     categories: "Validator set"
     self-assessment: "Okay"
     comments: "Reliance on public cloud continues to remain stable at 50% in Q1/2025. The usage is balanced against forms of Bare Metal (Colocated, On-Premises or Dedicated Hardware). Details can be found in the\_[Lido VaNOM web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=fd91537b-e4b5-42b6-813d-6ec0ff957cd3)."
-:::
-
-## Needs Improvement
-
-These attributes need work, and below is information about what contributors are already doing as solutions and improvements.\
-Improvement proposals and comments are welcome from anyone.
-
-:::scorecard-table
-rows:
-  - scorecard-attribute: "Governance has significant safeguards"
-    categories: "Governance"
-    self-assessment: "Needs improvement"
-    comments: "The governance process includes 3 steps: discussion, off-chain vote, and on-chain execution which make all changes publicly socialized before implementation.\\\nA two-step Aragon voting is used with objection periods, where only 'against' votes are possible in the second phase.\\\nCurrently, operators act as a check on LDO power since they cannot be forced to exit.\\\n[Dual governance](https://hackmd.io/@skozin/SJdSE51Ep) allows stakers to withdraw their ETH in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. Onchain vote to deploy expected in Q2 2025."
-  - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
-    categories: "Governance"
-    self-assessment: "Needs improvement"
-    comments: "Lido on Ethereum, governed by LDO token voting, manages various aspects including the treasury, withdrawal keys, and lists of nodes or oracles, effectively granting root access to the voting app. [Dual governance](https://hackmd.io/@skozin/SkjuZAuip) allows stakers to withdraw their ETH in the event of a contentious proposal, while also enabling them to express concerns about its contentiousness. When a specified amount of stETH accumulates in the DG veto vault, execution of LDO governance motions is paused unless the stETH in the vault is withdrawn. The design includes multiple safeguards and potential de-escalation mechanisms. A [Snapshot vote on this proposal passed](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x3bdf528b31956e029e867ebf79b02ee07e9a973987b34c5cffc14392e8b4480c), with on-chain deployment slated for Q2 2025."
 :::
