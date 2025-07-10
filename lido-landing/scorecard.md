@@ -72,7 +72,7 @@ rows:
   - scorecard-attribute: "Governance has significant safeguards"
     categories: "Governance"
     self-assessment: "Good"
-    comments: "Governance includes open discussion, LDO voting (off-chain and on-chain), and a [Dual Governance](https://dg.{{landing}}/) challenge window for stETH holders. On-chain voting runs in two phases: the main vote, then an objection period for \"against\" votes only. Tokenholders can override their delegates' votes at any time by voting directly. Dual Governance lets stETH holders delay execution and exit before contentious proposals are enacted. This process balances different interests and provides strong safeguards that protect the protocol from rushed or harmful decisions."
+    comments: "Governance includes open discussion, LDO voting (off-chain and on-chain), and a [Dual Governance](https://dg.{{landing}}/) challenge window for stETH holders. On-chain voting runs in two phases: the main vote, then an objection period for 'against' votes only. Tokenholders can override their delegates' votes at any time by voting directly. Dual Governance lets stETH holders delay execution and exit before contentious proposals are enacted. This process balances different interests and provides strong safeguards that protect the protocol from rushed or harmful decisions."
   - scorecard-attribute: "There is a way for stakers to resist malicious governance capture"
     categories: "Governance"
     self-assessment: "Good"
