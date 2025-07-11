@@ -1,9 +1,12 @@
 ---
 title: Lido on Ethereum Scorecard
-description: >
+description: >-
   Keep track of the latest updates on how Lido is performing against its goal of
   being decentralized, trustless, governance-minimized and ethos-aligned with
   the Ethereum community.
+
+
+  test changes
 ---
 Lido DAO’s purpose is to keep Ethereum decentralized, accessible to all, and resistant to censorship.
 
