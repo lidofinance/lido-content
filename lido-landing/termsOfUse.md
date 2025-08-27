@@ -1,5 +1,5 @@
 ---
-timestamp: June 13, 2025
+timestamp: August 27, 2025
 ---
 # Welcome to {{landing}}
 
