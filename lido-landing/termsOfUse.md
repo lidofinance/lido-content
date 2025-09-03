@@ -69,8 +69,9 @@ If you use the interface you represent and declare that you:
 2. have all technical knowledge necessary or advisable to understand and evaluate the risks of using the Interface and the Middlewares;
 3. comply with all applicable laws, rules and regulations in your relevant jurisdiction and your use of the Interface is not prohibited by and does not otherwise violate or facilitate the violation of any applicable laws or regulations, or contribute to or facilitate any illegal activity;
 4. are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Crimea, Cuba, Donetsk, Iran, Luhansk, North Korea, Syria, or any other country or region to which the United States, the United Kingdom, the European Union or any of its member states or the United Nations or any of its member states (collectively, the **Major Jurisdictions**) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the **Restricted Territories**);
-5. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**); and
-6. do not intend to transact in or with any Restricted Territories or Sanctions List Persons;
+5. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**);
+6. do not intend to transact in or with any Restricted Territories or Sanctions List Persons; and
+7. for the purposes of accessing Lido GGV, you represent and warrant that you are not accessing it from, and are not a citizen or resident of, the United States, the United Kingdom, or any jurisdiction where the use of GGV would be unlawful or otherwise in violation of applicable laws or regulations.
 
 ### 8. Permitted Use
 
