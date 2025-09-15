@@ -8,6 +8,7 @@ products:
     name: Lido GGV
     headerDescription: Lido’s rewards optimized staking vault
     isNew: true
+    ggvApyType: weekly
     depositLink: "{{ethereum_stake_url}}/earn/ggv"
     description: Lido GGV utilizes tried and tested strategies with premier DeFi
       protocols for increased rewards on deposits of ETH or (w)stETH
