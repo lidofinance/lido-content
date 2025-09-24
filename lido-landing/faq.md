@@ -9,26 +9,25 @@ categories:
           receive rewards linked to the related validation activities of writing
           data to the blockchain, while the tokens can be used in other on-chain
           activities.
-      - answer: While each network works differently, generally, the Lido protocols
-          batch user tokens to stake with validators and route the staking
-          packages to network staking contracts. Users mint amounts of stTokens
-          which correspond to the amount of tokens sent as stake and they
-          receive staking rewards. When they unstake, they burn the stToken to
-          initiate the network-specific withdrawal process to withdraw the
-          balance of stake and rewards.
+      - answer: The Lido protocol batches user tokens to stake with validators and
+          routes the staking packages to Ethereum staking contracts. Users mint
+          amounts of stETH which correspond to the amount of tokens sent as
+          stake and they receive staking rewards. When they unstake, they burn
+          their stETH to initiate the network-specific withdrawal process to
+          withdraw the balance of stake and rewards.
         question: How does Lido work?
       - question: Why Lido?
         answer: >-
-          * Lido protocols give the user liquidity - the stTokens are on the
+          * Lido protocol gives the user liquidity — the stTokens are on the
           execution layer, so they can be transferred. Users receive staking
           rewards from validation activities but can sell stTokens anytime they
           want to exit their staking position.
 
-          * Participate in DeFi - users can use stTokens as building blocks in DeFi protocols at the same time as getting staking rewards from validating activities.
+          * Participate in DeFi — users can use stTokens as building blocks in DeFi protocols at the same time as getting staking rewards from validating activities.
 
-          * Lido protocols are governed by the Lido DAO - this means there is no central point for making decisions, and there is no one person who has access, control, or decision power to define what to do with users’ tokens. All decisions with respect to the protocol are voted up by the DAO, and all LDO holders may vote.
+          * Lido protocol is governed by the Lido DAO — this means there is no central point for making decisions, and there is no one person who has access, control, or decision power to define what to do with users’ tokens. All decisions with respect to the protocol are voted up by the DAO, and all LDO holders may vote.
 
-          * Uses time-proven node operators. Lido DAO works with experienced node operators, which decreases the likelihood of technical mistakes that could lead to slashing or penalties. Users supply the stake, and the node operators supply the know-how.
+          * Curating the best node operator set. The protocol includes both experienced, time-proven staking service providers and permissionless bonded participants.  *\[OPTIONAL: In reputation-based modules, operator reliability reduces the likelihood of technical errors or slashing. In permissionless modules like the Community Staking Module, bonding and transparent exit mechanisms help ensure aligned incentives and secure performance — regardless of the operator’s prior track record.]* Users supply the stake; node operators supply the know-how.
   - name: Staking
     q&a:
       - question: What is liquid staking?
@@ -39,8 +38,8 @@ categories:
           “liquid”.
       - question: What fee is applied by the protocol? What is it used for?
         answer: The protocol applies a 10% fee on staking rewards. This fee is split
-          between node operators and the Lido DAO. That means the users receive
-          90% of the staking rewards returned by the networks.
+          between Node Operators and the Lido DAO. That means the users receive
+          90% of Ethereum staking rewards.
       - question: How can I get stTokens?
         answer: Lido protocol let users stake native tokens (ETH) from Ethereum network
           in a fully permissionless way. The protocols are deployed on public
@@ -48,7 +47,7 @@ categories:
           contracts. However, for convenience, users can get started with
           information on [the main page](https://{{landing}}/).
       - question: Where can I use stTokens?
-        answer: stTokens can be used across a growing Ecosystem. [Explore apps and
+        answer: stTokens can be used across a growing ecosystem. [Explore apps and
           services](https://{{landing}}/lido-ecosystem) integrated with
           stTokens.
   - name: Ethereum
@@ -290,50 +289,60 @@ categories:
           to vote within the Lido DAO.
   - name: Node operators
     q&a:
-      - question: Who are Node Operators used with Lido protocols?
+      - question: Who are Node Operators running validators through the Lido protocol?
         answer: >-
-          The Node Operators (NOs) are a collective of experienced time-proven
-          operators elected by the DAO. The better the underlying operator sets
-          are, the more robust, resilient, and performing the protocols will be.
-          Selecting a good operator set is aimed to increase community
-          acceptance and reduce protocol risks.
+          The Node Operators (NOs) are a collective of professional staking
+          service providers, community staking groups, home stakers, and other
+          staking organizations that run validators through the Lido protocol. 
 
 
-          [Learn more](https://{{operatorportal}}/)
-      - question: How to apply to be a Node Operator for Lido?
-        answer: You could explore the requirements to be considered and apply to be a
-          Node Operator to use Lido protocols on [Node Operator
+
+          The better the underlying operator set is, the more robust, resilient, and performing the protocol will be. Selecting a good operator set aims to increase community acceptance and reduce protocol risks.
+
+
+          [Learn more](https://{{operatorportal}}/).
+      - question: How to become a Node Operator within the Lido protocol?
+        answer: You could explore the requirements to become a Node Operator on
+          the [Node Operator
           Portal](https://{{operatorportal}}/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
       - question: Is it safe to work with Lido DAO?
         answer: >-
-          In order to work safe, Lido fits the next points:
+          In order to provide users with a safe staking platform, the Lido
+          protocol fits the next points:
 
 
           * Open-sourcing & continuous review of all code.
 
-          * Committee of elected, best-in-class validators to minimize staking risk.
+          * Committee of elected, best-in-class and bonded operators to minimise staking risk. Usually, when staking ETH, you choose only one operator. In the case of the Lido protocol, you stake across many operators.
 
-          * Use of non-custodial staking service to eliminate counter-party risk.
+          * Use of non-custodial staking service to eliminate counterparty risk.
 
           * Use of DAO for governance decisions & to manage risk factors.
 
-          * Lido has been audited by Certora, StateMind, Hexens, ChainSecurity, Oxorio, MixBytes, SigmaPrime, and Quantstamp. Lido audits can be found in more detail [here](https://github.com/lidofinance/audits).
+          * The Lido protocol has been audited by Certora, StateMind, Hexens, ChainSecurity, Oxorio, MixBytes, SigmaPrime, Quantstamp. Lido audits can be found in more detail [here](https://github.com/lidofinance/audits)
+
+
+
+          Please note that despite these measures, potential risks still apply. The FAQs below provide additional insights into the risks associated with staking via Lido. For further information and details, please visit the [Terms of Use](https://{{landing}}/terms-of-use).
       - question: What are the risks of staking with Lido?
         answer: >-
-          There exist a number of potential risks when staking using liquid
-          staking protocols.
+          There are some potential risks when staking using the Lido protocol.
+          Such risks may encompass, among others:
 
 
-          * **Smart contract security**\
-            There is an inherent risk that Lido could contain a smart contract vulnerability or bug. The Lido code is open-sourced, audited, and covered by an extensive bug bounty program to minimize this risk. To mitigate smart contract risks, all of the core Lido contracts are audited. Audit reports can be found [here](https://github.com/lidofinance/audits#lido-protocol-audits). Besides, Lido is covered with a massive [Immunefi bug bounty program](https://immunefi.com/bounty/lido/).
-          * **Slashing risk**\
-            Validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimize this risk, Lido stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of self-coverage.
-          * **stToken price risk**\
-            Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
+          * **Smart contract security**
+            There is an inherent risk that the Lido protocol could contain a smart contract vulnerability or bug. To minimise this risk, the Lido code is open-sourced, audited, and covered by a robust [Immunify bug bounty program](https://immunefi.com/bounty/lido/). In addition, all core Lido contracts are audited to mitigate smart contract risks. Audit reports can be found [here](https://github.com/lidofinance/audits).
+          * **Slashing risk**
+            Validators risk staking penalties, with up to 100% of staked funds at risk if they fail. To minimise this risk, the Lido protocol distributes stake across the bondless reputation-based and bonded permissionless Node Operators with heterogeneous setups, while adding an extra layer of protection in the form of [6,341 stETH self-coverage Lido DAO fund](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35).
+          * stETH price risk
+            Users risk an exchange price of stETH which is lower than inherent value due to withdrawal restrictions on the Lido protocol, making arbitrage and risk-free market-making impossible.
 
-          The Lido DAO is driven to mitigate the above risks to the extent possible. Despite this, they may still exist.
+          For further information and details about these and other potential risks, please read carefully the [Terms of Use](https://{{landing}}/terms-of-use).
+
+
+          Always conduct your own research and consult your professional advisors to understand all potential risks before participating.
       - question: Have the protocols been audited?
         answer: Lido DAO codebase has been audited by industry leaders in blockchain
           security. You can find the list of
@@ -366,10 +375,10 @@ categories:
           * Contribute to the codebase in [GitHub](https://github.com/lidofinance).
 
           * Stay updated through the [Research forum](https://{{research}}/).
-      - question: How can I become a partner with Lido DAO?
+      - question: Who is eligible for LEGO funding?
         answer: Any blockchain developer, crypto enthusiast, or member of the community
           can be a participant in Lido Ecosystem Grants Organization. If you're
           improving the ecosystem or creating general awareness about Ethereum,
-          PoS, and DeFi and have a solid plan on how to meet your goals, [here
-          is the info](https://{{landing}}/lego) for you.
+          PoS, and DeFi and have a solid plan on how to meet your goals, [here
+          is the info](https://{{landing}}/lego) for you.
 ---
