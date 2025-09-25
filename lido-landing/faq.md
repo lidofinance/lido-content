@@ -27,7 +27,7 @@ categories:
 
           * Lido protocol is governed by the Lido DAO — this means there is no central point for making decisions, and there is no one person who has access, control, or decision power to define what to do with users’ tokens. All decisions with respect to the protocol are voted up by the DAO, and all LDO holders may vote.
 
-          * Curating the best node operator set. The protocol includes both experienced, time-proven staking service providers and permissionless bonded participants.  *\[OPTIONAL: In reputation-based modules, operator reliability reduces the likelihood of technical errors or slashing. In permissionless modules like the Community Staking Module, bonding and transparent exit mechanisms help ensure aligned incentives and secure performance — regardless of the operator’s prior track record.]* Users supply the stake; node operators supply the know-how.
+          * Curating the best node operator set. The protocol includes both experienced, time-proven staking service providers and permissionless bonded participants. \[OPTIONAL: In reputation-based modules, operator reliability reduces the likelihood of technical errors or slashing. In permissionless modules like the Community Staking Module, bonding and transparent exit mechanisms help ensure aligned incentives and secure performance — regardless of the operator’s prior track record.] Users supply the stake; node operators supply the know-how.
   - name: Staking
     q&a:
       - question: What is liquid staking?
