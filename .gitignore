@@ -1,7 +1,4 @@
 node_modules
-lido-landing/ecosystem/projects.md
-lido-landing/validators/projects.md
-lido-landing/steth-in-defi/projects.md
-lido-landing/multichain/projects.md
 
 .env
+.idea

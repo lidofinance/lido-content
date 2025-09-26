@@ -7,7 +7,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN ./scripts/build.sh
 
 FROM caddy:2.7-alpine
 

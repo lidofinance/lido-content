@@ -29,22 +29,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build combined files
-        run: |
-          ./scripts/combine.sh lido-landing/ecosystem/projects/
-
-      - name: Build combined validators
-        run: |
-          ./scripts/combine.sh lido-landing/validators/projects/
-
-      - name: Build combined files (stETH in DEFI)
-        run: |
-          ./scripts/combine.sh lido-landing/steth-in-defi/projects/
-
-      - name: Build combined files (Multichain)
-        run: |
-          ./scripts/combine.sh lido-landing/multichain/projects/
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
