@@ -13,6 +13,11 @@ products:
     description: Lido stRATEGY gives a unique DeFi strategy allocation targeting
       increased rewards, and additional Mellow points
   - darkLogo: null
+    buttonLabel: View vault
+    tooltip:
+      label: Under maintenance
+      text: The vault is currently under maintenance. Deposits are temporarily paused,
+        but withdrawals are functioning as usual.
     urgentMode:
       isActive: false
     dataId: lido-ggv
