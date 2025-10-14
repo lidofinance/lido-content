@@ -307,10 +307,9 @@ categories:
           Portal](https://{{operatorportal}}/apply-to-be-a-lido-node-operator).
   - name: Security
     q&a:
-      - question: Is it safe to work with Lido DAO?
+      - question: Is it safe to work with Lido?
         answer: >-
-          In order to provide users with a safe staking platform, the Lido
-          protocol fits the next points:
+          In order to improve the safety of the staking platform:
 
 
           * Open-sourcing & continuous review of all code.
@@ -322,7 +321,6 @@ categories:
           * Use of DAO for governance decisions & to manage risk factors.
 
           * The Lido protocol has been audited by Certora, StateMind, Hexens, ChainSecurity, Oxorio, MixBytes, SigmaPrime, Quantstamp. Lido audits can be found in more detail [here](https://github.com/lidofinance/audits)
-
 
 
           Please note that despite these measures, potential risks still apply. The FAQs below provide additional insights into the risks associated with staking via Lido. For further information and details, please visit the [Terms of Use](https://{{landing}}/terms-of-use).
