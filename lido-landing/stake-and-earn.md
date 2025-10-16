@@ -1,6 +1,11 @@
 ---
 products:
   - darkLogo: null
+    buttonLabel: View vault
+    tooltip:
+      label: Under maintenance
+      text: The vault is currently under maintenance. Deposits are temporarily paused,
+        but withdrawals are functioning as usual.
     urgentMode:
       isActive: false
     dataId: lido-ggv
