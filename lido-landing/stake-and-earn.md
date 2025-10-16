@@ -1,7 +1,7 @@
 ---
 products:
   - darkLogo: null
-    buttonLabel: ""
+    buttonLabel: Deposit
     tooltip:
       label: ""
       text: ""
