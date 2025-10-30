@@ -10,13 +10,13 @@ mainCategories:
           - article: a705c3bd-459b-4d58-99b2-fcf9f38ff68f
           - article: b695c3bd-459b-4d58-99b2-fcf9f38ff68f
         categoryName: Staking overview
+      - categoryName: Lido Node Operators
+        articles:
+          - article: cdb04570-4696-4d77-ae64-23523350ef8c
       - categoryName: Governance
         articles:
           - article: 0cd0df68-1f83-485c-b943-1e756998c751
           - article: c520c528-7763-4411-9a1f-a1d5ff753c79
-      - categoryName: Lido Node Operators
-        articles:
-          - article: cdb04570-4696-4d77-ae64-23523350ef8c
       - categoryName: Security
         articles:
           - article: 8b94fe02-7183-401b-8bad-3a88c16615c8
