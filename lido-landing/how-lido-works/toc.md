@@ -19,10 +19,8 @@ mainCategories:
           - article: c520c528-7763-4411-9a1f-a1d5ff753c79
       - categoryName: Security
         articles:
-          - article: 8b94fe02-7183-401b-8bad-3a88c16615c8
           - article: 9726bbbe-8c65-4f84-995e-1510d1ff260e
-          - article: 92b1b55a-a4e0-4415-a3da-c177890566c4
-          - article: a298b73a-7925-4db3-b835-f611d2f22e91
+          - article: 8b94fe02-7183-401b-8bad-3a88c16615c8        
     categoryName: Lido essentials
   - categoryName: Run on Lido
     categories:
