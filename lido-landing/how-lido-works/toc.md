@@ -9,7 +9,7 @@ mainCategories:
           - article: n195c3bd-459b-4d58-99b2-fcf9f38ff68f
           - article: a705c3bd-459b-4d58-99b2-fcf9f38ff68f
           - article: b695c3bd-459b-4d58-99b2-fcf9f38ff68f
-        categoryName: Staking overview
+        categoryName: Staking Overview
       - categoryName: Lido Node Operators
         articles:
           - article: cdb04570-4696-4d77-ae64-23523350ef8c
@@ -21,7 +21,7 @@ mainCategories:
         articles:
           - article: 9726bbbe-8c65-4f84-995e-1510d1ff260e
           - article: 8b94fe02-7183-401b-8bad-3a88c16615c8        
-    categoryName: Lido essentials
+    categoryName: Lido Essentials
   - categoryName: Run on Lido
     categories:
       - articles:
