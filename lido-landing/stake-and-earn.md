@@ -8,7 +8,7 @@ products:
     name: stRATEGY
     ggvApyType: null
     headerDescription: Rewards optimized staking vault built on Mellow architecture
-    isNew: true
+    isNew: false
     isButtonDisabled: false
     depositLink: "{{ethereum_stake_url}}/earn/strategy"
     description: Lido stRATEGY gives a unique DeFi strategy allocation targeting
