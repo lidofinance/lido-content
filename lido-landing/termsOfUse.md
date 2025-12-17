@@ -173,7 +173,7 @@ The Users declare that they are knowledgeable, experienced, and sophisticated in
 
 Without limiting anything in these Terms, you acknowledge that the Lido Protocol Community has adopted the Safe Harbor Agreement for Whitehats published by the Security Alliance (SEAL) (the Whitehat Agreement) in respect of certain Lido-related smart contracts.
 
-By using the Interface to interact with any Middleware that is designated by the Lido Protocol Community as being in scope of the Whitehat Agreement, you acknowledge and agree that you are treated as a "User" and member of the "Protocol Community" for the purposes of the Whitehat Agreement, and you consent to be bound by the Whitehat Agreement as so adopted and amended from time to time. The current version of the Whitehat Agreement and the applicable protocol-specific parameters (including scope, bounty percentage and caps) are made available at [LIDO SAFE HARBOR FACT PAGE]({{ethereum_docs_url}}/security/safeharbor).
+By using the Interface to interact with any Middleware that is designated by the Lido Protocol Community as being in scope of the Whitehat Agreement, you acknowledge and agree that you are treated as a "User" and member of the "Protocol Community" for the purposes of the Whitehat Agreement, and you consent to be bound by the Whitehat Agreement as so adopted and amended from time to time. The current version of the Whitehat Agreement and the applicable protocol-specific parameters (including scope, bounty percentage and caps) are made available at [Safe Harbor fact page]({{ethereum_docs_url}}/security/safeharbor).
 
 Without limiting the generality of the foregoing:
 
