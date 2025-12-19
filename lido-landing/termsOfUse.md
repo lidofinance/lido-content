@@ -1,5 +1,5 @@
 ---
-timestamp: September 03, 2025
+timestamp: December 19, 2025
 ---
 # Welcome to {{landing}}
 
@@ -169,43 +169,62 @@ The Interface may directly or indirectly collect and temporarily store personall
 
 The Users declare that they are knowledgeable, experienced, and sophisticated in using and evaluating blockchain and related technologies and assets, including blockchains, tokens, and proof of stake smart contract systems. The Users declare that they have conducted their own thorough independent investigation and analysis of the Middleware and the other matters contemplated by these Terms, and have not relied upon any information, statement, omission, representation, or warranty, express or implied, written or oral, made by or on behalf of Interface maintainers in connection therewith, except as expressly set forth in these Terms.
 
-### 15. Risks, Disclaimers, and Limitations of Liability
+### 15. Safe Harbor Whitehat Program
+
+Without limiting anything in these Terms, you acknowledge that the Lido Protocol Community has adopted the Safe Harbor Agreement for Whitehats published by the Security Alliance (SEAL) (the Whitehat Agreement) in respect of certain Lido-related smart contracts.
+
+By using the Interface to interact with any Middleware that is designated by the Lido Protocol Community as being in scope of the Whitehat Agreement, you acknowledge and agree that you are treated as a "User" and member of the "Protocol Community" for the purposes of the Whitehat Agreement, and you consent to be bound by the Whitehat Agreement as so adopted and amended from time to time. The current version of the Whitehat Agreement and the applicable protocol-specific parameters (including scope, bounty percentage and caps) are made available at [Safe Harbor fact page]({{ethereum_docs_url}}/security/safeharbor).
+
+Without limiting the generality of the foregoing:
+
+- you consent to security researchers acting as "Whitehats" under the Whitehat Agreement attempting Eligible Funds Rescues of any and all tokens that you have deposited into in-scope Middleware, and you consent to any Bounties being paid from such tokens in accordance with the Whitehat Agreement and the applicable protocol-specific parameters;
+- you acknowledge and agree that, in connection with any Eligible Funds Rescue, tokens may be lost, stolen, suffer diminished value, or become disabled or frozen, and you assume all risk of the foregoing;
+- you acknowledge and agree that any Bounty paid as a deduction or distribution from your tokens to an Eligible Whitehat may constitute a taxable disposition of those tokens by you, and you are solely responsible for determining and complying with all tax obligations applicable to you in any jurisdiction; and
+- you agree to hold the other members of the Lido Protocol Community (other than yourself) harmless from any loss, liability, claim or damage suffered by you in connection with any Eligible Funds Rescue (and the underlying exploit giving rise to such Eligible Funds Rescue) that is carried out in accordance with the Whitehat Agreement.
+
+For the avoidance of doubt, nothing in this Section creates any custody, intermediary, or agency relationship between you and any Interface maintainer, and nothing in this Section affects the limitations of liability, disclaimers, or indemnities in Sections 11 and 15 of these Terms, which continue to apply in full.
+
+Notwithstanding Section 1 (Dispute Resolution; Arbitration Agreement), you acknowledge that, as between you and any other party to the Whitehat Agreement, any dispute arising out of or relating to the Whitehat Agreement or any Eligible Funds Rescue will be governed by and resolved in accordance with the dispute-resolution provisions set out in the Whitehat Agreement. As between you and the Interface maintainers, Section 1 of these Terms (including LCIA arbitration and Cayman Islands governing law) continues to apply to the fullest extent to all disputes arising out of or relating in any way to the Interface or these Terms.
+
+By continuing to use the Protocol after 19th December 2025, including by keeping Tokens deposited in or interacting with the Protocol, you agree to the updated Terms of Use (including the Safe Harbor Whitehat Program section). If you do not agree, you should withdraw your Tokens and cease using the Protocol.
+
+### 16. Risks, Disclaimers, and Limitations of Liability
 
 Each User hereby acknowledges and agrees, and consents to, and assumes the risks of, the matters described in Section 15 of the Terms.
 
-#### 15.1 Third-Party Offerings and Content
+#### 16.1 Third-Party Offerings and Content
 
 References, links, or referrals to or connections with or reliance on third-party resources, products, services, or content, including smart contracts developed or operated by third parties, may be provided to Users in connection with the Interface. In addition, third parties may offer promotions related to the Interface. Interface maintainers do not endorse or assume any responsibility for any activities, resources, products, services, content, or promotions owned, controlled, operated, or sponsored by third parties. If Users access any such resources, products, services, or content or participate in any such promotions, Users do so solely at their own risk. Each User hereby expressly waives and releases Interface maintainers from all liability arising from the User’s use of any such resources, products, services, or content or participation in any such promotions.
 
 The User further acknowledges and agrees that Interface maintainers shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such resources, products, services, content, or promotions from third parties.
 
-#### 15.2 Cryptography Risks
+#### 16.2 Cryptography Risks
 
 Cryptography is a progressing field. Advances in code cracking or technical advances such as the development of quantum computers may present risks to blockchain systems, the Middleware, or tokens, including the theft, loss, or inaccessibility thereof.
 
-#### 15.3 Fork Handling
+#### 16.3 Fork Handling
 
 The Middleware, and all tokens may be subject to **Forks**. Forks occur when some or all persons running the software clients for a particular blockchain system adopt a new client or a new version of an existing client that: (i) changes the protocol rules in backward-compatible or backward-incompatible manner that affects which transactions can be added into later blocks, how later blocks are added to the blockchain, or other matters relating to the future operation of the protocol; or (ii) reorganizes or changes past blocks to alter the history of the blockchain. Some forks are “contentious” and thus may result in two or more persistent alternative versions of the protocol or blockchain, either of which may be viewed as or claimed to be the legitimate or genuine continuation of the original.
 
 Interface maintainers cannot anticipate, control or influence the occurrence or outcome of forks, and do not assume any risk, liability or obligation in connection therewith. Without limiting the generality of the foregoing, Interface maintainers do not assume any responsibility to notify a User of pending, threatened or completed forks. Interface maintainers will respond (or refrain from responding) to any forks in such manner as Interface maintainers determine in their sole and absolute discretion. Interface maintainers shall not have any duty or obligation, or liability to a User if such response (or lack of such response) acts to a User’s detriment. Each User assumes full responsibility to independently remain apprised of and informed about possible forks, and to manage the User’s own interests and risks in connection therewith.
 
-#### 15.4 Essential Third-Party Software Dependencies
+#### 16.4 Essential Third-Party Software Dependencies
 
 The Middleware and other relevant blockchain systems and smart contracts are public software utilities that are accessible directly through any compatible third-party node or indirectly through any compatible third-party “wallet” application that interacts with such a node. Interacting with the Middleware does not require the use of the Interface, but the Interface is only a convenient and user-friendly option of reading and displaying data from the Middleware and generating standard draft transaction messages compatible with the Middleware. The User may choose to interact with the Middleware using softwares other than the Interface. As the Interface does not provide wallet software applications or nodes for blockchain systems, such software constitutes an essential third-party software and user dependency without which the Middleware cannot be used and tokens cannot be traded or used. Furthermore, the Interface may use APIs and servers of Interface maintainers or third parties and there are no guarantees as to the continued operation, maintenance, availability, or security of any of the foregoing dependencies.
 
-#### 15.5 Tax Issues
+#### 16.5 Tax Issues
 
 The tax consequences of purchasing, selling, holding, transferring, or locking tokens or otherwise utilizing the Middleware are uncertain and may vary by jurisdiction. Interface Maintainers have undertaken no due diligence or investigation into such tax consequences, and assume no obligation or liability to optimize, facilitate or bear the tax consequences to any person.
 
-#### 15.6 Legal Limitations on Disclaimers
+#### 16.6 Legal Limitations on Disclaimers
 
 Some jurisdictions do not allow the exclusion of certain warranties, or the limitation or exclusion of certain liabilities, and damages. Accordingly, some of the disclaimers and limitations set forth in these Terms may not apply in full to specific Users. The disclaimers and limitations of liability provided in these terms shall apply to the fullest extent as permitted by applicable law.
 
-#### 15.7 Indemnification
+#### 16.7 Indemnification
 
 Each User shall defend, indemnify, compensate, reimburse and hold harmless the Interface maintainers from any claim, demand, action, damage, loss, cost or expense, including without limitation reasonable attorneys’ fees, arising out or relating to (a) User's use of, or conduct in connection with, the Interface; (b) User's violation of these Terms or any other applicable policy or contract of Interface maintainers; or (c) User's violation of any rights of any other person or entity.
 
-### 16. Entire Representation, Consent and Agreement
+### 17. Entire Representation, Consent and Agreement
 
 These Terms, including the Privacy Policy, constitute your entire representation, consent, and agreement with respect to the subject matter, including the Interface. These Terms, including the Privacy Policy, and any disclosure and disclaimers incorporated by reference supersede all prior Terms, written or oral understandings, communications, and other agreements relating to the subject matter of the Terms.
 
