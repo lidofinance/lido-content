@@ -202,7 +202,7 @@ rows:
   is utilized to set one-year and three-year goals.
   The [goals for 2026](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xeedef9fea3d782f192410768cabaf6974da40ef36e1d22c7f8fff5fd4cfc7a59)
   were adopted in November 2024, marking a new focus for the upcoming
-  year.
+  year."
 - scorecard-attribute: "Distributed variation of on-premises infra and cloud providers"
   categories: "Validator set"
   self-assessment: "Okay"
