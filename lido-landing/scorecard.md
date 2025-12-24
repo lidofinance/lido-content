@@ -96,8 +96,8 @@ rows:
   comments: "As of Q3/2025, Node Operators using the Lido protocol continue to utilize
   a\_[well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity)
   \_in aggregate. Execution Layer diversity significantly improved as a result
-  of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459)
-  .\_Nethermind remains the dominant Execution Layer client with 39.8% usage, slightly ahead of Geth at 37.1%."
+  of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459).
+  \_Nethermind remains the dominant Execution Layer client with 39.8% usage, slightly ahead of Geth at 37.1%."
 - scorecard-attribute: "Delegation is enabled in on-chain governance"
   categories: "Governance"
   self-assessment: "Good"
@@ -157,7 +157,7 @@ rows:
   categories: "Validator set"
   self-assessment: "Okay"
   comments: "In the Curated Operator module, keys are managed by professional node
-  operators.\_[As of the Q3/25, 22.6% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)
+  operators.\_[As of Q3/25, 22.6% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)
   \_utilize Attestant’s Vouch CL client. While Vouch utilization does not directly correlate to usage of Attestants Dirk
   key manager that includes threshold signing, it is roughly indicative. In the Simple DVT Module, participants utilize
   Obol and SSV Network based DVT. All SDVT validator keys are created through a Distributed Key Generation process, with
@@ -227,7 +227,8 @@ rows:
 - scorecard-attribute: "Validator Consolidation Progress"
   categories: "Validator set"
   self-assessment: "Needs improvement"
-  comments: "Ethereum’s [EIP-7251](https://eips.ethereum.org/EIPS/eip-7251) has been implemented, enabling validators to consolidate balances above 32 ETH (up to
+  comments: "Ethereum’s [EIP-7251](https://eips.ethereum.org/EIPS/eip-7251) has been implemented, enabling validators to
+  consolidate balances above 32 ETH (up to
   2048 ETH). This reduces the total number of active validator indices and lowers network overhead, contributing to
   scalability and long-term protocol health. \_\n\nLido is preparing to adopt consolidation within its validator set as
   discussed [in this proposal]({{research_url}}/t/future-of-the-curated-module-cmv2-landscape/10929)."
