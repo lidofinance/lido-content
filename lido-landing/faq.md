@@ -77,7 +77,7 @@ categories:
 
           * Stake through the Lido middleware: You can participate in staking by depositing your ETH through the [Lido middleware]({{ethereum_stake_url}}) and mint stETH in return.
 
-          * Through exchanges: stETH can be bought, sold or exchanged for other tokens on various centralised and decentralised exchanges. For example: you can exchange other cryptocurrencies like USDC for stETH on Uniswap.
+          * Through exchanges: stETH can be bought, sold or exchanged for other tokens on various centralized and decentralized exchanges. For example: you can exchange other cryptocurrencies like USDC for stETH on Uniswap.
       - question: How can I use stETH?
         answer: stETH can be utilized within an expanding ecosystem of blockchains,
           enabling integrations with a wide range of [DApps and
@@ -124,7 +124,7 @@ categories:
 
           * Wrap stETH or ETH: You can use the [Wrap & Unwrap staking widget]({{ethereum_stake_url}}/wrap?mode=unwrap). This allows you to convert your stETH or ETH into wstETH, effectively wrapping them to obtain the non-rebasing token.
 
-          * Get on exchanges: wstETH can be bought, sold or exchanged for other tokens on various centralised and decentralised exchanges. For example: you can exchange other cryptocurrencies like USDC for wstETH on Uniswap or other exchanges that support it.
+          * Get on exchanges: wstETH can be bought, sold or exchanged for other tokens on various centralized and decentralized exchanges. For example: you can exchange other cryptocurrencies like USDC for wstETH on Uniswap or other exchanges that support it.
       - question: Do I get my network rewards if I wrap stETH to wstETH?
         answer: Yes. When you wrap stETH to wstETH, you continue to be able to receive
           network rewards at the same rate as regular stETH. While holding
@@ -314,7 +314,7 @@ categories:
 
           * Open-sourcing & continuous review of all code.
 
-          * Committee of elected, best-in-class and bonded operators to minimise staking risk. Usually, when staking ETH, you choose only one operator. In the case of the Lido protocol, you stake across many operators.
+          * Committee of elected, best-in-class and bonded operators to minimize staking risk. Usually, when staking ETH, you choose only one operator. In the case of the Lido protocol, you stake across many operators.
 
           * Use of non-custodial staking service to eliminate counterparty risk.
 
@@ -331,9 +331,9 @@ categories:
 
 
           * **Smart contract security**
-            There is an inherent risk that the Lido protocol could contain a smart contract vulnerability or bug. To minimise this risk, the Lido code is open-sourced, audited, and covered by a robust [Immunify bug bounty program](https://immunefi.com/bounty/lido/). In addition, all core Lido contracts are audited to mitigate smart contract risks. Audit reports can be found [here](https://github.com/lidofinance/audits).
+            There is an inherent risk that the Lido protocol could contain a smart contract vulnerability or bug. To minimize this risk, the Lido code is open-sourced, audited, and covered by a robust [Immunify bug bounty program](https://immunefi.com/bounty/lido/). In addition, all core Lido contracts are audited to mitigate smart contract risks. Audit reports can be found [here](https://github.com/lidofinance/audits).
           * **Slashing risk**
-            Validators risk staking penalties, with up to 100% of staked funds at risk if they fail. To minimise this risk, the Lido protocol distributes stake across the bondless reputation-based and bonded permissionless Node Operators with heterogeneous setups, while adding an extra layer of protection in the form of [6,341 stETH self-coverage Lido DAO fund](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35).
+            Validators risk staking penalties, with up to 100% of staked funds at risk if they fail. To minimize this risk, the Lido protocol distributes stake across the bondless reputation-based and bonded permissionless Node Operators with heterogeneous setups, while adding an extra layer of protection in the form of [6,341 stETH self-coverage Lido DAO fund](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35).
           * stETH price risk
             Users risk an exchange price of stETH which is lower than inherent value due to withdrawal restrictions on the Lido protocol, making arbitrage and risk-free market-making impossible.
 
