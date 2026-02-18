@@ -1,5 +1,8 @@
 #!/usr/bin/env -S yarn zx
 
+import { glob } from 'glob';
+import fs from 'fs/promises';
+
 class CheckError {
   constructor(message, line) {
     this.message = message;
@@ -88,28 +91,28 @@ const main = async () => {
     "lido-landing/l2-audits.md",
     "lido-landing/ecosystem/**/*",
     "lido-landing/validators/**/*",
-  ]);
+  ], { nodir: true });
 
   let errors = false;
-  await Promise.all(
-    pages.map(async (page) => {
-      const content = await fs.readFile(page, "utf-8");
 
-      const results = [
-        ...checkDomainMention(content),
-        ...checkVariablesUsage(content),
-      ];
+  for (const page of pages) {
+    const content = await fs.readFile(page, "utf-8");
 
-      if (results.length != 0) {
-        for (let result of results) {
-          console.error(`${page}:${result.line}: 🚨 ${result.message}`);
-        }
-        errors = true;
-      } else {
-        console.log(`${page}: ✅ Ok`);
+    const results = [
+      ...checkDomainMention(content),
+      ...checkVariablesUsage(content),
+    ];
+
+    if (results.length != 0) {
+      for (let result of results) {
+        console.error(`${page}:${result.line}: 🚨 ${result.message}`);
       }
-    }),
-  );
+      errors = true;
+    } else {
+      console.log(`${page}: ✅ Ok`);
+    }
+  }
+
   if (errors) {
     process.exit(1);
   }
