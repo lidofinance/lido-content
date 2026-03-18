@@ -39,8 +39,6 @@ const KNOWN_VARIABLES = [
   "operatorportal",
   "vote_url",
   "vote",
-  "easytrack_url",
-  "easytrack",
   "help_url",
   "help",
   "opportunities_url",

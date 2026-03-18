@@ -101,8 +101,8 @@ rows:
 - scorecard-attribute: "Delegation is enabled in on-chain governance"
   categories: "Governance"
   self-assessment: "Good"
-  comments: "[The on-chain delegation was enabled](https://{{vote}}/vote/178) in August 2024. Now LDO
-  holders [can delegate](https://{{vote}}/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates'
+  comments: "[The on-chain delegation was enabled]({{vote_url}}/vote/178) in August 2024. Now LDO
+  holders [can delegate]({{vote_url}}/vote/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates'
   activity can be viewed on the [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
 - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
   categories: "Validator set"
@@ -122,7 +122,7 @@ rows:
   categories: "Governance"
   self-assessment: "Good"
   comments: "Governance includes open discussion, LDO voting (off-chain and on-chain), and
-  a [Dual Governance](https://dg.{{landing}}/) challenge window for stETH holders. On-chain voting runs in two phases:
+  a [Dual Governance]({{vote_url}}/dg) challenge window for stETH holders. On-chain voting runs in two phases:
   the main vote, then an objection period for 'against' votes only. Tokenholders can override their delegates' votes at
   any time by voting directly. Dual Governance lets stETH holders delay execution and exit before contentious proposals
   are enacted. This process balances different interests and provides strong safeguards that protect the protocol from
@@ -131,7 +131,7 @@ rows:
   categories: "Governance"
   self-assessment: "Good"
   comments: "Lido on Ethereum is governed by LDO token voting, but proposals affecting core protocol functions must pass
-  through [Dual Governance](https://dg.{{landing}}/). This prevents LDO holders from bypassing safeguards and makes
+  through [Dual Governance]({{vote_url}}/dg). This prevents LDO holders from bypassing safeguards and makes
   hostile takeovers harder. \\\nDual Governance gives stETH holders power to safely exit through a dynamic timelock
   mechanism facilitated by an escrow contract that accepts stETH, wstETH, and withdrawal NFTs. \\\nWith >1% of the total
   stETH supply in the escrow, Veto Signalling is activated. This blocks governance motions for 5 to 45 days, depending
@@ -183,7 +183,7 @@ rows:
   the Execution Layer without requiring Node Operator involvement (subject to the applicable exit flow and request being
   in place). This allows the DAO to directly initiate validator exits in exceptional or emergency situations; however,
   the DAO’s use of TW for actions such as mass validator exits or stake re-allocation remains subject to the [Dual
-  Governance](https://dg.{{landing}}/) mechanism. As a result, such actions cannot be executed unilaterally or
+  Governance]({{vote_url}}/dg) mechanism. As a result, such actions cannot be executed unilaterally or
   immediately, and stETH holders
   retain the ability to signal concern, delay execution, and potentially exit their positions before changes take
   effect."
@@ -193,7 +193,7 @@ rows:
   comments: "[Public Delegate Platform and Delegate Incentivization Program](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xa502cf80451192672313911ce558e74799626da3b3b66130e21c6cd19707e584)
   were established in August 2024. In Q4, 2024 Lido DAO has 7 delegates with more than 2M LDO delegated to each
   on-chain, which makes them eligible for incentives. You can
-  see [all the public delegates here](https://{{vote}}/delegation)
+  see [all the public delegates here]({{vote_url}}/vote/delegation)
   and [check delegates' voting participation here](https://dune.com/lido/lido-delegations)."
 - scorecard-attribute: "DAO goals are easily accessible"
   categories: "Governance"
