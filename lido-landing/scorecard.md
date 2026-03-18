@@ -102,7 +102,7 @@ rows:
   categories: "Governance"
   self-assessment: "Good"
   comments: "[The on-chain delegation was enabled]({{vote_url}}/vote/178) in August 2024. Now LDO
-  holders [can delegate]({{vote_url}}/vote/delegation) on Aragon& Snapshot. The delegated LDO amounts and delegates'
+  holders [can delegate]({{vote_url}}/vote/delegation) on Aragon & Snapshot. The delegated LDO amounts and delegates'
   activity can be viewed on the [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
 - scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
   categories: "Validator set"
