@@ -350,7 +350,7 @@ categories:
         answer: Lido DAO uses the [Immunefi platform](https://immunefi.com/) — the
           leading bug bounty platform for DeFi with the world's largest
           bounties. All info about Lido Bug Bounty programs
-          is [here](https://{{landing}}/bug-bounty).
+          is [here](https://immunefi.com/bug-bounty/lido/information).
   - name: Additional
     q&a:
       - question: Where can I find more info for developers?
