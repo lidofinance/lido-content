@@ -217,7 +217,7 @@ rows:
   \_\n\nCurrently, around 6% of Lido protocol’s stake is operated through the Community Staking Module (CSM). The
   current
   limit of the share [is set to 7.5%]({{vote_url}}/vote/198). A proposal to raise CSM’s share to 10% has been
-  approved but not yet implemented.\n\nLido v3, launched on 30 January 2026, introduces stVaults — a modular staking
+  approved but not yet implemented.\n\nLido V3, launched on 30 January 2026, introduces stVaults — a modular staking
   framework that expands the design space for staking participation. As a recent addition, its structural impact on
   permissionless participation is still emerging."
   :::
