@@ -32,7 +32,7 @@ rows:
   comments: "[The average performance of the Lido protocol validator set](https://explorer.rated.network/o/Lido?timeWindow=30d)
   is higher than [the average Network performance](https://explorer.rated.network/?timeWindow=30d) based on
   the [RAVER methodology](https://docs.rated.network/documentation/methodologies/ethereum/rated-effectiveness-rating/rated-effectiveness-rating)
-  available at the moment of assessment (December 2025)."
+  available at the moment of assessment (February 2026)."
 - scorecard-attribute: "Operators should receive enough network rewards to build a sustainable, dependable staking
   business"
   categories: "Validator set"
@@ -41,25 +41,25 @@ rows:
   categories: "Validator set"
   self-assessment: "Good"
   comments: "The Lido protocol has
-  a [subsystem](https://{{ethereum_docs}}/contracts/withdrawal-queue-erc721/#what-is-withdrawalqueueerc721) that ensures
-  withdrawal requests are executed without relying solely on
-  manual operator actions. Since May 2023, Node Operators have used their own
-  or [open-source tooling](https://github.com/lidofinance/validator-ejector/) to process exits
-  automatically, and all withdrawals have been fulfilled.\_\n\n With the introduction of Triggerable Withdrawals (TWs),
-  exits
-  can now also be triggered by the DAO. This removes the remaining “hostage risk” from operator refusal or negligence,
-  while introducing a new governance responsibility for the DAO. The total volume of processed withdrawals can be found
-  on the dedicated Dune dashboard."
+  a [subsystem]({{ethereum_docs_url}}/contracts/withdrawal-queue-erc721/#what-is-withdrawalqueueerc721) that ensures
+  withdrawal requests are executed without relying solely on manual operator actions. Since May 2023, Node Operators
+  have used their own or [open-source tooling](https://github.com/lidofinance/validator-ejector/) to process exits
+  automatically, and all withdrawals have been fulfilled.\n\nWith the introduction of Triggerable Withdrawals (TWs),
+  exits can now also be triggered by the DAO. This removes the remaining “hostage risk” from operator refusal or
+  negligence, while introducing a new governance responsibility for the DAO. The total volume of processed withdrawals
+  can be found on the [dedicated Dune dashboard.](https://dune.com/embeds/2475364/4072036)"
+
 - scorecard-attribute: "No operator has more than 1% of the total stake"
   categories: "Validator set"
   self-assessment: "Good"
-  comments: "As of Q3/2025, each operator continues to operate, via Lido, less than 1% of total stake across the entire
-  Ethereum network, taking into account cross-module totals. Quarterly updates on the details and ratio of amount of
-  stake that is over the soft-ceiling can be found in
-  the\_[Lido Validator and Node Operator Metrics (VaNOM) web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest).
-  Additionally, through the Simple DVT Module and the Community Staking Module, hundreds of net new operators have
-  already started using the Lido protocol in 2024, further reducing concentration of stake share amongst large
-  entities."
+  comments: "As of Q4/2025, each operator continues to operate, via Lido protocol, less than 1% of total stake across
+  the entire Ethereum network, taking into account cross-module totals. Quarterly updates on the details and ratio of
+  amount of stake that is over the soft-ceiling can be found in
+  the [Lido Validator and Node Operator Metrics (VaNOM) web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)
+  .\n\nAdditionally, through the Simple DVT Module and the Community Staking Module, hundreds of net new operators have
+  already
+  started using the Lido protocol in 2024, further reducing concentration of stake share amongst large entities."
+
 - scorecard-attribute: "Lido Protocol governance lives on Ethereum"
   categories: "Security"
   self-assessment: "Good"
@@ -93,21 +93,22 @@ rows:
 - scorecard-attribute: "Client Diversity"
   categories: "Validator set"
   self-assessment: "Good"
-  comments: "As of Q3/2025, Node Operators using the Lido protocol continue to utilize
+  comments: "As of Q4/2025, Node Operators using the Lido protocol continue to utilize
   a\_[well-balanced suite of Consensus Layer clients](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?tab=client-diversity)
   \_in aggregate. Execution Layer diversity significantly improved as a result
   of [Node Operator commitments to reduce their reliance on Geth as a supermajority client](https://{{research}}/t/ethereum-node-operator-el-diversity-improvement-commitments/6459).
-  \_Nethermind remains the dominant Execution Layer client with 39.8% usage, slightly ahead of Geth at 37.1%."
+  \_Nethermind remains the dominant Execution Layer client with 39.1% usage, slightly ahead of Geth at 37.0%."
 - scorecard-attribute: "Delegation is enabled in on-chain governance"
   categories: "Governance"
   self-assessment: "Good"
   comments: "[The on-chain delegation was enabled]({{vote_url}}/vote/178) in August 2024. Now LDO
   holders [can delegate]({{vote_url}}/vote/delegation) on Aragon & Snapshot. The delegated LDO amounts and delegates'
   activity can be viewed on the [Lido Delegation Public Dashboard](https://dune.com/lido/lido-delegations)."
-- scorecard-attribute: "There’s a way for operators to permissionlessly enter the set and prove themselves"
+- scorecard-attribute: "There’s a way for operators to permissionlessly enter and leave the set"
   categories: "Validator set"
   self-assessment: "Good"
-  comments: "The Community Staking Module (CSM) is Lido’s permissionless module that allows independent node operators
+  comments: "The Community Staking Module (CSM) is Lido protocol’s permissionless module that allows independent node
+  operators
   to join and leave the Lido operator set without going through a governance-driven onboarding process. Instead of
   curated entry, operators provide a bond and register directly through the CSM smart contracts.
   With CSM live, anyone who meets the technical requirements and provides the required bond can permissionlessly enter
@@ -147,7 +148,7 @@ rows:
 - scorecard-attribute: "Distributed geographically"
   categories: "Validator set"
   self-assessment: "Okay"
-  comments: "As of Q3/2025, approximately 20% of validators are still operated by North America–based Node Operators (US
+  comments: "As of Q4/2025, approximately 20% of validators are still operated by North America–based Node Operators (US
   and Canada), while European entities continue to dominate the landscape at 62%. Progress in expanding geographical
   diversity—through the inclusion of operators from Asia and South America, as well as broader validator
   distribution—remains evident, though largely unchanged from the previous quarter. Continued community efforts are
@@ -157,7 +158,7 @@ rows:
   categories: "Validator set"
   self-assessment: "Okay"
   comments: "In the Curated Operator module, keys are managed by professional node
-  operators.\_[As of Q3/25, 22.6% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)
+  operators.\_[As of Q4/25, 24.4% of validators in the module](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest)
   \_utilize Attestant’s Vouch CL client. While Vouch utilization does not directly correlate to usage of Attestants Dirk
   key manager that includes threshold signing, it is roughly indicative. In the Simple DVT Module, participants utilize
   Obol and SSV Network based DVT. All SDVT validator keys are created through a Distributed Key Generation process, with
@@ -176,22 +177,20 @@ rows:
   categories: "Validator set"
   self-assessment: "Okay"
   comments: "Historically, validator exits are performed at-will by Node Operators, upon request for a validator to be
-  exited by the protocol's automated Validator Exit Bus. This continues to be the case for most validator exits (e.g.,
+  exited by the protocol’s automated Validator Exit Bus. This continues to be the case for most validator exits (e.g.,
   in order to make ETH available for withdrawals) even with the Lido protocol’s support for Execution Layer Triggerable
-  Withdrawals (TW).
-  The TW framework is now live in the Lido protocol (as of October 2025) and enables validator exits to be initiated via
+  Withdrawals (TW).\n\nThe TW framework is now live in the Lido protocol and enables validator exits to be initiated via
   the Execution Layer without requiring Node Operator involvement (subject to the applicable exit flow and request being
   in place). This allows the DAO to directly initiate validator exits in exceptional or emergency situations; however,
   the DAO’s use of TW for actions such as mass validator exits or stake re-allocation remains subject to the [Dual
-  Governance]({{vote_url}}/dg) mechanism. As a result, such actions cannot be executed unilaterally or
-  immediately, and stETH holders
-  retain the ability to signal concern, delay execution, and potentially exit their positions before changes take
-  effect."
+  Governance]({{vote_url}}/dg) mechanism. As a result, such actions cannot be executed unilaterally or immediately, and
+  stETH holders retain the ability to signal concern, delay execution, and potentially exit their positions before
+  changes take effect."
 - scorecard-attribute: "There’s a robust set of governance delegates"
   categories: "Governance"
   self-assessment: "Okay"
   comments: "[Public Delegate Platform and Delegate Incentivization Program](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xa502cf80451192672313911ce558e74799626da3b3b66130e21c6cd19707e584)
-  were established in August 2024. In Q4, 2024 Lido DAO has 7 delegates with more than 2M LDO delegated to each
+  were established in August 2024. In Q4, 2025 Lido DAO has 6 delegates with more than 1M LDO delegated to each
   on-chain, which makes them eligible for incentives. You can
   see [all the public delegates here]({{vote_url}}/vote/delegation)
   and [check delegates' voting participation here](https://dune.com/lido/lido-delegations)."
@@ -199,24 +198,28 @@ rows:
   categories: "Governance"
   self-assessment: "Okay"
   comments: "[The GOOSE framework](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x58bbc5d540e46081043ef29d4d1ee56b7df4dc1b0369aa78e0c15a2403549353)
-  is utilized to set one-year and three-year goals.
-  The [goals for 2026](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0xeedef9fea3d782f192410768cabaf6974da40ef36e1d22c7f8fff5fd4cfc7a59)
-  were adopted in November 2024, marking a new focus for the upcoming
-  year."
+  is used to set one-year and three-year goals.
+  The [goals for 2026](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x9504d26771291e011ff54c2e0d7665e79621aa0225c0d573697f1c4061401938)
+  were adopted in December 2025, setting out a strategic focus for a new approach to growth."
 - scorecard-attribute: "Distributed variation of on-premises infra and cloud providers"
   categories: "Validator set"
   self-assessment: "Okay"
-  comments: "Reliance on public cloud continues to remain stable at 49% in Q3/2025. The usage is balanced against forms
+  comments: "Reliance on public cloud continues to remain stable at 48% in Q4/2025. The usage is balanced against forms
   of Bare Metal (Colocated, On-Premises or Dedicated Hardware). Details can be found in
   the\_[Lido VaNOM web-app](https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest?selectedStaticCellId=fd91537b-e4b5-42b6-813d-6ec0ff957cd3)."
 - scorecard-attribute: "Share of Permissionless Operators"
   categories: "Validator set"
   self-assessment: "Okay"
-  comments: "Permissionless participation is key to decentralizing Lido’s validator set and reducing reliance on
+  comments: "Permissionless participation is key to decentralizing Lido protocol’s validator set and reducing reliance
+  on
   governance decisions or trusted relationships. It ensures that anyone meeting technical and performance requirements
   can join the protocol without needing approval, which strengthens trustlessness and network resilience.
-  \_\n\nCurrently, around 5% of Lido’s stake is operated through the Community Staking Module (CSM). A proposal to raise
-  CSM’s share to 10% has been approved but not yet implemented."
+  \_\n\nCurrently, around 6% of Lido protocol’s stake is operated through the Community Staking Module (CSM). The
+  current
+  limit of the share [is set to 7.5%]({{vote_url}}/vote/198). A proposal to raise CSM’s share to 10% has been
+  approved but not yet implemented.\n\nLido v3, launched on 30 January 2026, introduces stVaults — a modular staking
+  framework that expands the design space for staking participation. As a recent addition, its structural impact on
+  permissionless participation is still emerging."
   :::
 
 ## Needs improvement
@@ -228,7 +231,11 @@ rows:
   categories: "Validator set"
   self-assessment: "Needs improvement"
   comments: "Ethereum’s [EIP-7251](https://eips.ethereum.org/EIPS/eip-7251) has been implemented, enabling validators to
-  consolidate balances above 32 ETH (up to
-  2048 ETH). This reduces the total number of active validator indices and lowers network overhead, contributing to
-  scalability and long-term protocol health. \_\n\nLido is preparing to adopt consolidation within its validator set as
-  discussed [in this proposal]({{research_url}}/t/future-of-the-curated-module-cmv2-landscape/10929)."
+  consolidate balances above 32 ETH (up to 2048 ETH). This reduces the total number of active validator indices and
+  lowers network overhead, contributing to scalability and long-term protocol health.\n\nFollowing mainnet activation of
+  EIP-7251, it is expected that large validators (0x02) within the new Curated Module (CMv2) will be implemented, as
+  outlined in this [landscape proposal]({{research_url}}/t/future-of-the-curated-module-cmv2-landscape/10929). The
+  protocol is expected to undertake a migration period for all stake currently run by the Curated Module, and will use
+  Ethereum consolidation operations to move stake from the Curated Module to CMv2, while also introducing new features
+  for curated operators that contribute to long-term protocol scalability and validator set health.\n\nThe expected
+  timeline for mainnet launch is ~Q3 2026."
