@@ -357,7 +357,7 @@ categories:
       - question: What is Web3SOC and how does it work?
         answer: >-
           Web3SOC is a standardized classification system that evaluates DeFi organizations across four core areas: operational (team structure and governance), financial (economic design and capital resilience), security (smart contract and infrastructure robustness), and regulatory (legal compliance).
-      - question: What is the difference between Web3SOC and SOC II or ISO27001 and why does the DAO have Web3SOC instead of those?
+      - question: What is the difference between Web3SOC and SOC II or ISO 27001 and why does the DAO have Web3SOC instead of those?
         answer: >-
           Web3SOC follows a point-in-time assessment model and shares structural principles with traditional frameworks such as SOC 2 and ISO 27001. However, it was purpose-built for decentralized finance — covering smart contract security, key management, validator operations, and on-chain governance, which traditional certifications were not designed to assess.
       - question: What security standards does Web3SOC evaluate in DeFi protocols?
