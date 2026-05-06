@@ -353,7 +353,7 @@ categories:
           is [here](https://immunefi.com/bug-bounty/lido/information).
       - question: What certifications and ratings does Lido have?
         answer: >-
-          [Lido DAO has received Web3SOC certification](https://cantina.xyz/u/lidofinance), demonstrating governance, finance, security, and compliance readiness for institutions. Additionally, stETH holds an A+ rating in both Staking Rewards’ risk framework and Credora’s DeFi ratings framework.
+          [Lido DAO has received Web3SOC certification](https://cantina.xyz/u/lidofinance/web3soc), demonstrating governance, finance, security, and compliance readiness for institutions. Additionally, stETH holds an A+ rating in both Staking Rewards’ risk framework and Credora’s DeFi ratings framework.
       - question: What is Web3SOC and how does it work?
         answer: >-
           [Web3SOC](https://cantina.xyz/web3soc) is a standardized classification system that evaluates DeFi organizations across four core areas: operational (team structure and governance), financial (economic design and capital resilience), security (smart contract and infrastructure robustness), and regulatory (legal compliance).
