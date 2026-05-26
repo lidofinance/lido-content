@@ -11,7 +11,7 @@ sections:
   - title: Categories of Personal Data Collected, Purposes of and Bases for the Processing
     shortTitle: Categories of Personal...
     anchor: categories-of-personal-data-collected-purposes-of-and-bases-for-the-processing
-    intro: When providing the Services, certain personal data may be processed for the following purposes:
+    intro: "When providing the Services, certain personal data may be processed for the following purposes:"
     table:
       headers:
         - Purpose of processing
