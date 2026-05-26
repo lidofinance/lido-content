@@ -1,4 +1,5 @@
 ---
+timestamp: March 12, 2026
 sections:
   - title: Protocol Risk
     anchor: protocol-risk
