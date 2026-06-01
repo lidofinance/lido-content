@@ -9,4 +9,13 @@ products:
   - id: "3"
     name: Ebunker stVaults
     visible: true
+  - id: "4"
+    name: Ethereum Staking
+    visible: true
+  - id: "5"
+    name: Liquid Staking
+    visible: true
+  - id: "6"
+    name: Yield Boost
+    visible: true
 ---
