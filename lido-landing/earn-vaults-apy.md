@@ -1,4 +1,4 @@
 ---
-testnet-apyDays: 14
-production-apyDays: 14
+testnet-apyDays: 7
+production-apyDays: 7
 ---
