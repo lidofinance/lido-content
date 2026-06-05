@@ -11,11 +11,14 @@ products:
     visible: true
   - id: "4"
     name: Ethereum Staking
-    visible: true
+    visible: false
   - id: "5"
     name: Liquid Staking
-    visible: true
+    visible: false
   - id: "6"
     name: Yield Boost
+    visible: true
+  - id: "7"
+    name: Luganodes stVaults
     visible: true
 ---
