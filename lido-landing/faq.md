@@ -258,7 +258,7 @@ categories:
       - question: Why is wstETH no longer supported on some networks?
         answer: >-
           In June 2026, Lido DAO voted to revoke the canonical recognition of
-          wstETH bridge endpoints [link to Snapshot] on nine networks: ZKsync Era, Mode, Scroll, Mantle, Swell, Zircuit, Soneium, Polygon PoS,
+          wstETH bridge endpoints [link to Snapshot] on nine networks: zkSync Era, Mode, Scroll, Mantle, Swell, Zircuit, Soneium, Polygon PoS,
           and Lisk.
 
 
