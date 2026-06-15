@@ -257,8 +257,8 @@ categories:
           chat](https://t.me/lidofinance) in case of any questions.
       - question: Why is wstETH no longer supported on some networks?
         answer: >-
-          In June 2026, Lido DAO voted to revoke the canonical recognition of
-          wstETH bridge endpoints [link to Snapshot] on nine networks: zkSync Era, Mode, Scroll, Mantle, Swell, Zircuit, Soneium, Polygon PoS,
+          In June 2026, [Lido DAO](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x09880de4739dcef13c4aa5605f1dca23556fc7495d09ecc84561a10f26a59b5c) voted to revoke the canonical recognition of
+          wstETH bridge endpoints on nine networks: zkSync Era, Mode, Scroll, Mantle, Swell, Zircuit, Soneium, Polygon PoS,
           and Lisk.
 
 
