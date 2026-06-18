@@ -11,10 +11,10 @@ products:
     visible: true
   - id: "4"
     name: Ethereum Staking
-    visible: true
+    visible: false
   - id: "5"
     name: Liquid Staking 90%
-    visible: true
+    visible: false
   - id: "6"
     name: Yield Boost
     visible: true

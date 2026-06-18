@@ -121,7 +121,7 @@ Additionally, if you use the interface you consent to, represent, and declare th
 
 Each User acknowledges, agrees, consents to, and assumes the risks of, the matters described in this Section 11.
 
-#### 11.1 Interface Maintainers Have No Business Plan and May Discontinue, Limit, Terminate, or Refuse Support for the Interface
+##### Interface Maintainers Have No Business Plan and May Discontinue, Limit, Terminate, or Refuse Support for the Interface
 
 There is no business plan or revenue model for the Interface. The Interface maintainers do not have revenues or a viable long-term business plan, and may become unable or unwilling to fund the operational costs of the Interface on a long-term basis or to fund the upgrade costs required to keep the Interface up to date with current and upcoming technologies.
 
@@ -131,29 +131,29 @@ The Interface maintainers have no obligation, duty, or liability to ensure that 
 
 The Protocols are available under a free open-source license, and the Interface maintainers do not have proprietary or exclusive rights of the Protocols. It is possible that additional copies of the Protocols or derivatives thereof will be deployed on blockchain systems in the future by any person, resulting in the existence of multiple ‘Lido-branded’ Middlewares. The Interface maintainers are under no obligation to publish information for all such copies of the Protocols or to warn Users regarding the existence of such alternatives.
 
-#### 11.2 No Regulatory Supervision
+##### No Regulatory Supervision
 
 The Interface maintainers and the Interface are not registered or qualified with or licensed by, do not report to, and are not under the active supervision of any government agency or financial regulatory authority or organization. No government or regulator has approved or has been consulted by the Interface maintainers regarding the accuracy or completeness of any information available on the Interface. Similarly, the technology, systems, blockchains, tokens, and persons relevant to information published on the Interface may not be registered with or under the supervision of or be registered or qualified with or licensed by any government agency or financial regulatory authority or organization. The Interface maintainers are not registered as brokers, dealers, advisors, transfer agents or other intermediaries.
 
-#### 11.3 Regulatory Uncertainty
+##### Regulatory Uncertainty
 
 Blockchain technologies and digital assets are subject to many legal and regulatory uncertainties, and the Middleware or any tokens or blockchains could be adversely impacted by one or more regulatory or legal inquiries, actions, suits, investigations, claims, fines, or judgments, which could impede or limit the ability of User to continue the use and enjoyment of such assets and technologies.
 
-#### 11.4 No Warranty
+##### No Warranty
 
 The Interface is provided on an “AS IS” and “AS AVAILABLE” basis. You acknowledge and agree that your access and use of the Interface are at your own risk. There is no representation or warranty that access to the Interface will be continuous, uninterrupted, timely, or secure; that the information contained in the Interface will be accurate, reliable, complete, or current, or that the Interface will be free from errors, defects, viruses, or other harmful elements. No advice, information, or statement made in connection with the Interface should be treated as creating any warranty concerning the Interface. There is no endorsement, guarantee, or assumption of responsibility for any advertisements, offers, or statements made by third parties concerning the Interface.
 
 Further, there is no representations or warranty, from anyone, as to the quality, origin, or ownership of any content found on or available through the Interface and there shall be no liability for any errors, misrepresentations, or omissions in, of, and about, the content, nor for the availability of the content attributable to any contributor to the Interface, including maintainers, and they shall not be liable for any losses, injuries, or damages from the use, inability to use, or the display of the content of the Interface.
 
-#### 11.5 Token Lists and Token Identification
+##### Token Lists and Token Identification
 
 In providing information about tokens, the Interface associates or presumes the association of a token name, symbol, or logo with a specific smart contract deployed to one or more blockchain systems. In making such associations, the Interface relies upon third-party resources which may not be accurate or may not conform to a given User’s expectations. Multiple smart contracts can utilize the same token name or token symbol as one another, meaning that the name or symbol of a token does not guarantee that it is the token desired by the User or generally associated with such name or symbol. Users must not rely on the name, symbol, or branding of a token on the Interface, but instead must examine the specific smart contract associated with the name, symbol, or branding and confirm that the token accords with User’s expectations.
 
-#### 11.6 User Responsibility for Accounts & Security
+##### User Responsibility for Accounts & Security
 
 Users are solely responsible for all matters relating to their accounts, addresses, and tokens and for ensuring that all uses thereof comply fully with these Terms. Users are solely responsible for protecting the data integrity and confidentiality of their information, and data or private keys for any wallet applications or devices used in connection with the Interface. The compatibility of the Interface with wallet applications and devices or other third-party applications or devices is not intended as, and you hereby agree not to construe such compatibility as, an endorsement or recommendation thereof or a warranty, guarantee, promise, or assurance regarding the fitness or security thereof.
 
-#### 11.7 No Interface Fees; Third-Party Fees Irreversible
+##### No Interface Fees; Third-Party Fees Irreversible
 
 There are no fees or charges for use of the Interface. Use of the Middleware and relevant blockchain may be subject to third-party transaction fees. The Interface maintainers do not receive such fees and have no ability to reverse or refund any amounts paid in error.
 
@@ -177,10 +177,10 @@ By using the Interface to interact with any Middleware that is designated by the
 
 Without limiting the generality of the foregoing:
 
-- you consent to security researchers acting as "Whitehats" under the Whitehat Agreement attempting Eligible Funds Rescues of any and all tokens that you have deposited into in-scope Middleware, and you consent to any Bounties being paid from such tokens in accordance with the Whitehat Agreement and the applicable protocol-specific parameters;
-- you acknowledge and agree that, in connection with any Eligible Funds Rescue, tokens may be lost, stolen, suffer diminished value, or become disabled or frozen, and you assume all risk of the foregoing;
-- you acknowledge and agree that any Bounty paid as a deduction or distribution from your tokens to an Eligible Whitehat may constitute a taxable disposition of those tokens by you, and you are solely responsible for determining and complying with all tax obligations applicable to you in any jurisdiction; and
-- you agree to hold the other members of the Lido Protocol Community (other than yourself) harmless from any loss, liability, claim or damage suffered by you in connection with any Eligible Funds Rescue (and the underlying exploit giving rise to such Eligible Funds Rescue) that is carried out in accordance with the Whitehat Agreement.
+1. you consent to security researchers acting as "Whitehats" under the Whitehat Agreement attempting Eligible Funds Rescues of any and all tokens that you have deposited into in-scope Middleware, and you consent to any Bounties being paid from such tokens in accordance with the Whitehat Agreement and the applicable protocol-specific parameters;
+2. you acknowledge and agree that, in connection with any Eligible Funds Rescue, tokens may be lost, stolen, suffer diminished value, or become disabled or frozen, and you assume all risk of the foregoing;
+3. you acknowledge and agree that any Bounty paid as a deduction or distribution from your tokens to an Eligible Whitehat may constitute a taxable disposition of those tokens by you, and you are solely responsible for determining and complying with all tax obligations applicable to you in any jurisdiction; and
+4. you agree to hold the other members of the Lido Protocol Community (other than yourself) harmless from any loss, liability, claim or damage suffered by you in connection with any Eligible Funds Rescue (and the underlying exploit giving rise to such Eligible Funds Rescue) that is carried out in accordance with the Whitehat Agreement.
 
 For the avoidance of doubt, nothing in this Section creates any custody, intermediary, or agency relationship between you and any Interface maintainer, and nothing in this Section affects the limitations of liability, disclaimers, or indemnities in Sections 11 and 15 of these Terms, which continue to apply in full.
 
@@ -192,35 +192,35 @@ By continuing to use the Protocol after 19th December 2025, including by keeping
 
 Each User hereby acknowledges and agrees, and consents to, and assumes the risks of, the matters described in Section 15 of the Terms.
 
-#### 16.1 Third-Party Offerings and Content
+##### Third-Party Offerings and Content
 
 References, links, or referrals to or connections with or reliance on third-party resources, products, services, or content, including smart contracts developed or operated by third parties, may be provided to Users in connection with the Interface. In addition, third parties may offer promotions related to the Interface. Interface maintainers do not endorse or assume any responsibility for any activities, resources, products, services, content, or promotions owned, controlled, operated, or sponsored by third parties. If Users access any such resources, products, services, or content or participate in any such promotions, Users do so solely at their own risk. Each User hereby expressly waives and releases Interface maintainers from all liability arising from the User’s use of any such resources, products, services, or content or participation in any such promotions.
 
 The User further acknowledges and agrees that Interface maintainers shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such resources, products, services, content, or promotions from third parties.
 
-#### 16.2 Cryptography Risks
+##### Cryptography Risks
 
 Cryptography is a progressing field. Advances in code cracking or technical advances such as the development of quantum computers may present risks to blockchain systems, the Middleware, or tokens, including the theft, loss, or inaccessibility thereof.
 
-#### 16.3 Fork Handling
+##### Fork Handling
 
 The Middleware, and all tokens may be subject to **Forks**. Forks occur when some or all persons running the software clients for a particular blockchain system adopt a new client or a new version of an existing client that: (i) changes the protocol rules in backward-compatible or backward-incompatible manner that affects which transactions can be added into later blocks, how later blocks are added to the blockchain, or other matters relating to the future operation of the protocol; or (ii) reorganizes or changes past blocks to alter the history of the blockchain. Some forks are “contentious” and thus may result in two or more persistent alternative versions of the protocol or blockchain, either of which may be viewed as or claimed to be the legitimate or genuine continuation of the original.
 
 Interface maintainers cannot anticipate, control or influence the occurrence or outcome of forks, and do not assume any risk, liability or obligation in connection therewith. Without limiting the generality of the foregoing, Interface maintainers do not assume any responsibility to notify a User of pending, threatened or completed forks. Interface maintainers will respond (or refrain from responding) to any forks in such manner as Interface maintainers determine in their sole and absolute discretion. Interface maintainers shall not have any duty or obligation, or liability to a User if such response (or lack of such response) acts to a User’s detriment. Each User assumes full responsibility to independently remain apprised of and informed about possible forks, and to manage the User’s own interests and risks in connection therewith.
 
-#### 16.4 Essential Third-Party Software Dependencies
+##### Essential Third-Party Software Dependencies
 
 The Middleware and other relevant blockchain systems and smart contracts are public software utilities that are accessible directly through any compatible third-party node or indirectly through any compatible third-party “wallet” application that interacts with such a node. Interacting with the Middleware does not require the use of the Interface, but the Interface is only a convenient and user-friendly option of reading and displaying data from the Middleware and generating standard draft transaction messages compatible with the Middleware. The User may choose to interact with the Middleware using softwares other than the Interface. As the Interface does not provide wallet software applications or nodes for blockchain systems, such software constitutes an essential third-party software and user dependency without which the Middleware cannot be used and tokens cannot be traded or used. Furthermore, the Interface may use APIs and servers of Interface maintainers or third parties and there are no guarantees as to the continued operation, maintenance, availability, or security of any of the foregoing dependencies.
 
-#### 16.5 Tax Issues
+##### Tax Issues
 
 The tax consequences of purchasing, selling, holding, transferring, or locking tokens or otherwise utilizing the Middleware are uncertain and may vary by jurisdiction. Interface Maintainers have undertaken no due diligence or investigation into such tax consequences, and assume no obligation or liability to optimize, facilitate or bear the tax consequences to any person.
 
-#### 16.6 Legal Limitations on Disclaimers
+##### Legal Limitations on Disclaimers
 
 Some jurisdictions do not allow the exclusion of certain warranties, or the limitation or exclusion of certain liabilities, and damages. Accordingly, some of the disclaimers and limitations set forth in these Terms may not apply in full to specific Users. The disclaimers and limitations of liability provided in these terms shall apply to the fullest extent as permitted by applicable law.
 
-#### 16.7 Indemnification
+##### Indemnification
 
 Each User shall defend, indemnify, compensate, reimburse and hold harmless the Interface maintainers from any claim, demand, action, damage, loss, cost or expense, including without limitation reasonable attorneys’ fees, arising out or relating to (a) User's use of, or conduct in connection with, the Interface; (b) User's violation of these Terms or any other applicable policy or contract of Interface maintainers; or (c) User's violation of any rights of any other person or entity.
 

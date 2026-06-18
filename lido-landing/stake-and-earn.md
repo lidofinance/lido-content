@@ -10,7 +10,7 @@ products:
     isNew: false
     isButtonDisabled: false
     depositLink: "{{ethereum_stake_url}}/earn/eth"
-    description: EarnETH is an ETH growth vault allocating ETH and stETH across leading, blue-chip DeFi protocols meant to optimize for capital efficiency
+    description: EarnETH is an ETH growth vault allocating ETH and stETH across leading blue-chip DeFi protocols meant to optimize for capital efficiency
     buttonLabel: Deposit
   - urgentMode:
       isActive: false
