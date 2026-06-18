@@ -1,7 +1,7 @@
 ---
 sections:
   - title: Public staking vaults
-    description: "Explore a range of pooled staking vaults that apply additional strategies on top of core staking for higher potential yield"
+    description: "Permissionless staking vaults open to any user, from straightforward ETH staking and liquid staking via stETH, to vaults that layer additional rewards-generating strategies on top for higher potential returns"
     products:
       - id: "1"
         slug: rocksolid-autoplus-stvault
@@ -30,8 +30,44 @@ sections:
           link: "{{blog_url}}/lido-v3-pier-two-x-rocksolid-expanding-institutional-ethereum-staking-with-stvaults/"
         isDefiWrapper: false
         isDvtCluster: false
+      - id: "4"
+        slug: prodelegators-ethereum-staking
+        title: Ethereum Staking
+        description: "The Classic Pool offers users the most straightforward way to stake their Ethereum and earn staking rewards without the technical burden of running a validator node. While their funds remain staked to secure the network, users retain full control: they can request to withdraw their ETH at any time. Please note that due to Ethereum's network security protocols, the withdrawal process typically takes approximately 7 to 14 days to complete once initiated."
+        metaImage: ethereum-staking.png
+        link: "https://www.nuxian.ch/vaults/pool1/"
+        addresses:
+          - "0x14A022Ef11A41770757652aA6607eF9D7e270b72"
+        builder:
+          logo: /static/stvaults-products-overview/product/node-operator/prodelegators.svg
+          name: Pro-Delegators by Nuxian Labs
+          contactLink: "mailto:contact@nuxian.ch"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/node-operator/prodelegators.svg
+          name: Pro-Delegators by Nuxian Labs
+          contactLink: "mailto:contact@nuxian.ch"
+        isDefiWrapper: true
+        isDvtCluster: false
+      - id: "5"
+        slug: prodelegators-liquid-staking
+        title: Liquid Staking 90%
+        description: "When staking in this vault, users instantly receive a liquid token representing their staked position. This allows them to trade, swap, or utilize their assets in DeFi protocols while simultaneously earning staking rewards. Users maintain full flexibility: they can request to withdraw their original ETH at any time, with the standard Ethereum network processing period of approximately 7 to 14 days applying to the final redemption."
+        metaImage: liquid-staking.png
+        link: "https://www.nuxian.ch/vaults/pool2/"
+        addresses:
+          - "0xa24852f6bd28e260ad1b1225afda5c8cda6824b9"
+        builder:
+          logo: /static/stvaults-products-overview/product/node-operator/prodelegators.svg
+          name: Pro-Delegators by Nuxian Labs
+          contactLink: "mailto:contact@nuxian.ch"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/node-operator/prodelegators.svg
+          name: Pro-Delegators by Nuxian Labs
+          contactLink: "mailto:contact@nuxian.ch"
+        isDefiWrapper: true
+        isDvtCluster: false
   - title: Institutional staking products
-    description: "Explore a range of staking solutions designed for institutional users, combining non-custodial vault architecture, operational flexibility and compliance"
+    description: "Non-custodial staking solutions designed for institutional users, combining isolated vault architecture, flexible role management, and the freedom to choose a trusted node operator"
     withoutCurator: true
     products:
       - id: "2"
@@ -71,6 +107,47 @@ sections:
           logo: /static/stvaults-products-overview/product/node-operator/ebunker.svg
           name: Ebunker
           contactLink: "mailto:tech@ebunker.io"
+        isDefiWrapper: false
+        isDvtCluster: false
+      - id: "7"
+        slug: luganodes-stvaults
+        title: Luganodes stVaults
+        description: "Luganodes stVaults is an institutional-grade, compliance-ready ETH staking solution for asset managers, DAOs, and enterprise treasuries that need strong security and operational flexibility. Built on Lido V3, it allows institutions to deploy dedicated, segregated validator infrastructure under a non-custodial framework. By resolving the traditional trade-off between pooled risk and liquidity, Luganodes lets clients retain full control over their vault parameters, apply compliance controls at the contract level, and optionally mint stETH to access the broader DeFi ecosystem. As a DAO-ratified Professional Operator, Luganodes delivers proven reliability through geographically distributed, Tier IV bare-metal data centers with a 100% validator participation rate. Backed by independent SOC 2 Type II and ISO/IEC 27001 certifications, and further protected by institutional slashing insurance through Chainproof at no additional cost, Luganodes stVaults deliver an institutional-grade standard for Ethereum staking."
+        metaImage: luganodes.png
+        link: "https://www.luganodes.com/product/lido-v3-stvaults"
+        addresses: []
+        builder:
+          logo: /static/stvaults-products-overview/product/node-operator/luganodes.svg
+          name: Luganodes
+          contactLink: "https://t.me/rishi_luganodes"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/node-operator/luganodes.svg
+          name: Luganodes
+          contactLink: "https://t.me/rishi_luganodes"
+        isDefiWrapper: false
+        isDvtCluster: false
+  - title: Bridged staking strategies
+    description: "Staking infrastructure for networks and protocols that put bridged ETH to work, channeling Ethereum staking rewards back into their ecosystems and users"
+    withoutCurator: true
+    products:
+      - id: "6"
+        slug: linea-yield-boost
+        title: Yield Boost
+        description: "Yield Boost converts idle bridged ETH into productive capital. ETH bridged to Linea is partially staked on Ethereum mainnet via Lido V3. Staking rewards fund ecosystem incentives which is more sustainable than what token emissions typically provide. Users keep full custody, with the same withdrawal guarantees and the same UX."
+        metaImage: yield-boost.png
+        addresses:
+          - "0x2df8CCb91c80c9600EA9436b1f940c48cC008ca7"
+        builder:
+          logo: /static/stvaults-products-overview/product/curator-or-owner/linea.svg
+          name: Linea
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/node-operator/consensys.svg
+          name: Consensys Staking
+        blogPost:
+          image: "{{blog_url}}/content/images/size/w1000/2025/08/Linea-native-2.png"
+          title: "Linea and Lido V3: Bringing Native Yield to L2s"
+          description: "Linea and Lido are bringing “Native Yield” - directly integrated Ethereum staking rewards to L2s."
+          link: "{{blog_url}}/linea-lido-bringing-native-yield-to-l2s/"
         isDefiWrapper: false
         isDvtCluster: false
 ---
