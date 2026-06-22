@@ -265,7 +265,7 @@ categories:
           If you hold wstETH on any of these networks, you can continue to hold it or bridge it back to Ethereum. However, the availability and functionality of tokens and bridge endpoints may depend on the network's status and future updates.
 
 
-          For full details, see [Lido Multichain: Network Support Changes — June 2026](link to Help Center article).
+          For full details, see [Lido Multichain: Network Support Changes — June 2026]({{blog_url}}/lido-multichain-update-june-2026/).
   - name: Lido DAO
     q&a:
       - question: What is DAO?
