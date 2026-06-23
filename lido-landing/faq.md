@@ -166,7 +166,7 @@ categories:
           For more detailed information you can refer to the [Lido Docs]({{ethereum_docs_url}}).
       - question: What is Lido Multichain?
         answer: Lido Multichain lets users bridge their wstETH to a number of unique
-          networks including Arbitrum, Optimism, zkSync, BNB Chain and many
+          networks including Arbitrum, Optimism, BNB Chain and many
           more. By doing so, users can benefit from lower gas fees and unique
           DeFi opportunities across these ecosystems while continuing to benefit
           from the staking rewards of wstETH.
@@ -255,6 +255,17 @@ categories:
       - question: Where can I find support or get assistance with Lido Multichain?
         answer: Stop by the [Lido Discord](https://discord.com/invite/lido) or [Telegram
           chat](https://t.me/lidofinance) in case of any questions.
+      - question: Why is wstETH no longer supported on some networks?
+        answer: >-
+          In June 2026, [Lido DAO](https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x09880de4739dcef13c4aa5605f1dca23556fc7495d09ecc84561a10f26a59b5c) voted to revoke the canonical recognition of
+          wstETH bridge endpoints on nine networks: zkSync Era, Mode, Scroll, Mantle, Swell, Zircuit, Soneium, Polygon PoS,
+          and Lisk.
+
+
+          If you hold wstETH on any of these networks, you can continue to hold it or bridge it back to Ethereum. However, the availability and functionality of tokens and bridge endpoints may depend on the network's status and future updates.
+
+
+          For full details, see [Lido Multichain: Network Support Changes (June 2026)]({{blog_url}}/lido-multichain-update-june-2026/).
   - name: Lido DAO
     q&a:
       - question: What is DAO?

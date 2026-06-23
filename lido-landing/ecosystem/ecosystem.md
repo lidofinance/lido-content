@@ -30,10 +30,6 @@ pages:
     - 1dfa124e-f1e1-41fc-b908-5b7f995da7c3
     - 51ed6e61-a170-4076-98bf-6c9f3cec9aee
     - a8b85af8-4148-485b-9b94-564f31948c9b
-  polygon:
-    - c16b1239-5a3e-4830-931c-ba811bd03c54
-    - 51ed6e61-a170-4076-98bf-6c9f3cec9aee
-    - a8b85af8-4148-485b-9b94-564f31948c9b
   l2:
     - 1dfa124e-f1e1-41fc-b908-5b7f995da7c3
     - 11d170f5-e33e-4600-b2c2-7473565da266
@@ -41,5 +37,4 @@ pages:
     - 502b88b9-67be-4900-8663-9b8abd826bc6
     - 3e107cf0-b41f-44b8-adcd-60ea95cb4a8d
     - ed7b35f3-efec-4fe6-adb2-3605922bcde3
-    - 77c1ace0-c829-456e-a231-d0e2a3ce3a17
 ---
