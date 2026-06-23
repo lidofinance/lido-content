@@ -60,7 +60,7 @@ sections:
           To reduce operational burden and voter fatigue, if there are several passed off-chain proposals that need on-chain execution, they are usually bundled together with each item detailed separately.
         cta:
           label: On-chain votes
-          href: vote
+          href: "{{vote_url}}"
         note: |-
           **On-chain voting cadence:** On-chain votes start on Wednesdays at 14:00 UTC. You can find the closest voting slot [on the calendar](https://calendar.google.com/calendar/u/0/r?cid=Y181MjgzNDBhYzc4M2UxNWEzNDk0NTIxZDVjOGM5MDAwMTE2OGM5MWIyNDA5MGZkZTk2MDRmYzM2N2VmYTZhMWY1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
       - id: dual-governance
@@ -72,14 +72,14 @@ sections:
   - id: delegation
     title: Delegation
     body: |-
-      [Delegation](https://vote.lido.fi/delegation) allows LDO holders to designate their voting power to trusted delegates for more consistent participation in governance. This action maps the tokenholder's address to a delegate, allowing the latter to vote on the tokenholder's behalf, while LDO tokens remain fully under the tokenholder's control to be transferred, sold, or used in any way.
+      [Delegation]({{vote_url}}/vote/delegation) allows LDO holders to designate their voting power to trusted delegates for more consistent participation in governance. This action maps the tokenholder's address to a delegate, allowing the latter to vote on the tokenholder's behalf, while LDO tokens remain fully under the tokenholder's control to be transferred, sold, or used in any way.
 
       Delegated votes are counted alongside direct votes and can be tracked on the voting platform. The tokenholder can override the delegate's decision or revoke delegation rights at any time.
 
       The Delegate program features **public delegates** — experts aligned with Lido's mission who stay current with developments and share their views publicly [on the Research forum]({{research_url}}/c/delegate-platform/22).
     cta:
       label: Delegate voting power
-      href: "{{vote_url}}/delegation"
+      href: "{{vote_url}}/vote/delegation"
   - id: emergency-track
     title: Emergency Track
     body: |-
