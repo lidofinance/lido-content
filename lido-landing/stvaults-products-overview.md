@@ -21,4 +21,7 @@ products:
   - id: "7"
     name: Luganodes stVaults
     visible: true
+  - id: "8"
+    name: Nansen ETH Vault
+    visible: true
 ---

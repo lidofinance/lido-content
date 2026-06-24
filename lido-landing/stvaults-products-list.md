@@ -26,7 +26,7 @@ sections:
         blogPost:
           image: "{{blog_url}}/content/images/size/w1000/2026/02/Lido-V3---Pier-Two---RockSolid-post.png"
           title: "Lido V3 & Pier Two x RockSolid: Expanding Institutional Ethereum Staking with stVaults"
-          description: "Learn how Lido, PierTwo and RockSolid meet institutional demand for Ethereum staking with the RockSolid AutoPlus Looped ETH Vault"
+          description: "Learn how Lido, PierTwo and RockSolid meet institutional demand for Ethereum staking with the RockSolid AutoPlus Looped ETH Vault."
           link: "{{blog_url}}/lido-v3-pier-two-x-rocksolid-expanding-institutional-ethereum-staking-with-stvaults/"
         isDefiWrapper: false
         isDvtCluster: false
@@ -66,6 +66,29 @@ sections:
           contactLink: "mailto:contact@nuxian.ch"
         isDefiWrapper: true
         isDvtCluster: false
+      - id: "8"
+        slug: nansen-eth-vault
+        title: Nansen ETH Vault
+        description: "Nansen ETH Vault is a liquid staking vault built on Lido v3 that allows users to stake ETH directly to Nansen-operated validators. The vault provides exposure to Ethereum staking rewards, including both consensus yield and MEV, without requiring the 32 ETH minimum. Users receive vault shares representing their stake, enabling a simple and accessible staking experience. The Nansen ETH Vault offers transparency into the underlying validator operator, allowing users to delegate to a known and proven infrastructure provider with a strong track record in running high-performance validators across multiple networks. In addition to staking rewards, users earn Nansen Points for participating in the vault, aligning long-term incentives and rewarding early supporters of the ecosystem. This vault serves as the foundation for future yield strategies, including restaking and advanced validator optimization."
+        metaImage: nansen-eth-vault.png
+        link: "https://app.nansen.ai/stake"
+        addresses:
+          - "0xe2cc063dec5685718bd57aac6aee9941b25b7c37"
+        builder:
+          logo: /static/stvaults-products-overview/product/nansen.svg
+          name: Nansen
+          contactLink: "mailto:stake@nansen.ai"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/nansen.svg
+          name: Nansen
+          contactLink: "mailto:stake@nansen.ai"
+        blogPost:
+          image: "{{blog_url}}/content/images/size/w1000/2026/02/Lido-V3---Nansen-post.png"
+          title: "Lido V3 & Nansen: Transparent Ethereum Staking with stVaults"
+          description: "Learn how Nansen uses Lido V3 stVaults to deliver transparent, composable Ethereum staking with validator-level attribution and optional yield strategies."
+          link: "{{blog_url}}/lido-v3-nansen-transparent-ethereum-staking-with-stvaults/"
+        isDefiWrapper: true
+        isDvtCluster: false
   - title: Institutional staking products
     description: "Non-custodial staking solutions designed for institutional users, combining isolated vault architecture, flexible role management, and the freedom to choose a trusted node operator"
     withoutCurator: true
@@ -88,7 +111,7 @@ sections:
         blogPost:
           image: "{{blog_url}}/content/images/size/w1000/2026/02/Lido-V3---Northstake-post.png"
           title: "Lido V3 & Northstake: Simplifying Institutional Ethereum Staking with stVaults"
-          description: "Learn how Northstake is using Lido and stVaults to simplify Ethereum staking for institutional clients"
+          description: "Learn how Northstake is using Lido and stVaults to simplify Ethereum staking for institutional clients."
           link: "{{blog_url}}/lido-v3-northstake-simplifying-institutional-ethereum-staking-with-stvaults/"
         isDefiWrapper: false
         isDvtCluster: false
@@ -124,6 +147,11 @@ sections:
           logo: /static/stvaults-products-overview/product/node-operator/luganodes.svg
           name: Luganodes
           contactLink: "https://t.me/rishi_luganodes"
+        blogPost:
+          image: "{{blog_url}}/content/images/size/w1000/2026/06/Lido-V3---Luganodes-post--4-.png"
+          title: "Lido V3 & Luganodes: Expanding Institutional Ethereum Staking with stVaults"
+          description: "Learn how Luganodes is using Lido stVaults to bring compliance-ready, isolated ETH staking to institutional clients."
+          link: "{{blog_url}}/lido-v3-luganodes-expanding-institutional-ethereum-staking-with-stvaults/"
         isDefiWrapper: false
         isDvtCluster: false
   - title: Bridged staking strategies
