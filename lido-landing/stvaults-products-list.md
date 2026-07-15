@@ -101,6 +101,7 @@ sections:
         link: "https://www.northstake.dk/svm"
         addresses:
           - "0x3eda1e756Ba9aC0217Ac8fc5db4C5E9a8486d9c4"
+          - "0x65B0f3e8813c321cc61D094EfA63ba006FaFd8f3"
         builder:
           logo: /static/stvaults-products-overview/product/node-operator/northstake.svg
           name: Northstake
