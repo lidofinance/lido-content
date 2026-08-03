@@ -3,26 +3,39 @@ name: Checks and Linters
 on:
   push:
 
+permissions: {}
+
 jobs:
   security:
-    uses: lidofinance/linters/.github/workflows/security.yml@master
+    permissions:
+      contents: read # the reusable workflow checks out this repository
+      security-events: write # the security linter uploads SARIF results
+    uses: lidofinance/linters/.github/workflows/security.yml@ff208ca0bf93063c25becac743e1c4eb96d0aad9 # master
     with:
       skip-codeql: true
 
   docker:
-    uses: lidofinance/linters/.github/workflows/docker.yml@master
+    permissions:
+      contents: read # the reusable workflow checks out this repository
+    uses: lidofinance/linters/.github/workflows/docker.yml@ff208ca0bf93063c25becac743e1c4eb96d0aad9 # master
 
   actions:
-    uses: lidofinance/linters/.github/workflows/actions.yml@master
+    permissions:
+      contents: read # the reusable workflow checks out this repository
+    uses: lidofinance/linters/.github/workflows/actions.yml@ff208ca0bf93063c25becac743e1c4eb96d0aad9 # master
 
   domain-agnostic:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read # to check out the repository
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3.7.0
+        with:
+          persist-credentials: false
 
       - name: Set up node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
         with:
           node-version: 20
           cache: 'yarn'
