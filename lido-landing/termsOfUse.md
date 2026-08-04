@@ -1,5 +1,5 @@
 ---
-timestamp: December 19, 2025
+timestamp: August 4, 2026
 ---
 # Welcome to {{landing}}
 
@@ -71,7 +71,7 @@ If you use the interface you represent and declare that you:
 4. are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Crimea, Cuba, Donetsk, Iran, Luhansk, North Korea, Syria, or any other country or region to which the United States, the United Kingdom, the European Union or any of its member states or the United Nations or any of its member states (collectively, the **Major Jurisdictions**) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the **Restricted Territories**);
 5. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**);
 6. do not intend to transact in or with any Restricted Territories or Sanctions List Persons; and
-7. for the purposes of accessing Lido GGV, you represent and warrant that you are not accessing it from, and are not a citizen or resident of, the United States, the United Kingdom, or any jurisdiction where the use of GGV would be unlawful or otherwise in violation of applicable laws or regulations.
+7. for the purposes of accessing or depositing cryptoassets in the vaults in [Lido Earn]({{ethereum_stake_url}}/earn), notably Lido stRATEGY, Lido GGV, Lido DVV, EarnETH and EarnUSD, you represent and warrant that you are not accessing them from, and are not a citizen or resident of, the United States, the United Kingdom, or any jurisdiction where the use of the vaults in Lido Earn would be unlawful or otherwise in violation of applicable laws or regulations..
 
 ### 8. Permitted Use
 
