@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - feature/deploy-to-k8s
     paths-ignore:
       - ".github/**"
 
