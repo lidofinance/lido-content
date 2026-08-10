@@ -10,5 +10,6 @@
 :3000 {
 	log
 	metrics /api/metrics
+	respond /health 200
 	file_server
 }
