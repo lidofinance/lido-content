@@ -2,7 +2,7 @@ services:
   lido-content:
     build: .
     ports:
-      - "${PORT:-3000}:3000"
+      - "${PORT:-3333}:3000"
     develop:
       watch:
         - action: rebuild
