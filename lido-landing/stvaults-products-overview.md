@@ -24,4 +24,7 @@ products:
   - id: "8"
     name: Nansen ETH Vault
     visible: true
+  - id: "9"
+    name: Stakely stVault
+    visible: true
 ---
