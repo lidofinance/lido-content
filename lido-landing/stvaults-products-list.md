@@ -89,6 +89,29 @@ sections:
           link: "{{blog_url}}/lido-v3-nansen-transparent-ethereum-staking-with-stvaults/"
         isDefiWrapper: true
         isDvtCluster: false
+      - id: "9"
+        slug: stakely-stvault
+        title: Stakely stVault
+        description: "Stakely stVault is a liquid ETH staking vault built on Lido V3 that lets users stake ETH with Stakely-operated validators without meeting the 32 ETH requirement. Users deposit ETH into a pooled, delegated staking vault operated by Stakely, and minted stETH is routed to the Lido EarnETH strategy. This combines Ethereum validator rewards with the performance of the connected DeFi strategy in a single onchain product. Rewards are variable and depend on validator performance, the EarnETH strategy, fees, and market conditions."
+        metaImage: stakely-stvault.png
+        link: "https://staking.stakely.io/?form=ethereum_lido_v3"
+        addresses:
+          - "0x82d528a9182cfe8f2a58203687d1adb46a4c7604"
+        builder:
+          logo: /static/stvaults-products-overview/product/stakely.svg
+          name: Stakely
+          contactLink: "mailto:support@stakely.io"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/stakely.svg
+          name: Stakely
+          contactLink: "mailto:support@stakely.io"
+        blogPost:
+          image: "{{blog_url}}/content/images/size/w1000/2026/09/Lido-V3---Stakely-post.png"
+          title: "Lido V3 & Stakely: Public & Institutional ETH Staking With stVaults"
+          description: "Stakely, a blockchain infrastructure provider in Europe, launched two products built on stVaults"
+          link: "{{blog_url}}/lido-v3-stakely-public-institutional-eth-staking-with-stvaults/"
+        isDefiWrapper: true
+        isDvtCluster: false
   - title: Institutional staking products
     description: "Non-custodial staking solutions designed for institutional users, combining isolated vault architecture, flexible role management, and the freedom to choose a trusted node operator"
     withoutCurator: true
