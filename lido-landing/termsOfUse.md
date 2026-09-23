@@ -1,5 +1,5 @@
 ---
-timestamp: August 4, 2026
+timestamp: September 23, 2026
 ---
 # Welcome to {{landing}}
 
@@ -71,7 +71,7 @@ If you use the interface you represent and declare that you:
 4. are not a resident, citizen, national or agent of, or an entity organized, incorporated or doing business in, Crimea, Cuba, Donetsk, Iran, Luhansk, North Korea, Syria, or any other country or region to which the United States, the United Kingdom, the European Union or any of its member states or the United Nations or any of its member states (collectively, the **Major Jurisdictions**) embargoes goods or imposes similar sanctions (such embargoed or sanctioned territories, collectively, the **Restricted Territories**);
 5. are not, and do not directly or indirectly own or control, and have not received any assets from any blockchain address that is listed on any sanctions list or equivalent maintained by any of the Major Jurisdictions (such sanctions-listed persons, collectively, **Sanctions Lists Persons**);
 6. do not intend to transact in or with any Restricted Territories or Sanctions List Persons; and
-7. for the purposes of accessing or depositing cryptoassets in the vaults in [Lido Earn]({{ethereum_stake_url}}/earn), notably Lido stRATEGY, Lido GGV, Lido DVV, EarnETH and EarnUSD, you represent and warrant that you are not accessing them from, and are not a citizen or resident of, the United States, the United Kingdom, or any jurisdiction where the use of the vaults in Lido Earn would be unlawful or otherwise in violation of applicable laws or regulations.
+7. for the purposes of accessing or depositing cryptoassets in the vaults in [Lido Earn]({{ethereum_stake_url}}/earn), notably Lido stRATEGY, Lido GGV, Lido DVV, EarnETH and EarnUSD, you represent and warrant that you are not accessing them from, and are not a citizen or resident of, the United States, the United Kingdom, or any jurisdiction where the use of the vaults in Lido Earn would be unlawful or otherwise in violation of applicable laws or regulations. **You also acknowledge and accept that any Firelight first loss protection in place regarding any vault is not insurance and does not give you any right or cause of action against any Firelight party in respect of the protection.**
 
 ### 8. Permitted Use
 
@@ -194,9 +194,7 @@ Each User hereby acknowledges and agrees, and consents to, and assumes the risks
 
 ##### Third-Party Offerings and Content
 
-References, links, or referrals to or connections with or reliance on third-party resources, products, services, or content, including smart contracts developed or operated by third parties, may be provided to Users in connection with the Interface. In addition, third parties may offer promotions related to the Interface. Interface maintainers do not endorse or assume any responsibility for any activities, resources, products, services, content, or promotions owned, controlled, operated, or sponsored by third parties. If Users access any such resources, products, services, or content or participate in any such promotions, Users do so solely at their own risk. Each User hereby expressly waives and releases Interface maintainers from all liability arising from the User’s use of any such resources, products, services, or content or participation in any such promotions.
-
-The User further acknowledges and agrees that Interface maintainers shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such resources, products, services, content, or promotions from third parties.
+References, links, or referrals to or connections with or reliance on third-party resources, products, services, or content, including smart contracts developed or operated by third parties, may be provided to Users in connection with the Interface. In addition, third parties may offer promotions related to the Interface. Interface maintainers do not endorse or assume any responsibility for any activities, resources, products, services, content, or promotions owned, controlled, operated, or sponsored by third parties. If Users access any such resources, products, services, or content or participate in any such promotions, Users do so solely at their own risk. Each User hereby expressly waives and releases Interface maintainers from all liability arising from the User’s use of any such resources, products, services, or content or participation in any such promotions. The User further acknowledges and agrees that Interface maintainers shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such resources, products, services, content, or promotions from third parties. **The User acknowledges and agrees that its access to or use of any such third-party offering may be subject to the applicable third party’s terms of use, terms of participation or other applicable terms and conditions.**
 
 ##### Cryptography Risks
 
