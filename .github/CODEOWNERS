@@ -1,3 +1,4 @@
 * @lidofinance/lido-webexp
 /ethereum-staking-widget/ @lidofinance/lido-si
 /widget-frontend-template/ @lidofinance/lido-si
+.github @lidofinance/review-gh-workflows
