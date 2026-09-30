@@ -1,0 +1,12 @@
+# K8s only: the plain `Dockerfile` stays for the VM stands, whose build cannot log in to dhi.io
+FROM dhi.io/caddy:2.11.4@sha256:1b40b4f43bbfada63b22431ec6fec48b50e212abfc1cc5e645948483a656ddcc
+
+# file_server in the Caddyfile serves the working directory
+WORKDIR /app
+
+# The DHI entrypoint runs `caddy run --config /etc/caddy/Caddyfile`
+COPY Caddyfile /etc/caddy/Caddyfile
+COPY lido-landing ./lido-landing
+COPY banners ./banners
+
+EXPOSE 3000

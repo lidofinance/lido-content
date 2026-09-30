@@ -1,0 +1,108 @@
+name: CI K8s
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - ".github/**"
+
+permissions: {}
+
+# Runs go in trigger order, so an older run never moves `:dev` after a newer one
+concurrency:
+  group: ci-k8s-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  REPOSITORY: team-webexp
+  APP: lido-content
+  REGISTRY_USER: robot$team-webexp-rw
+
+jobs:
+  # Built once, so dev and staging get the same digest
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # to check out the repository
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Login to Docker Hardened Images
+        uses: docker/login-action@371161bbe7024a29a25c5e19bfcbc0804fe9ad2c # v4
+        with:
+          registry: dhi.io
+          username: ${{ secrets.DHI_USERNAME }}
+          password: ${{ secrets.DHI_TOKEN }}
+
+      - name: Build
+        run: docker build --platform linux/amd64 -f Dockerfile.k8s -t candidate:local .
+
+      - name: Export image
+        run: docker save candidate:local | gzip > image.tar.gz
+
+      - name: Upload image
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: image
+          path: image.tar.gz
+          retention-days: 1
+
+  push:
+    name: Push to Harbor (${{ matrix.cluster }})
+    needs: build
+    runs-on: ubuntu-latest
+    permissions: {}
+    # One job per cluster: Harbor tokens are environment secrets, and a job can use only one environment
+    environment:
+      name: harbor_${{ matrix.cluster }}_release
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - cluster: dev
+            registry: registry.dev.k8s-dev.org
+            token: HARBOR_DEV_TOKEN
+            # ArgoCD Image Updater on dev follows this tag
+            moving_tag: dev
+          - cluster: stage
+            registry: registry.staging.k8s-staging.org
+            token: HARBOR_STAGE_TOKEN
+            # Staging deploys by digest only: Kyverno rejects non-standard tags there
+            moving_tag: ""
+    steps:
+      - name: Download image
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: image
+
+      - name: Load image
+        run: gunzip -c image.tar.gz | docker load
+
+      - name: Login to Harbor
+        uses: docker/login-action@371161bbe7024a29a25c5e19bfcbc0804fe9ad2c # v4
+        with:
+          registry: ${{ matrix.registry }}
+          username: ${{ env.REGISTRY_USER }}
+          password: ${{ secrets[matrix.token] }}
+
+      - name: Push
+        env:
+          IMAGE: ${{ matrix.registry }}/${{ env.REPOSITORY }}/${{ env.APP }}
+          MOVING_TAG: ${{ matrix.moving_tag }}
+        run: |
+          set -euo pipefail
+          docker tag candidate:local "$IMAGE:$GITHUB_SHA"
+          # Only the amd64 manifest is pushed, so this is the digest to pin in values
+          digest=$(docker push "$IMAGE:$GITHUB_SHA" | awk '/digest:/ {print $3}')
+          [[ "$digest" == sha256:* ]] || { echo "::error::could not read the pushed digest"; exit 1; }
+          if [ -n "$MOVING_TAG" ]; then
+            docker tag candidate:local "$IMAGE:$MOVING_TAG"
+            docker push "$IMAGE:$MOVING_TAG"
+          fi
+          echo "\`$IMAGE:$GITHUB_SHA\` → \`$digest\`" >> "$GITHUB_STEP_SUMMARY"
