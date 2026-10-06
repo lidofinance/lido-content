@@ -27,4 +27,7 @@ products:
   - id: "9"
     name: Stakely stVault
     visible: true
+  - id: "10"
+    name: Myrmidon Staking ETH Pool
+    visible: true
 ---
