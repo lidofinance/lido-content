@@ -112,6 +112,24 @@ sections:
           link: "{{blog_url}}/lido-v3-stakely-public-institutional-eth-staking-with-stvaults/"
         isDefiWrapper: true
         isDvtCluster: false
+      - id: "10"
+        slug: myrmidon-staking-eth-pool
+        title: Myrmidon Staking ETH Pool
+        description: "Myrmidon Staking's new pooled Ethereum staking product makes it possible to stake ETH from just 0.01 ETH, providing an accessible way to participate in Ethereum staking without the traditional 32 ETH requirement for running an individual validator. Built on Lido V3 stVaults, the product combines Lido's staking architecture advantages with Myrmidon Staking's professional validator operations to provide one of the most secure ways to participate in pooled Ethereum staking."
+        metaImage: myrmidon-staking-eth-pool.png
+        link: "https://eth.myrmidonstaking.com/"
+        addresses:
+          - "0x456EcABDb23e20EB4590831Daa23310f03409322"
+        builder:
+          logo: /static/stvaults-products-overview/product/myrmidon-staking.svg
+          name: Myrmidon Staking
+          contactLink: "mailto:support@myrmidonstaking.com"
+        nodeOperator:
+          logo: /static/stvaults-products-overview/product/myrmidon-staking.svg
+          name: Myrmidon Staking
+          contactLink: "mailto:support@myrmidonstaking.com"
+        isDefiWrapper: true
+        isDvtCluster: false
   - title: Institutional staking products
     description: "Non-custodial staking solutions designed for institutional users, combining isolated vault architecture, flexible role management, and the freedom to choose a trusted node operator"
     withoutCurator: true
