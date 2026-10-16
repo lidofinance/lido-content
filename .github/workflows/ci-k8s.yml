@@ -10,7 +10,7 @@ on:
 
 permissions: {}
 
-# Runs go in trigger order, so an older run never moves `:dev` after a newer one
+# Runs go in trigger order, so an older run never moves `:dev` or `:staging` after a newer one
 concurrency:
   group: ci-k8s-${{ github.ref }}
   cancel-in-progress: false
@@ -73,8 +73,8 @@ jobs:
           - cluster: stage
             registry: registry.staging.k8s-staging.org
             token: HARBOR_STAGE_TOKEN
-            # Staging deploys by digest only: Kyverno rejects non-standard tags there
-            moving_tag: ""
+            # ArgoCD Image Updater on staging follows this tag; Kyverno there admits `:staging`
+            moving_tag: staging
     steps:
       - name: Download image
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
@@ -98,7 +98,7 @@ jobs:
         run: |
           set -euo pipefail
           docker tag candidate:local "$IMAGE:$GITHUB_SHA"
-          # Only the amd64 manifest is pushed, so this is the digest to pin in values
+          # Only the amd64 manifest is pushed, so this is also the digest the moving tag points to
           digest=$(docker push "$IMAGE:$GITHUB_SHA" | awk '/digest:/ {print $3}')
           [[ "$digest" == sha256:* ]] || { echo "::error::could not read the pushed digest"; exit 1; }
           if [ -n "$MOVING_TAG" ]; then
