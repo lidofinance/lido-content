@@ -26,7 +26,7 @@ faq:
 
       * Open-sourcing & continuous review of all code.
 
-      * Committee of elected, best-in-class validators to minimise staking risk.
+      * Committee of elected, best-in-class validators to minimize staking risk.
 
       * Use of non-custodial staking service to eliminate counterparty risk.
 
@@ -35,7 +35,7 @@ faq:
       * Lido has been audited by Certora, StateMind, Hexens, ChainSecurity, Oxorio, MixBytes, SigmaPrime, Quantstamp. Lido audits can be found in more detail [here](https://github.com/lidofinance/audits).
 
 
-      Usually when staking ETH you choose only one validator. In the case of Lido you stake across many validators, minimising your staking risk.
+      Usually when staking ETH you choose only one validator. In the case of Lido you stake across many validators, minimizing your staking risk.
   - question: What are the risks of staking with Lido?
     questionId: What_Are_The_Risks_Of_Staking_With_Lido
     answer: >-
@@ -45,10 +45,10 @@ faq:
 
       * Smart contract security
 
-        There is an inherent risk that Lido could contain a smart contract vulnerability or bug. The Lido code is open-sourced, audited and covered by an extensive bug bounty program to minimise this risk. To mitigate smart contract risks, all of the core Lido contracts are audited. Audit reports can be found [here](https://github.com/lidofinance/audits#lido-protocol-audits). Besides, Lido is covered with a massive [Immunefi bug bounty program](https://immunefi.com/bounty/lido/).
+        There is an inherent risk that Lido could contain a smart contract vulnerability or bug. The Lido code is open-sourced, audited and covered by an extensive bug bounty program to minimize this risk. To mitigate smart contract risks, all of the core Lido contracts are audited. Audit reports can be found [here](https://github.com/lidofinance/audits#lido-protocol-audits). Besides, Lido is covered with a massive [Immunefi bug bounty program](https://immunefi.com/bounty/lido/).
       * Slashing risk
 
-        Validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimise this risk, Lido stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of self-coverage.
+        Validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimize this risk, Lido stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of self-coverage.
       * stToken price risk
 
         Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.

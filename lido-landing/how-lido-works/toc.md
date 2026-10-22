@@ -10,6 +10,13 @@ mainCategories:
           - article: a705c3bd-459b-4d58-99b2-fcf9f38ff68f
           - article: b695c3bd-459b-4d58-99b2-fcf9f38ff68f
         categoryName: Staking Overview
+      - categoryName: stVaults
+        articles:
+          - article: 96b6514e-ff3d-4f93-87b1-40c79bb4e107
+          - article: 75221d46-2216-4a4c-af6c-eb0f895ec43c
+          - article: 0e7ce253-68fc-4ebd-82b7-d3b3af042048
+          - article: 63e2f03c-d715-4c69-821f-bf062ab992d9
+          - article: 3a3c6c56-5adf-43f4-9dbe-cdf87b347d1c
       - categoryName: Lido Node Operators
         articles:
           - article: cdb04570-4696-4d77-ae64-23523350ef8c
@@ -20,7 +27,7 @@ mainCategories:
       - categoryName: Security
         articles:
           - article: 9726bbbe-8c65-4f84-995e-1510d1ff260e
-          - article: 8b94fe02-7183-401b-8bad-3a88c16615c8        
+          - article: 8b94fe02-7183-401b-8bad-3a88c16615c8
     categoryName: Lido Essentials
   - categoryName: Run on Lido
     categories:

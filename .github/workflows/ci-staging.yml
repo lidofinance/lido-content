@@ -8,8 +8,7 @@ on:
     paths-ignore:
       - ".github/**"
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   deploy:
@@ -17,7 +16,7 @@ jobs:
     name: Build and deploy
     steps:
       - name: Staging deploy
-        uses: lidofinance/dispatch-workflow@v1
+        uses: lidofinance/dispatch-workflow@f6160026f09afc4076f8350b5e23a1a12e2c36b6 # v1
         env:
           APP_ID: ${{ secrets.APP_ID }}
           APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}

@@ -10,6 +10,10 @@ COPY . .
 
 FROM caddy:2.7-alpine
 
+RUN apk add --no-cache libcap="2.69-r0" && \
+    setcap -r /usr/bin/caddy && \
+    apk del libcap
+
 RUN addgroup -S caddy && \
     adduser -S caddy -G caddy -h /app
 
@@ -19,6 +23,7 @@ WORKDIR /app
 
 COPY --from=building /app/Caddyfile ./Caddyfile
 COPY --from=building /app/lido-landing ./lido-landing
+COPY --from=building /app/banners ./banners
 
 EXPOSE 3000
 

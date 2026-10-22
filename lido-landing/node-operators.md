@@ -1,5 +1,5 @@
 ---
-curatedNodeOperatorsCount: 37
-simpleDvtNodeOperatorsCount: 322
-simpleDvtNodeOperatorsDescription: Including 183 Solo & Community Stakers
+curatedNodeOperatorsCount: 35
+simpleDvtNodeOperatorsCount: 222
+simpleDvtNodeOperatorsDescription: Including 124 Solo & Community Stakers
 ---
