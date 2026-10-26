@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": "git@github.com:lidofinance/lido-content.git",
   "engines": {
-    "node": ">=20.0.0 <21.0.0"
+    "node": ">=24.22.1 <25.0.0"
   },
   "scripts": {
     "dev": "caddy run --watch",

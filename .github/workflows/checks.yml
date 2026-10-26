@@ -34,6 +34,9 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Set up node
         uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
         with:
