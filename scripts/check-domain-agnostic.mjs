@@ -84,7 +84,7 @@ const main = async () => {
     "lido-landing/scorecard.md",
     "lido-landing/termsOfUse.md",
     "lido-landing/l2-audits.md",
-    "lido-landing/ecosystem/**/*"
+    "lido-landing/ecosystem/**/*",
   ]);
 
   let errors = false;
