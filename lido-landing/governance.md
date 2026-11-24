@@ -29,6 +29,8 @@ sections:
         body: |-
           After forum discussion, major or contested proposals that require a temperature check among tokenholders before proceeding, and proposals that involve no on-chain actions, go to off-chain voting on Snapshot.
 
+          Proposers can post [on the Lido Snapshot](https://snapshot.box/#/s:lido-snapshot.eth) themselves or request support from [the DAO Ops]({{research_url}}/new-message?groupname=DAO_Ops).
+
           To create a proposal on the Lido DAO Snapshot, users need at least 1,000 LDO tokens — a minimum threshold that deters spam proposals. Users without sufficient LDO can [request DAO Ops]({{research_url}}/new-message?groupname=DAO_Ops) to create a proposal on their behalf.
 
           **To pass**, a proposal requires the winning option to receive both a minimum of 5% of total LDO token supply and a simple majority of all participating tokens.
