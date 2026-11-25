@@ -20,14 +20,16 @@ sections:
         body: |-
           The first step is publishing an idea, proposal, or [grant request](/lego) on the Research forum and gathering community feedback.
 
-          There must be at least 7 days between the initial post and the next steps. It could move forward once the proposal is welcomed and feedback is addressed.
+          There must be at least 7–10 days between the initial post and the next steps. It could move forward to off- or on-chain voting once the proposal is welcomed and feedback is addressed.
         cta:
           label: Research forum
           href: "{{research_url}}"
       - id: off-chain-voting
         title: Off-chain voting
         body: |-
-          The next step is off-chain voting on Snapshot. Proposers can post [on the Lido Snapshot](https://snapshot.box/#/s:lido-snapshot.eth) themselves or request support from [the DAO Ops]({{research_url}}/new-message?groupname=DAO_Ops).
+          After forum discussion, major or contested proposals that require a temperature check among tokenholders before proceeding, and proposals that involve no on-chain actions, go to off-chain voting on Snapshot.
+
+          Proposers can post [on the Lido Snapshot](https://snapshot.box/#/s:lido-snapshot.eth) themselves or request support from [the DAO Ops]({{research_url}}/new-message?groupname=DAO_Ops).
 
           To create a proposal on the Lido DAO Snapshot, users need at least 1,000 LDO tokens — a minimum threshold that deters spam proposals. Users without sufficient LDO can [request DAO Ops]({{research_url}}/new-message?groupname=DAO_Ops) to create a proposal on their behalf.
 
@@ -42,7 +44,7 @@ sections:
       - id: on-chain-voting
         title: On-chain voting
         body: |-
-          After the off-chain vote, the proposal moves to the on-chain one.
+          Proposals that involve smart contracts proceed to on-chain voting, either after passing the off-chain vote or directly from forum discussion through [single-stage voting]({{research_url}}/t/no-drama-dao-where-snapshot-mirrors-aragon-put-it-all-onchain/11415). It applies when the off-chain and on-chain votes would be two parts of the same decision. In that case, the complete proposal text is linked in the vote description as an IPFS file, with the on-chain vote covering both the decision and its execution.
 
           The Lido DAO uses the Aragon framework for on-chain governance. It can perform different operations, including smart contract updates and fund transfers. Snippets [from this repo](https://github.com/lidofinance/scripts) can be used to prepare and start a vote.
 
